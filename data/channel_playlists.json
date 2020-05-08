@@ -1,0 +1,2372 @@
+[
+    {
+        "kind": "youtube#playlistListResponse",
+        "etag": "k0ZwLv0KkBVpagYkRHZzEkuY0MM",
+        "nextPageToken": "CDIQAA",
+        "pageInfo": {
+            "totalResults": 53,
+            "resultsPerPage": 50
+        },
+        "items": [
+            {
+                "kind": "youtube#playlist",
+                "etag": "7E3BXSuLYYFDGJO_DPFs2gnEb3A",
+                "id": "PLcFcktZ0wnNnil2ID209GA8B3Jj0Ffb7I",
+                "snippet": {
+                    "publishedAt": "2020-05-04T04:34:25Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Office JavaScript API - Add Ins",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/fz-8idiVQtQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/fz-8idiVQtQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/fz-8idiVQtQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/fz-8idiVQtQ/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/fz-8idiVQtQ/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Office JavaScript API - Add Ins",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 6
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "H0esC-GiAPauPIqeNIjmnfFnfcI",
+                "id": "PLcFcktZ0wnNnkGa1G112Ep-amHjAb724T",
+                "snippet": {
+                    "publishedAt": "2020-04-05T17:52:30Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python - Win32COM - Word VBA",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python - Win32COM - Word VBA",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 0
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "YcLFIfLz86hv8tKBTrowd6P6cGc",
+                "id": "PLcFcktZ0wnNnkPBfH4SblMD9nMYJ6YOO5",
+                "snippet": {
+                    "publishedAt": "2020-04-05T17:47:44Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "VBA - Core Concepts - All",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "VBA - Core Concepts - All",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 0
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "X8Y00gqpl63Cc0l7bBmuRhXEyZo",
+                "id": "PLcFcktZ0wnNk2OcJDFLQitMjL2-tTXyKT",
+                "snippet": {
+                    "publishedAt": "2020-04-05T17:19:13Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "VBA - Advanced - Outlook To Excel",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "VBA - Advanced - Outlook To Excel",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 0
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "XqecoaTq4ya0yaENBf5bLzXAomc",
+                "id": "PLcFcktZ0wnNk79a04YKiOkLHmebEqfHVX",
+                "snippet": {
+                    "publishedAt": "2020-04-05T17:19:13Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "VBA - Advanced - Excel To Word",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "VBA - Advanced - Excel To Word",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 0
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "SvjxQ5tXDzpEwmSy1NfT4gzID5E",
+                "id": "PLcFcktZ0wnNlvfJS-SIfKpupHUs0lcVG6",
+                "snippet": {
+                    "publishedAt": "2020-04-05T17:19:12Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "VBA - Advanced - Excel To Outlook",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "VBA - Advanced - Excel To Outlook",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 0
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "DM7mdo0a2Cc1IoNQis12GrQSUoU",
+                "id": "PLcFcktZ0wnNlFKtLO0nHuzUDKCdjoWcDw",
+                "snippet": {
+                    "publishedAt": "2020-04-05T17:19:11Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python APIs - Google Places Photos API",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python APIs - Google Places Photos API",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 0
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "UCqiiBmVvq03zc7EWCyYneYn6lY",
+                "id": "PLcFcktZ0wnNkj7nyfZrh7t6TZs8-JnF3n",
+                "snippet": {
+                    "publishedAt": "2020-04-05T17:19:11Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python - Finance - TD Ameritrade",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python - Finance - TD Ameritrade",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 0
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "nssDwwUIrvyEo8C9uQsBRJ8rHN8",
+                "id": "PLcFcktZ0wnNl5X7Qn1JM4jhrIOBsNj1qa",
+                "snippet": {
+                    "publishedAt": "2020-04-05T17:19:10Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python - Finance - SEC",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/-7I7OAC6ih8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/-7I7OAC6ih8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/-7I7OAC6ih8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/-7I7OAC6ih8/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/-7I7OAC6ih8/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python - Finance - SEC",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 4
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "AC2OXoAt1slzq3MAuAcwNvoZbDk",
+                "id": "PLcFcktZ0wnNmOcf5qgqp29K4fiG3N8-ia",
+                "snippet": {
+                    "publishedAt": "2020-04-05T17:19:09Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python - Finance - Machine Learning",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python - Finance - Machine Learning",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 0
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "2F9Dm6zG_XMaQdkL0yRh47w6xAA",
+                "id": "PLcFcktZ0wnNmwOCWTshYp7X8D9E21DF3E",
+                "snippet": {
+                    "publishedAt": "2020-04-05T17:19:09Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python - Finance - Interactive Brokers",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python - Finance - Interactive Brokers",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 0
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "XT3pR7-2wMQGF_ynJLlyJmLOtS8",
+                "id": "PLcFcktZ0wnNnmx4o3E_3R2f8IYWuhZDg_",
+                "snippet": {
+                    "publishedAt": "2020-03-21T17:03:55Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python APIs - Interactive Brokers API",
+                    "description": "The Interactive Brokers API provides users a framework to manage their accounts, execute a trade, stream prices, and collect data. In this playlists, we explore how to use the Interactive Brokers API library, installation requirements, and exploring the endpoints. In this series, we will walk through the setup of the API, explore some of the endpoints related to market data, account information, and trading services. Additionally, we will explore some trading capabilities related to the API and also explore the streaming API.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Dmp5M85oBy4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Dmp5M85oBy4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Dmp5M85oBy4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/Dmp5M85oBy4/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/Dmp5M85oBy4/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python APIs - Interactive Brokers API",
+                        "description": "The Interactive Brokers API provides users a framework to manage their accounts, execute a trade, stream prices, and collect data. In this playlists, we explore how to use the Interactive Brokers API library, installation requirements, and exploring the endpoints. In this series, we will walk through the setup of the API, explore some of the endpoints related to market data, account information, and trading services. Additionally, we will explore some trading capabilities related to the API and also explore the streaming API."
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 3
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "InpArdACl-TrUbdi-hEWor32Y9k",
+                "id": "PLcFcktZ0wnNmv_Ol8xmtZHTjKZ2Y5tjYH",
+                "snippet": {
+                    "publishedAt": "2020-03-21T17:03:14Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python APIs - Yelp API",
+                    "description": "The Yelp API has a treasure trove of data that is accessible for free. In this playlist, we explore how to use the Yelp API from Python, common scenarios you'll see in this series is searching for businesses, grabbing details on that business, and storing it in an organized fashion. Additionally, we will explore other endpoints related to search, including text search and event-based search.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/GJf7ccRIK4U/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/GJf7ccRIK4U/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/GJf7ccRIK4U/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/GJf7ccRIK4U/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/GJf7ccRIK4U/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python APIs - Yelp API",
+                        "description": "The Yelp API has a treasure trove of data that is accessible for free. In this playlist, we explore how to use the Yelp API from Python, common scenarios you'll see in this series is searching for businesses, grabbing details on that business, and storing it in an organized fashion. Additionally, we will explore other endpoints related to search, including text search and event-based search."
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 4
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "IMGQXWyftMIM5MwuKDmG1HW6uO4",
+                "id": "PLcFcktZ0wnNlqP6Vu1_xHxRjEiyT_36x2",
+                "snippet": {
+                    "publishedAt": "2020-03-21T17:03:08Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python APIs - YouTube API",
+                    "description": "YouTube is one of the go-to destinations for video content; not only can you find videos to keep you entertained, but you can also find videos to educate you on new topics! Well, in this playlist, we explore how to use the YouTube API so that we can grab video tags, see comments, search for videos, and even manipulate existing videos on our channel.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/xlLc_akmYHM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/xlLc_akmYHM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/xlLc_akmYHM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/xlLc_akmYHM/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/xlLc_akmYHM/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python APIs - YouTube API",
+                        "description": "YouTube is one of the go-to destinations for video content; not only can you find videos to keep you entertained, but you can also find videos to educate you on new topics! Well, in this playlist, we explore how to use the YouTube API so that we can grab video tags, see comments, search for videos, and even manipulate existing videos on our channel."
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 2
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "9D1npKow3YhJnqg7xjcDPMAPGOc",
+                "id": "PLcFcktZ0wnNnYYDXgyGn3WOZw1lx8QxI5",
+                "snippet": {
+                    "publishedAt": "2020-03-21T17:03:00Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python APIs - TD Ameritrade Streaming API",
+                    "description": "TD Ameritrade offers a free API for its account holders for which they can use to manage their accounts, execute trades, stream data, and research different financial instruments. In this playlist, we explore how to use the TD Ameritrade Streaming API using Python, creating a connection to the web socket, building requests, submitting requests, and handling the response from the Streaming API.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/7S0gBn5cjYM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/7S0gBn5cjYM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/7S0gBn5cjYM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/7S0gBn5cjYM/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/7S0gBn5cjYM/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python APIs - TD Ameritrade Streaming API",
+                        "description": "TD Ameritrade offers a free API for its account holders for which they can use to manage their accounts, execute trades, stream data, and research different financial instruments. In this playlist, we explore how to use the TD Ameritrade Streaming API using Python, creating a connection to the web socket, building requests, submitting requests, and handling the response from the Streaming API."
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 5
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "4mt_gW3XCsvq4dsCKtlLAvTmIk8",
+                "id": "PLcFcktZ0wnNnINsy6NBSQcZTHayzCOLBF",
+                "snippet": {
+                    "publishedAt": "2020-03-21T17:02:52Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python APIs - TD Ameritrade Standard API",
+                    "description": "TD Ameritrade offers a free API for its account holders for which they can use to manage their accounts, execute trades, stream data, and research different financial instruments. In this playlist, we explore how to use the TD Ameritrade API using Python, getting you access to the TD API, walking through the initial authentication workflow for the API, and exploring some of the endpoints.\n\nWith this API, we can get financial data in the form of real-time quotes, option chains, and even company information. Additionally, we will find that we can also get information on our accounts related to orders, positions, and balances.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/qJ94sSyPGBw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/qJ94sSyPGBw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/qJ94sSyPGBw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/qJ94sSyPGBw/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/qJ94sSyPGBw/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python APIs - TD Ameritrade Standard API",
+                        "description": "TD Ameritrade offers a free API for its account holders for which they can use to manage their accounts, execute trades, stream data, and research different financial instruments. In this playlist, we explore how to use the TD Ameritrade API using Python, getting you access to the TD API, walking through the initial authentication workflow for the API, and exploring some of the endpoints.\n\nWith this API, we can get financial data in the form of real-time quotes, option chains, and even company information. Additionally, we will find that we can also get information on our accounts related to orders, positions, and balances."
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 3
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "Xpp5m5WD14YKErGZXRpFnW7W69Y",
+                "id": "PLcFcktZ0wnNlDLbgd294Y5je5LcPn-237",
+                "snippet": {
+                    "publishedAt": "2020-03-21T17:02:40Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python APIs - Google Places API",
+                    "description": "Google offers a tremendous number of APIs for its customers. Most of the APIs they offer have a free tier in which a user can use the API but only for several requests per day. Because Google is such a popular service when it comes to data, it only makes sense that we explore some of their APIs. In this playlist, we will explore the Google Places API so that we can get details on businesses located across the globe. Additionally, we will find that this API offers more information in the form of photos and even reviews.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/qkSmuquMueA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/qkSmuquMueA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/qkSmuquMueA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/qkSmuquMueA/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/qkSmuquMueA/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python APIs - Google Places API",
+                        "description": "Google offers a tremendous number of APIs for its customers. Most of the APIs they offer have a free tier in which a user can use the API but only for several requests per day. Because Google is such a popular service when it comes to data, it only makes sense that we explore some of their APIs. In this playlist, we will explore the Google Places API so that we can get details on businesses located across the globe. Additionally, we will find that this API offers more information in the form of photos and even reviews."
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 2
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "LA4ijew8-EpM6qjSR07Wnwmd1OU",
+                "id": "PLcFcktZ0wnNkPHOt6XCJu9iswycHYDlYC",
+                "snippet": {
+                    "publishedAt": "2020-02-27T04:15:46Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Interactive Brokers",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Interactive Brokers",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 5
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "DVzmqnSPG6x8cM2LgKNCMcIaBzY",
+                "id": "PLcFcktZ0wnNkE3gYzBBIQpAvZkvuJtBcM",
+                "snippet": {
+                    "publishedAt": "2020-02-01T06:07:03Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Channel Updates - All",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Ki1EJY3NmJA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Ki1EJY3NmJA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Ki1EJY3NmJA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/Ki1EJY3NmJA/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/Ki1EJY3NmJA/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Channel Updates - All",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 1
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "BzFNnRHpy0u5xEsnh7jegURBttc",
+                "id": "PLcFcktZ0wnNl53H7TfRZ-nDAwSjiz2NpK",
+                "snippet": {
+                    "publishedAt": "2020-01-20T04:32:05Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Office JavaScript API - Excel",
+                    "description": "Each of the office Applications has its own specific Host API. The Host API represents the API that you would use to access that particular application Object Model. For example, to use Excel in the Office JavaScript API, we would use the Office JavaScript API for Excel. The playlist you\u2019re currently on covers the Office JavaScript API but from purely the Excel Perspective.\n\nIn this series, we cover different objects found inside the Excel API. These are objects like Pivot Tables, Workbooks, Worksheets, Ranges, and much more. With some objects, we will use far more than others like Excel Worksheets. With those objects, we will focus a little bit more time on them so we can understand how to navigate them, reference them, and manipulate them. That way, when we work with other objects, we can do so comfortably.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/JFYYeCTc77Y/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/JFYYeCTc77Y/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/JFYYeCTc77Y/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/JFYYeCTc77Y/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/JFYYeCTc77Y/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Office JavaScript API - Excel",
+                        "description": "Each of the office Applications has its own specific Host API. The Host API represents the API that you would use to access that particular application Object Model. For example, to use Excel in the Office JavaScript API, we would use the Office JavaScript API for Excel. The playlist you\u2019re currently on covers the Office JavaScript API but from purely the Excel Perspective.\n\nIn this series, we cover different objects found inside the Excel API. These are objects like Pivot Tables, Workbooks, Worksheets, Ranges, and much more. With some objects, we will use far more than others like Excel Worksheets. With those objects, we will focus a little bit more time on them so we can understand how to navigate them, reference them, and manipulate them. That way, when we work with other objects, we can do so comfortably."
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 8
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "sSd6kl2gWt6zRxEezFRkMlnZDCs",
+                "id": "PLcFcktZ0wnNnz07eWc7N5ao1dyiXoV-ib",
+                "snippet": {
+                    "publishedAt": "2019-11-18T05:16:55Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Pythonnet - All",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/J7TETPbLw7c/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/J7TETPbLw7c/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/J7TETPbLw7c/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/J7TETPbLw7c/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/J7TETPbLw7c/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Pythonnet - All",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 10
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "4nGx29jYVR1_EepZLn48BokGFqc",
+                "id": "PLcFcktZ0wnNkH6JOhT4cq4us-7zqBVA_B",
+                "snippet": {
+                    "publishedAt": "2019-10-08T02:03:56Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "T-SQL - All",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Jj_n2YP00Jc/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Jj_n2YP00Jc/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Jj_n2YP00Jc/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/Jj_n2YP00Jc/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/Jj_n2YP00Jc/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "T-SQL - All",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 6
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "YYghlpb8K-B1SCHm3RgykLgPDPU",
+                "id": "PLcFcktZ0wnNlEhLYtTXnHrse26Nnly6g7",
+                "snippet": {
+                    "publishedAt": "2019-10-08T01:38:43Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "VBA - Advanced - Userforms",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/RLciyc8ZFfY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/RLciyc8ZFfY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/RLciyc8ZFfY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/RLciyc8ZFfY/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/RLciyc8ZFfY/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "VBA - Advanced - Userforms",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 7
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "XiaUAGznlnVb8F0JqqooGgs-33A",
+                "id": "PLcFcktZ0wnNldjGIVZ6cFVhS3ZrE3fmHJ",
+                "snippet": {
+                    "publishedAt": "2019-09-28T03:03:55Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "M Language - All",
+                    "description": "Power Query and Power BI are powerful tools that allow you to aggregate a wide variety of data sources and transform them into clean workable datasets. Behind the scenes, these two tools leverage the M Formula Language to provide quick and easy transformations through a wide variety of built-in functions. In this playlist, we introduce our new programming language and get some context about what it is and how it works. Once we have a solid foundation we will expand into different topics including the main data types, common operations, and then into scenarios where PowerQuery and PowerBI shine.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/BaEKOCf2Tcc/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/BaEKOCf2Tcc/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/BaEKOCf2Tcc/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/BaEKOCf2Tcc/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/BaEKOCf2Tcc/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "M Language - All",
+                        "description": "Power Query and Power BI are powerful tools that allow you to aggregate a wide variety of data sources and transform them into clean workable datasets. Behind the scenes, these two tools leverage the M Formula Language to provide quick and easy transformations through a wide variety of built-in functions. In this playlist, we introduce our new programming language and get some context about what it is and how it works. Once we have a solid foundation we will expand into different topics including the main data types, common operations, and then into scenarios where PowerQuery and PowerBI shine."
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 5
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "dtRr-egPaWYUtUhVCmtnGJKVlOY",
+                "id": "PLcFcktZ0wnNm-M50HIyz7HJ0B60xdWh9N",
+                "snippet": {
+                    "publishedAt": "2019-09-25T01:43:06Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "VBA - Advanced - Command Bar Control Objects",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/nMZvFzVIW-c/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/nMZvFzVIW-c/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/nMZvFzVIW-c/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/nMZvFzVIW-c/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/nMZvFzVIW-c/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "VBA - Advanced - Command Bar Control Objects",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 3
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "3k-9FPp08ieb26TBkfEINzW59i0",
+                "id": "PLcFcktZ0wnNm0VOrq40IhkJV9fwp5K7wB",
+                "snippet": {
+                    "publishedAt": "2019-08-26T02:12:16Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "VBA - Advanced - APIs",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/BRB2SlsBEUI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/BRB2SlsBEUI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/BRB2SlsBEUI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/BRB2SlsBEUI/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/BRB2SlsBEUI/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "VBA - Advanced - APIs",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 1
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "pqOdad9N049VHQBtNuAprKoSaFI",
+                "id": "PLcFcktZ0wnNkYCwsf-vZiogkNhd4TT1c2",
+                "snippet": {
+                    "publishedAt": "2019-07-23T00:53:26Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Core Concepts - Data Structures",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/lAbwwDIRVac/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/lAbwwDIRVac/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/lAbwwDIRVac/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/lAbwwDIRVac/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/lAbwwDIRVac/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Core Concepts - Data Structures",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 11
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "mDTuf5e6-zmviAHspkw2yq3DE6k",
+                "id": "PLcFcktZ0wnNnzAQZL4m_-1Xc66MfnPegq",
+                "snippet": {
+                    "publishedAt": "2019-06-27T03:26:23Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python - Machine Learning - Kmeans",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/dhV8UWI1sjc/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/dhV8UWI1sjc/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/dhV8UWI1sjc/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/dhV8UWI1sjc/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/dhV8UWI1sjc/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python - Machine Learning - Kmeans",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 6
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "RsacpYLlQsL1htpoYJpWXejWACA",
+                "id": "PLcFcktZ0wnNk29Vl406r_5v5bva5by0TB",
+                "snippet": {
+                    "publishedAt": "2019-06-16T23:22:52Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Office JavaScript API - Word",
+                    "description": "Each of the office Applications has its own specific Host API. The Host API represents the API that you would use to access that particular application Object Model. For example, to use Word in the Office JavaScript API, we would use the Office JavaScript API for Word. The playlist you\u2019re currently on covers the Office JavaScript API but from purely the Word Perspective.\n\nIn this series, we cover different objects found inside the Word API. These are objects like Documents, Word Ranges, Bullet Lists, and Word Table Objects. Just like in Excel, with some objects, we will use them far more than others, for example, Word Documents. With those objects, we will focus a little bit more time on them so we can understand how to navigate them, reference them, and manipulate them. That way, when we work with other objects, we can do so comfortably.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/22P43aerrho/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/22P43aerrho/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/22P43aerrho/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/22P43aerrho/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/22P43aerrho/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Office JavaScript API - Word",
+                        "description": "Each of the office Applications has its own specific Host API. The Host API represents the API that you would use to access that particular application Object Model. For example, to use Word in the Office JavaScript API, we would use the Office JavaScript API for Word. The playlist you\u2019re currently on covers the Office JavaScript API but from purely the Word Perspective.\n\nIn this series, we cover different objects found inside the Word API. These are objects like Documents, Word Ranges, Bullet Lists, and Word Table Objects. Just like in Excel, with some objects, we will use them far more than others, for example, Word Documents. With those objects, we will focus a little bit more time on them so we can understand how to navigate them, reference them, and manipulate them. That way, when we work with other objects, we can do so comfortably."
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 3
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "OXwLU4AdP0Nywhp-4bNUU84kffQ",
+                "id": "PLcFcktZ0wnNnn-s9yu7iuyNuEJhEwqBiG",
+                "snippet": {
+                    "publishedAt": "2019-06-11T01:28:05Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "VBA - Advanced - Webscraping",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/inXUOu5bwAE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/inXUOu5bwAE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/inXUOu5bwAE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/inXUOu5bwAE/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/inXUOu5bwAE/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "VBA - Advanced - Webscraping",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 4
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "jgF5GvlR4Prg9tO41ErSwgU9El8",
+                "id": "PLcFcktZ0wnNmiRRejvS0j216qz-Tcb9Nq",
+                "snippet": {
+                    "publishedAt": "2019-05-24T01:05:51Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Office JavaScript API - Core",
+                    "description": "To meet the new requirements of today\u2019s developers and to ensure a more cohesive Microsoft Office experience. Microsoft has developed a new API that will allow developers to create and distribute Office Add-Ins that work not just on Windows operating systems but also Mac operating systems and the Office Online experience. However, to make a framework work across so many platforms meant abandoning the beloved VBA language in favor of more appropriate languages like TypeScript and JavaScript.\n\nWhile some have been quick to dismiss the new API, the reality today is that you must use this new API to create Office Add-Ins that work across operating systems and platforms. Additionally, while the API presents a new learning curve for some, it will open up whole new opportunities to create more dynamic and responsive Office Add-Ins that will allow us to help take Office Application to their next levels.\n\nIn this playlist, you will find the Core Concepts necessary to get started using the Office JavaScript API so that you can start writing code that interacts with this new API. Additionally, we will cover new concepts specific to languages that are asynchronous and understand how this will impact the development process going forward. For editing purposes, a video will go over the new Script Lab Add-In can write, execute, and experiment with code directly in the host Office Application.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ajlYrtMATnE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ajlYrtMATnE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ajlYrtMATnE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/ajlYrtMATnE/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/ajlYrtMATnE/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Office JavaScript API - Core",
+                        "description": "To meet the new requirements of today\u2019s developers and to ensure a more cohesive Microsoft Office experience. Microsoft has developed a new API that will allow developers to create and distribute Office Add-Ins that work not just on Windows operating systems but also Mac operating systems and the Office Online experience. However, to make a framework work across so many platforms meant abandoning the beloved VBA language in favor of more appropriate languages like TypeScript and JavaScript.\n\nWhile some have been quick to dismiss the new API, the reality today is that you must use this new API to create Office Add-Ins that work across operating systems and platforms. Additionally, while the API presents a new learning curve for some, it will open up whole new opportunities to create more dynamic and responsive Office Add-Ins that will allow us to help take Office Application to their next levels.\n\nIn this playlist, you will find the Core Concepts necessary to get started using the Office JavaScript API so that you can start writing code that interacts with this new API. Additionally, we will cover new concepts specific to languages that are asynchronous and understand how this will impact the development process going forward. For editing purposes, a video will go over the new Script Lab Add-In can write, execute, and experiment with code directly in the host Office Application."
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 3
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "JoM2TAGCa5Eo_9iBAkfBoRQM49U",
+                "id": "PLcFcktZ0wnNl3Fj23C4c5AaLrPGh5aiBv",
+                "snippet": {
+                    "publishedAt": "2019-05-18T02:20:19Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Pythonnet - Iron Python",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/iH_XM1_rePA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/iH_XM1_rePA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/iH_XM1_rePA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/iH_XM1_rePA/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/iH_XM1_rePA/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Pythonnet - Iron Python",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 1
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "bdMDojSFAj-B4gQq6UOgM3sP6zg",
+                "id": "PLcFcktZ0wnNkW9s_wsFVPmJWgDhfzN7hI",
+                "snippet": {
+                    "publishedAt": "2019-05-15T00:59:44Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python - Library - PYODBC",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/eDXX5evRgQw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/eDXX5evRgQw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/eDXX5evRgQw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/eDXX5evRgQw/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/eDXX5evRgQw/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python - Library - PYODBC",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 3
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "cug88kQAjGvGbi5bfY9SzUVA3b4",
+                "id": "PLcFcktZ0wnNkHGYuS-p8wUu7SrzO7TKR3",
+                "snippet": {
+                    "publishedAt": "2019-05-11T17:15:13Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python - Win32COM - Core Concepts",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/MTFCV2qbAIw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/MTFCV2qbAIw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/MTFCV2qbAIw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/MTFCV2qbAIw/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/MTFCV2qbAIw/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python - Win32COM - Core Concepts",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 6
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "waZ8yc2o6i2oX-X-VPWfFbUuWOA",
+                "id": "PLcFcktZ0wnNkO4cgk2N4mFvbXsMu4nFAc",
+                "snippet": {
+                    "publishedAt": "2019-05-05T03:20:38Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python - Library - Splinter",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ApA7EVwSzg0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ApA7EVwSzg0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ApA7EVwSzg0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/ApA7EVwSzg0/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/ApA7EVwSzg0/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python - Library - Splinter",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 1
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "ZIB1a4_1Mz-tJS6A23q00tYJjE4",
+                "id": "PLcFcktZ0wnNkMqnUi8zUAPlO_swt-3GiJ",
+                "snippet": {
+                    "publishedAt": "2019-04-28T03:36:00Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python - Machine Learning - Multiple Regression",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/M32ghIt1c88/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/M32ghIt1c88/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/M32ghIt1c88/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/M32ghIt1c88/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/M32ghIt1c88/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python - Machine Learning - Multiple Regression",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 5
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "s3cfP-6eymQkLSf8aKLqT-QB_Q0",
+                "id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6",
+                "snippet": {
+                    "publishedAt": "2019-04-13T03:20:12Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python - Finance - All",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/-7I7OAC6ih8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/-7I7OAC6ih8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/-7I7OAC6ih8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/-7I7OAC6ih8/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/-7I7OAC6ih8/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python - Finance - All",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 63
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "4Yc0kVIvCL7bpuokggGw1CRcgGY",
+                "id": "PLcFcktZ0wnNmqwC5ZjWcTq5z2f0c507iv",
+                "snippet": {
+                    "publishedAt": "2019-04-07T03:49:12Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "VBA - Excel - Charts",
+                    "description": "Excel is used heavily to graph data because of its flexibility and reliability when it comes to working with large data sets. Excel gives users the ability to control these chart objects from VBA with an extreme level of detail that focuses on control of the different components of a chart. In this series, we explore how to use the chart object in VBA and how to format a chart to match the style we desire.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/SJHkVFtIO38/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/SJHkVFtIO38/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/SJHkVFtIO38/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/SJHkVFtIO38/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/SJHkVFtIO38/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "VBA - Excel - Charts",
+                        "description": "Excel is used heavily to graph data because of its flexibility and reliability when it comes to working with large data sets. Excel gives users the ability to control these chart objects from VBA with an extreme level of detail that focuses on control of the different components of a chart. In this series, we explore how to use the chart object in VBA and how to format a chart to match the style we desire."
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 3
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "572VW4B7-3twOMLu5MI0Qr2bTu0",
+                "id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS",
+                "snippet": {
+                    "publishedAt": "2019-03-30T04:48:00Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python - Machine Learning - All",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/MRm5sBfdBBQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/MRm5sBfdBBQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/MRm5sBfdBBQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/MRm5sBfdBBQ/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/MRm5sBfdBBQ/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python - Machine Learning - All",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 21
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "BC7zuKCWPqZc8Kl5rXpb3yncaO0",
+                "id": "PLcFcktZ0wnNkJtJJUXniGa5JyXDFEcudu",
+                "snippet": {
+                    "publishedAt": "2019-03-30T04:47:48Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python - Machine Learning - Linear Regression",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/MRm5sBfdBBQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/MRm5sBfdBBQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/MRm5sBfdBBQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/MRm5sBfdBBQ/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/MRm5sBfdBBQ/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python - Machine Learning - Linear Regression",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 4
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "EPF9sOz6BWtTzHzbDBcYP0dxHV8",
+                "id": "PLcFcktZ0wnNkOo9FQ2wrDcsV0jYqEYu1z",
+                "snippet": {
+                    "publishedAt": "2019-03-21T03:13:36Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python - Library - Beautiful Soup",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/s2zKTklVavM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/s2zKTklVavM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/s2zKTklVavM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/s2zKTklVavM/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/s2zKTklVavM/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python - Library - Beautiful Soup",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 5
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "EKHTP3P4YQygpW8UjIhjwPtmjxg",
+                "id": "PLcFcktZ0wnNnpici0dCUju0OReA4qONTi",
+                "snippet": {
+                    "publishedAt": "2019-02-21T04:14:57Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python - Win32COM - PowerPoint VBA",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/d0PknGechXI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/d0PknGechXI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/d0PknGechXI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/d0PknGechXI/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/d0PknGechXI/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python - Win32COM - PowerPoint VBA",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 2
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "blkUwANAUvhtW7tULDb1F4jm6DE",
+                "id": "PLcFcktZ0wnNnboXnl2GRpPXayglKAyCvX",
+                "snippet": {
+                    "publishedAt": "2019-02-11T04:28:12Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "VBA - Excel - Power Pivot",
+                    "description": "Power Pivot is an Excel Add-In that allows users to create Data Models but from within Excel. Data Models will enable us to take advantage of relationships between datasets and use them to help join separate data sets. However, being able to control Power Pivot from VBA is exceptionally challenging because there simply aren\u2019t examples out there. However, I wanted to explore this different topic and see if we could shed some light on how the model works and how we can use it in our existing Excel workbooks.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Ws39xyxg7hw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Ws39xyxg7hw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Ws39xyxg7hw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/Ws39xyxg7hw/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/Ws39xyxg7hw/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "VBA - Excel - Power Pivot",
+                        "description": "Power Pivot is an Excel Add-In that allows users to create Data Models but from within Excel. Data Models will enable us to take advantage of relationships between datasets and use them to help join separate data sets. However, being able to control Power Pivot from VBA is exceptionally challenging because there simply aren\u2019t examples out there. However, I wanted to explore this different topic and see if we could shed some light on how the model works and how we can use it in our existing Excel workbooks."
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 3
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "FgySgIjbfyFi_s40m0COvGAEBUc",
+                "id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa",
+                "snippet": {
+                    "publishedAt": "2019-02-09T04:08:01Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python - Win32COM - Excel VBA",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Jd2PtDV5mL0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Jd2PtDV5mL0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Jd2PtDV5mL0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/Jd2PtDV5mL0/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/Jd2PtDV5mL0/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python - Win32COM - Excel VBA",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 21
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "8QL4bh7Y2r3GENXWLU7nLsOWIfg",
+                "id": "PLcFcktZ0wnNnU2GMbSjAUP9sSv9l1Vqcy",
+                "snippet": {
+                    "publishedAt": "2019-01-28T04:25:57Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "VBA - Excel - Pivot Tables",
+                    "description": "Pivot Tables give users the ability to slice and dice data in more ways than they can imagine. Being able to master the use of Pivot Tables is a requirement for anyone who wants to be an Excel expert. However, for those who want the next challenge, then it\u2019s time to explore Pivot Tables but from the VBA perspective. In this series, we explore the use of Pivot Tables, how to create them, how to select and work with the different components, and how to use them to automate the building of various reports.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/dxv0ZwUXN2U/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/dxv0ZwUXN2U/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/dxv0ZwUXN2U/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/dxv0ZwUXN2U/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/dxv0ZwUXN2U/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "VBA - Excel - Pivot Tables",
+                        "description": "Pivot Tables give users the ability to slice and dice data in more ways than they can imagine. Being able to master the use of Pivot Tables is a requirement for anyone who wants to be an Excel expert. However, for those who want the next challenge, then it\u2019s time to explore Pivot Tables but from the VBA perspective. In this series, we explore the use of Pivot Tables, how to create them, how to select and work with the different components, and how to use them to automate the building of various reports."
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 3
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "aOU5l-n4EG3EJXNlmG63_WdNkG0",
+                "id": "PLcFcktZ0wnNlRhiXWzu7Mkn2GC72f2LXp",
+                "snippet": {
+                    "publishedAt": "2019-01-15T02:43:29Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "VBA - Outlook - All",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/nGN_0BKaDoU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/nGN_0BKaDoU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/nGN_0BKaDoU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/nGN_0BKaDoU/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/nGN_0BKaDoU/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "VBA - Outlook - All",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 11
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "ACzKu-z--0WURGa7oA2nF0_IPbU",
+                "id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur",
+                "snippet": {
+                    "publishedAt": "2018-12-31T04:17:59Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python - APIs - All",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/GJf7ccRIK4U/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/GJf7ccRIK4U/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/GJf7ccRIK4U/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/GJf7ccRIK4U/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/GJf7ccRIK4U/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python - APIs - All",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 25
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "WzgN-kBcrtoQjxD5TQSrk15Ej0s",
+                "id": "PLcFcktZ0wnNk9lBpmhAwGR2PI7WAME2v_",
+                "snippet": {
+                    "publishedAt": "2018-12-30T04:36:51Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "VBA - PowerPoint - All",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/2jVQifazbXA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/2jVQifazbXA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/2jVQifazbXA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/2jVQifazbXA/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/2jVQifazbXA/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "VBA - PowerPoint - All",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 8
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "VM0g9EtAdSZ9zH8L0HLnnp0w9_A",
+                "id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf",
+                "snippet": {
+                    "publishedAt": "2018-12-29T04:16:42Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python - All",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ke_OctsOgok/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ke_OctsOgok/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ke_OctsOgok/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/ke_OctsOgok/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/ke_OctsOgok/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python - All",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 28
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "aYzefWW3XdEsPNs0G8X-t7a6xqc",
+                "id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT",
+                "snippet": {
+                    "publishedAt": "2018-12-23T05:18:55Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "VBA - Advanced - All",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ge2K5swqR4Q/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ge2K5swqR4Q/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ge2K5swqR4Q/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/ge2K5swqR4Q/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/ge2K5swqR4Q/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "VBA - Advanced - All",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 24
+                }
+            }
+        ]
+    },
+    {
+        "kind": "youtube#playlistListResponse",
+        "etag": "mtXJffHBwEAO-ZX7MFjJaMslYCU",
+        "prevPageToken": "CDIQAQ",
+        "pageInfo": {
+            "totalResults": 53,
+            "resultsPerPage": 50
+        },
+        "items": [
+            {
+                "kind": "youtube#playlist",
+                "etag": "arsJAJUXLNYu2IxK7vPOC8t--J4",
+                "id": "PLcFcktZ0wnNmjAUgH_FY2b3bIMGrgGThO",
+                "snippet": {
+                    "publishedAt": "2018-12-13T05:18:49Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "VBA - Word - All",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/iYllC8LEI2Y/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/iYllC8LEI2Y/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/iYllC8LEI2Y/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/iYllC8LEI2Y/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/iYllC8LEI2Y/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "VBA - Word - All",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 12
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "rAK4-6hQnmOZJ9nPR3nGqL070MA",
+                "id": "PLcFcktZ0wnNn0VMRzVqV82s4vKpaTii_W",
+                "snippet": {
+                    "publishedAt": "2018-12-07T04:01:35Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "VBA - Excel - All",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/JB3aF9pX9eA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/JB3aF9pX9eA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/JB3aF9pX9eA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/JB3aF9pX9eA/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/JB3aF9pX9eA/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "VBA - Excel - All",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 34
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "hrXDymMzu8_BFQRq6_xsGamBgF0",
+                "id": "PLcFcktZ0wnNlFcSydYb8bI1AclQ4I38VN",
+                "snippet": {
+                    "publishedAt": "2018-11-26T01:18:10Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "VBA - Advanced - Excel To PowerPoint",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/iyw64CDQm9Y/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/iyw64CDQm9Y/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/iyw64CDQm9Y/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/iyw64CDQm9Y/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/iyw64CDQm9Y/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "VBA - Advanced - Excel To PowerPoint",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 10
+                }
+            }
+        ]
+    }
+]
