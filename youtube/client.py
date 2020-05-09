@@ -37,31 +37,23 @@ class YouTubeClient():
         """
         
         # Define Channel Specific Items.
-        self.API_KEY = api_key
-        self.CHANNEL_ID = channel_id
-        self.UPLOADS_PLAYLIST = 'UUBsTB02yO0QGwtlfiv5m25Q'
+        self.api_key = api_key
+        self.channel_id = channel_id
 
         # API Services.
-        self.API_URL = "https://www.googleapis.com"
-        self.API_SERVICE = "youtube"
-        self.API_VERSION = "v3"
-        self.API_UPLOAD = "/upload/youtube"
+        self.api_url = "https://www.googleapis.com"
+        self.api_service = "youtube"
+        self.api_version = "v3"
+        self.api_upload = "/upload/youtube"
 
-        # Auth Endpoints.
-        self.AUTH_URI = "https://accounts.google.com/o/oauth2/auth"
-        self.AUTH_TOKEN_URI = "https://oauth2.googleapis.com/token"
+        # Session properties.
+        self.client_secret_file = pathlib.Path(client_secret_path).absolute()
+        self.youtube_state_file = pathlib.Path(state_path).absolute()
+        self.data_folder_path :pathlib.Path = pathlib.Path(__file__).parent.parent.joinpath('data')
+        self.credentials = self.oauth_workflow()
 
-        # self.CLIENT_SECRET_FILE = pathlib.Path(__file__).parent.parent.joinpath('configs/google_api_credentials.json').absolute()
-        # self.YOUTUBE_STATE_FILE = pathlib.Path(__file__).parent.parent.joinpath('configs/youtube_state.json').absolute()
-
-        self.CLIENT_SECRET_FILE = pathlib.Path(client_secret_path).absolute()
-        self.YOUTUBE_STATE_FILE = pathlib.Path(state_path).absolute()
-        self.DATA_FOLDER_PATH :pathlib.Path = pathlib.Path(__file__).parent.parent.joinpath('data')
-
-        self.AUTHORIZATION_URL = None
-        self.CREDENTIALS = self.oauth_workflow()
-
-        if self.YOUTUBE_STATE_FILE.exists() == False:
+        # If we don't have a state file, then create it.
+        if self.youtube_state_file.exists() == False:
             self._save_state()
 
     def _save_state(self) -> Dict:
@@ -74,13 +66,13 @@ class YouTubeClient():
 
         # Define the state dict.
         state_dict = {
-            'client_id': self.CREDENTIALS.client_id,
-            'client_secret': self.CREDENTIALS.client_secret,
-            'refresh_token': self.CREDENTIALS.refresh_token
+            'client_id': self.credentials.client_id,
+            'client_secret': self.credentials.client_secret,
+            'refresh_token': self.credentials.refresh_token
         }
 
         # Open the JSON file and save it.
-        with open(self.YOUTUBE_STATE_FILE, 'w+') as state_file:
+        with open(self.youtube_state_file, 'w+') as state_file:
             json.dump(obj=state_dict, fp=state_file)
 
         return state_dict
@@ -97,7 +89,7 @@ class YouTubeClient():
         request = Request()
 
         # load the file.
-        credentials = Credentials.from_authorized_user_file(filename=self.YOUTUBE_STATE_FILE)
+        credentials = Credentials.from_authorized_user_file(filename=self.youtube_state_file)
 
         # refresh the token.
         credentials.refresh(request)
@@ -115,7 +107,7 @@ class YouTubeClient():
         {bool} -- `True` if the token is valid, `False` if it's not.
         """
 
-        if self.CREDENTIALS.valid:
+        if self.credentials.valid:
             return True
         else:
             self.refresh_token()
@@ -130,14 +122,16 @@ class YouTubeClient():
         """
 
         # load the previous state if it exists and then refresh the token.
-        if self.YOUTUBE_STATE_FILE.exists():
+        if self.youtube_state_file.exists():
             return self.refresh_token()
 
         # Otherwise grab the Client Secret file.
-        elif self.CLIENT_SECRET_FILE.exists():
+        elif self.client_secret_file.exists():
+
             # Initalize the flow workflow.
-            flow = InstalledAppFlow.from_client_secrets_file(self.CLIENT_SECRET_FILE, ['https://www.googleapis.com/auth/youtube'])
+            flow = InstalledAppFlow.from_client_secrets_file(self.client_secret_file, ['https://www.googleapis.com/auth/youtube'])
             return  flow.run_console()
+            
         else:
             raise FileNotFoundError("Client Secret File Does Not Exist, please check your path.")
 
@@ -157,7 +151,7 @@ class YouTubeClient():
 
         # initalize the headers.
         headers = {
-            'Authorization':'Bearer {}'.format(self.CREDENTIALS.token)
+            'Authorization':'Bearer {}'.format(self.credentials.token)
         }
 
         # add content type if needed.
@@ -181,7 +175,7 @@ class YouTubeClient():
         ----
         {str} -- A full url path.
         """
-        return urllib.parse.urljoin(base ='/'.join([self.API_URL, self.API_SERVICE, self.API_VERSION, '/']), url = endpoint)
+        return urllib.parse.urljoin(base ='/'.join([self.api_url, self.api_service, self.api_version, '/']), url = endpoint)
 
     def _channel_sections(self) -> Dict:
         """Makes a request to the Channels Section endpoint."""
@@ -200,7 +194,7 @@ class YouTubeClient():
         {Dict} -- Playlist file content.
         """
 
-        playlist_path = self.DATA_FOLDER_PATH.joinpath('playlists.json')
+        playlist_path = self.data_folder_path.joinpath('playlists.json')
 
         # Load the JSON file if it exists.
         if playlist_path.exists():
@@ -224,7 +218,7 @@ class YouTubeClient():
         {Dict} -- Description file content.
         """
 
-        desc_path = self.DATA_FOLDER_PATH('descriptions/video_desc.json')
+        desc_path = self.data_folder_path('descriptions/video_desc.json')
 
         # laod the previous state if it exists and then refresh the token.
         if desc_path.exists():
@@ -261,7 +255,7 @@ class YouTubeClient():
                 'part':'contentDetails,id,snippet,status',
                 'playlistId':playlist_id,
                 'maxResults':50,
-                'key':self.API_KEY
+                'key':self.api_key
             }
 
             headers = self._headers()
@@ -306,7 +300,7 @@ class YouTubeClient():
             url = self._build_url(endpoint = 'videos')
 
             # Redfine arguments.
-            params = {'key':self.API_KEY, 'part':",".join(part)}
+            params = {'key':self.api_key, 'part':",".join(part)}
             headers = self._headers(json = True)
             response = requests.put(url = url, params = params, headers = headers, data = json.dumps(data), verify = True)
 
@@ -339,7 +333,7 @@ class YouTubeClient():
 
             # Redfine arguments.
             params = {
-                'key':self.API_KEY, 
+                'key':self.api_key, 
                 'part':",".join(part)
             }
 
@@ -376,7 +370,7 @@ class YouTubeClient():
 
             # Redfine arguments.
             params = {
-                'key':self.API_KEY,
+                'key':self.api_key,
                 'part':",".join(part)
             }
             
@@ -414,7 +408,7 @@ class YouTubeClient():
             url = self._build_url(endpoint = 'playlistItems')
 
             # Redfine arguments.
-            params = {'key':self.API_KEY, 'part':",".join(part)}
+            params = {'key':self.api_key, 'part':",".join(part)}
             headers = self._headers(json = True)
             response = requests.put(url = url, params = params, headers = headers, data = json.dumps(data), verify = True)
 
@@ -445,7 +439,7 @@ class YouTubeClient():
 
             # Redfine arguments.
             params = {
-                'key':self.API_KEY,
+                'key':self.api_key,
                 'id':playlist_item_id
             }
             
@@ -485,7 +479,7 @@ class YouTubeClient():
 
             # Redfine arguments.
             params = {
-                'key':self.API_KEY,
+                'key':self.api_key,
                 'part':",".join(part)
             }
             
@@ -526,7 +520,7 @@ class YouTubeClient():
             # Define video parameters.
             params = {
                 'videoId': video_id,
-                'key':self.API_KEY
+                'key':self.api_key
             }
             
             # define the file media content.
@@ -569,7 +563,7 @@ class YouTubeClient():
 
             # define the parameters
             params = {
-                'key':self.API_KEY,
+                'key':self.api_key,
                 'maxResults':50,
                 'id':playlist_id,
                 'part':parts
@@ -639,7 +633,7 @@ class YouTubeClient():
             # define the parameters
             params = {
                 'mine': True,
-                'key':self.API_KEY,
+                'key':self.api_key,
                 'maxResults':50,
                 'part':parts
             }
@@ -700,7 +694,7 @@ class YouTubeClient():
             # define the parameters
             params = {
                 'mine': True,
-                'key':self.API_KEY,
+                'key':self.api_key,
                 'maxResults':50,
                 'part':parts
             }
@@ -768,7 +762,7 @@ class YouTubeClient():
             params = {'part':parts,
                       'id':video_ids,
                       'maxResults':50,
-                      'key':self.API_KEY}
+                      'key':self.api_key}
 
             # make the request
             video_response = requests.get(url = url, params = params, headers = headers, verify = True)
@@ -807,7 +801,7 @@ class YouTubeClient():
         str -- The file path of the new file.
         """        
 
-        file_path = self.DATA_FOLDER_PATH.joinpath('{file_name}.json'.format(file_name=file_name))
+        file_path = self.data_folder_path.joinpath('{file_name}.json'.format(file_name=file_name))
 
         # Open the JSON file and save it.
         with open(file_path, 'w+') as content_file:
