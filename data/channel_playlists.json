@@ -1,13 +1,105 @@
 [
     {
         "kind": "youtube#playlistListResponse",
-        "etag": "k0ZwLv0KkBVpagYkRHZzEkuY0MM",
+        "etag": "dxNhd7_1wc8l8j3tpjrvU_fDRAI",
         "nextPageToken": "CDIQAA",
         "pageInfo": {
-            "totalResults": 53,
+            "totalResults": 54,
             "resultsPerPage": 50
         },
         "items": [
+            {
+                "kind": "youtube#playlist",
+                "etag": "mwkIVL1c7_4Kut06T8SR1xQZcl4",
+                "id": "PLcFcktZ0wnNmdgAdv4-Yl_nzS5LiKnhnn",
+                "snippet": {
+                    "publishedAt": "2020-05-25T04:26:00Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Python - Finance - Trading Robot",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/QAo0x9fE6ck/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/QAo0x9fE6ck/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/QAo0x9fE6ck/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/QAo0x9fE6ck/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/QAo0x9fE6ck/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Python - Finance - Trading Robot",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 3
+                }
+            },
+            {
+                "kind": "youtube#playlist",
+                "etag": "9I8IVZwy2T-hjRB6SE60U2D2nBI",
+                "id": "PLcFcktZ0wnNltQKxPVIIZAaGuyFJYYmGG",
+                "snippet": {
+                    "publishedAt": "2020-05-09T03:54:18Z",
+                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+                    "title": "Channel Management - All",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/8Yh0j6jttrA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/8Yh0j6jttrA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/8Yh0j6jttrA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/8Yh0j6jttrA/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/8Yh0j6jttrA/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
+                        }
+                    },
+                    "channelTitle": "Sigma Coding",
+                    "localized": {
+                        "title": "Channel Management - All",
+                        "description": ""
+                    }
+                },
+                "contentDetails": {
+                    "itemCount": 3
+                }
+            },
             {
                 "kind": "youtube#playlist",
                 "etag": "7E3BXSuLYYFDGJO_DPFs2gnEb3A",
@@ -56,7 +148,7 @@
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "H0esC-GiAPauPIqeNIjmnfFnfcI",
+                "etag": "SZwKFs_tfIawsU_nvkEV9ggcAEk",
                 "id": "PLcFcktZ0wnNnkGa1G112Ep-amHjAb724T",
                 "snippet": {
                     "publishedAt": "2020-04-05T17:52:30Z",
@@ -65,19 +157,29 @@
                     "description": "",
                     "thumbnails": {
                         "default": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/nw5_oSz4RJk/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/nw5_oSz4RJk/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/nw5_oSz4RJk/hqdefault.jpg",
                             "width": 480,
                             "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/nw5_oSz4RJk/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/nw5_oSz4RJk/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
                         }
                     },
                     "channelTitle": "Sigma Coding",
@@ -87,12 +189,12 @@
                     }
                 },
                 "contentDetails": {
-                    "itemCount": 0
+                    "itemCount": 2
                 }
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "YcLFIfLz86hv8tKBTrowd6P6cGc",
+                "etag": "_RGKkwI6H_TrSOL23vIEc-bw4e4",
                 "id": "PLcFcktZ0wnNnkPBfH4SblMD9nMYJ6YOO5",
                 "snippet": {
                     "publishedAt": "2020-04-05T17:47:44Z",
@@ -101,19 +203,29 @@
                     "description": "",
                     "thumbnails": {
                         "default": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/JB3aF9pX9eA/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/JB3aF9pX9eA/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/JB3aF9pX9eA/hqdefault.jpg",
                             "width": 480,
                             "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/JB3aF9pX9eA/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/JB3aF9pX9eA/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
                         }
                     },
                     "channelTitle": "Sigma Coding",
@@ -123,12 +235,12 @@
                     }
                 },
                 "contentDetails": {
-                    "itemCount": 0
+                    "itemCount": 8
                 }
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "X8Y00gqpl63Cc0l7bBmuRhXEyZo",
+                "etag": "RQvkVGwMHxWlVPw6wl9r-u3h7E4",
                 "id": "PLcFcktZ0wnNk2OcJDFLQitMjL2-tTXyKT",
                 "snippet": {
                     "publishedAt": "2020-04-05T17:19:13Z",
@@ -137,19 +249,29 @@
                     "description": "",
                     "thumbnails": {
                         "default": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/b4RiGQuwONc/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/b4RiGQuwONc/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/b4RiGQuwONc/hqdefault.jpg",
                             "width": 480,
                             "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/b4RiGQuwONc/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/b4RiGQuwONc/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
                         }
                     },
                     "channelTitle": "Sigma Coding",
@@ -159,12 +281,12 @@
                     }
                 },
                 "contentDetails": {
-                    "itemCount": 0
+                    "itemCount": 2
                 }
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "XqecoaTq4ya0yaENBf5bLzXAomc",
+                "etag": "5Fooj5Z2e1yt06U2kD2VzjCQa4w",
                 "id": "PLcFcktZ0wnNk79a04YKiOkLHmebEqfHVX",
                 "snippet": {
                     "publishedAt": "2020-04-05T17:19:13Z",
@@ -173,19 +295,29 @@
                     "description": "",
                     "thumbnails": {
                         "default": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/l_T0OfmubgA/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/l_T0OfmubgA/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/l_T0OfmubgA/hqdefault.jpg",
                             "width": 480,
                             "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/l_T0OfmubgA/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/l_T0OfmubgA/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
                         }
                     },
                     "channelTitle": "Sigma Coding",
@@ -195,12 +327,12 @@
                     }
                 },
                 "contentDetails": {
-                    "itemCount": 0
+                    "itemCount": 6
                 }
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "SvjxQ5tXDzpEwmSy1NfT4gzID5E",
+                "etag": "TYY0M1OrITqs1la_rldcbtPjqoQ",
                 "id": "PLcFcktZ0wnNlvfJS-SIfKpupHUs0lcVG6",
                 "snippet": {
                     "publishedAt": "2020-04-05T17:19:12Z",
@@ -209,19 +341,29 @@
                     "description": "",
                     "thumbnails": {
                         "default": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/ZlInSp0-MdU/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/ZlInSp0-MdU/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/ZlInSp0-MdU/hqdefault.jpg",
                             "width": 480,
                             "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/ZlInSp0-MdU/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/ZlInSp0-MdU/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
                         }
                     },
                     "channelTitle": "Sigma Coding",
@@ -231,12 +373,12 @@
                     }
                 },
                 "contentDetails": {
-                    "itemCount": 0
+                    "itemCount": 5
                 }
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "DM7mdo0a2Cc1IoNQis12GrQSUoU",
+                "etag": "hN2DQPnHh3f3YXd_LY_2sb9kl6s",
                 "id": "PLcFcktZ0wnNlFKtLO0nHuzUDKCdjoWcDw",
                 "snippet": {
                     "publishedAt": "2020-04-05T17:19:11Z",
@@ -245,19 +387,29 @@
                     "description": "",
                     "thumbnails": {
                         "default": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/t2BYThHlk3k/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/t2BYThHlk3k/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/t2BYThHlk3k/hqdefault.jpg",
                             "width": 480,
                             "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/t2BYThHlk3k/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/t2BYThHlk3k/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
                         }
                     },
                     "channelTitle": "Sigma Coding",
@@ -267,12 +419,12 @@
                     }
                 },
                 "contentDetails": {
-                    "itemCount": 0
+                    "itemCount": 1
                 }
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "UCqiiBmVvq03zc7EWCyYneYn6lY",
+                "etag": "mhigEXtQMnJx6OXU0UxWFA0HUag",
                 "id": "PLcFcktZ0wnNkj7nyfZrh7t6TZs8-JnF3n",
                 "snippet": {
                     "publishedAt": "2020-04-05T17:19:11Z",
@@ -281,19 +433,29 @@
                     "description": "",
                     "thumbnails": {
                         "default": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/qJ94sSyPGBw/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/qJ94sSyPGBw/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/qJ94sSyPGBw/hqdefault.jpg",
                             "width": 480,
                             "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/qJ94sSyPGBw/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/qJ94sSyPGBw/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
                         }
                     },
                     "channelTitle": "Sigma Coding",
@@ -303,12 +465,12 @@
                     }
                 },
                 "contentDetails": {
-                    "itemCount": 0
+                    "itemCount": 25
                 }
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "nssDwwUIrvyEo8C9uQsBRJ8rHN8",
+                "etag": "afYZuC1355zD082tUjvrG9rjCiU",
                 "id": "PLcFcktZ0wnNl5X7Qn1JM4jhrIOBsNj1qa",
                 "snippet": {
                     "publishedAt": "2020-04-05T17:19:10Z",
@@ -349,12 +511,12 @@
                     }
                 },
                 "contentDetails": {
-                    "itemCount": 4
+                    "itemCount": 5
                 }
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "AC2OXoAt1slzq3MAuAcwNvoZbDk",
+                "etag": "AqVprZ1kCjVtbo1zeheFUxbr6m8",
                 "id": "PLcFcktZ0wnNmOcf5qgqp29K4fiG3N8-ia",
                 "snippet": {
                     "publishedAt": "2020-04-05T17:19:09Z",
@@ -363,19 +525,29 @@
                     "description": "",
                     "thumbnails": {
                         "default": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/MRm5sBfdBBQ/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/MRm5sBfdBBQ/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/MRm5sBfdBBQ/hqdefault.jpg",
                             "width": 480,
                             "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/MRm5sBfdBBQ/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/MRm5sBfdBBQ/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
                         }
                     },
                     "channelTitle": "Sigma Coding",
@@ -385,48 +557,58 @@
                     }
                 },
                 "contentDetails": {
-                    "itemCount": 0
+                    "itemCount": 21
                 }
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "2F9Dm6zG_XMaQdkL0yRh47w6xAA",
+                "etag": "_Py-exDtayqlAQ9_xlQ4CAsvdQI",
                 "id": "PLcFcktZ0wnNmwOCWTshYp7X8D9E21DF3E",
                 "snippet": {
                     "publishedAt": "2020-04-05T17:19:09Z",
                     "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
                     "title": "Python - Finance - Interactive Brokers",
-                    "description": "",
+                    "description": "The Interactive Brokers API provides users a framework to manage their accounts, execute a trade, stream prices, and collect data. In this playlists, we explore how to use the Interactive Brokers API library, installation requirements, and exploring the endpoints. In this series, we will walk through the setup of the API, explore some of the endpoints related to market data, account information, and trading services. Additionally, we will explore some trading capabilities related to the API and also explore the streaming API.",
                     "thumbnails": {
                         "default": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/hqdefault.jpg",
                             "width": 480,
                             "height": 360
+                        },
+                        "standard": {
+                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/sddefault.jpg",
+                            "width": 640,
+                            "height": 480
+                        },
+                        "maxres": {
+                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/maxresdefault.jpg",
+                            "width": 1280,
+                            "height": 720
                         }
                     },
                     "channelTitle": "Sigma Coding",
                     "localized": {
                         "title": "Python - Finance - Interactive Brokers",
-                        "description": ""
+                        "description": "The Interactive Brokers API provides users a framework to manage their accounts, execute a trade, stream prices, and collect data. In this playlists, we explore how to use the Interactive Brokers API library, installation requirements, and exploring the endpoints. In this series, we will walk through the setup of the API, explore some of the endpoints related to market data, account information, and trading services. Additionally, we will explore some trading capabilities related to the API and also explore the streaming API."
                     }
                 },
                 "contentDetails": {
-                    "itemCount": 0
+                    "itemCount": 9
                 }
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "XT3pR7-2wMQGF_ynJLlyJmLOtS8",
+                "etag": "nSnhbROhwEvX6Qb2T3eDVwM0keY",
                 "id": "PLcFcktZ0wnNnmx4o3E_3R2f8IYWuhZDg_",
                 "snippet": {
                     "publishedAt": "2020-03-21T17:03:55Z",
@@ -435,27 +617,27 @@
                     "description": "The Interactive Brokers API provides users a framework to manage their accounts, execute a trade, stream prices, and collect data. In this playlists, we explore how to use the Interactive Brokers API library, installation requirements, and exploring the endpoints. In this series, we will walk through the setup of the API, explore some of the endpoints related to market data, account information, and trading services. Additionally, we will explore some trading capabilities related to the API and also explore the streaming API.",
                     "thumbnails": {
                         "default": {
-                            "url": "https://i.ytimg.com/vi/Dmp5M85oBy4/default.jpg",
+                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "https://i.ytimg.com/vi/Dmp5M85oBy4/mqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "https://i.ytimg.com/vi/Dmp5M85oBy4/hqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/hqdefault.jpg",
                             "width": 480,
                             "height": 360
                         },
                         "standard": {
-                            "url": "https://i.ytimg.com/vi/Dmp5M85oBy4/sddefault.jpg",
+                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/sddefault.jpg",
                             "width": 640,
                             "height": 480
                         },
                         "maxres": {
-                            "url": "https://i.ytimg.com/vi/Dmp5M85oBy4/maxresdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/maxresdefault.jpg",
                             "width": 1280,
                             "height": 720
                         }
@@ -467,7 +649,7 @@
                     }
                 },
                 "contentDetails": {
-                    "itemCount": 3
+                    "itemCount": 9
                 }
             },
             {
@@ -702,52 +884,6 @@
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "LA4ijew8-EpM6qjSR07Wnwmd1OU",
-                "id": "PLcFcktZ0wnNkPHOt6XCJu9iswycHYDlYC",
-                "snippet": {
-                    "publishedAt": "2020-02-27T04:15:46Z",
-                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
-                    "title": "Interactive Brokers",
-                    "description": "",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        },
-                        "standard": {
-                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/sddefault.jpg",
-                            "width": 640,
-                            "height": 480
-                        },
-                        "maxres": {
-                            "url": "https://i.ytimg.com/vi/nz6F8eNbk1A/maxresdefault.jpg",
-                            "width": 1280,
-                            "height": 720
-                        }
-                    },
-                    "channelTitle": "Sigma Coding",
-                    "localized": {
-                        "title": "Interactive Brokers",
-                        "description": ""
-                    }
-                },
-                "contentDetails": {
-                    "itemCount": 5
-                }
-            },
-            {
-                "kind": "youtube#playlist",
                 "etag": "DVzmqnSPG6x8cM2LgKNCMcIaBzY",
                 "id": "PLcFcktZ0wnNkE3gYzBBIQpAvZkvuJtBcM",
                 "snippet": {
@@ -840,7 +976,7 @@
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "sSd6kl2gWt6zRxEezFRkMlnZDCs",
+                "etag": "vfd7mFoXJ_pyFRSVhpV-2fLC1YU",
                 "id": "PLcFcktZ0wnNnz07eWc7N5ao1dyiXoV-ib",
                 "snippet": {
                     "publishedAt": "2019-11-18T05:16:55Z",
@@ -849,27 +985,27 @@
                     "description": "",
                     "thumbnails": {
                         "default": {
-                            "url": "https://i.ytimg.com/vi/J7TETPbLw7c/default.jpg",
+                            "url": "https://i.ytimg.com/vi/gFO12dJLBGI/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "https://i.ytimg.com/vi/J7TETPbLw7c/mqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/gFO12dJLBGI/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "https://i.ytimg.com/vi/J7TETPbLw7c/hqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/gFO12dJLBGI/hqdefault.jpg",
                             "width": 480,
                             "height": 360
                         },
                         "standard": {
-                            "url": "https://i.ytimg.com/vi/J7TETPbLw7c/sddefault.jpg",
+                            "url": "https://i.ytimg.com/vi/gFO12dJLBGI/sddefault.jpg",
                             "width": 640,
                             "height": 480
                         },
                         "maxres": {
-                            "url": "https://i.ytimg.com/vi/J7TETPbLw7c/maxresdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/gFO12dJLBGI/maxresdefault.jpg",
                             "width": 1280,
                             "height": 720
                         }
@@ -881,12 +1017,12 @@
                     }
                 },
                 "contentDetails": {
-                    "itemCount": 10
+                    "itemCount": 11
                 }
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "4nGx29jYVR1_EepZLn48BokGFqc",
+                "etag": "SHD-i24ANzJXSo1k46mnP79qDR0",
                 "id": "PLcFcktZ0wnNkH6JOhT4cq4us-7zqBVA_B",
                 "snippet": {
                     "publishedAt": "2019-10-08T02:03:56Z",
@@ -927,7 +1063,7 @@
                     }
                 },
                 "contentDetails": {
-                    "itemCount": 6
+                    "itemCount": 5
                 }
             },
             {
@@ -1024,7 +1160,7 @@
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "dtRr-egPaWYUtUhVCmtnGJKVlOY",
+                "etag": "7_inhoE6Pu2FVp1NoN3-m8_D4I4",
                 "id": "PLcFcktZ0wnNm-M50HIyz7HJ0B60xdWh9N",
                 "snippet": {
                     "publishedAt": "2019-09-25T01:43:06Z",
@@ -1065,7 +1201,7 @@
                     }
                 },
                 "contentDetails": {
-                    "itemCount": 3
+                    "itemCount": 2
                 }
             },
             {
@@ -1576,7 +1712,7 @@
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "s3cfP-6eymQkLSf8aKLqT-QB_Q0",
+                "etag": "ZeYKOgrA9JPFR_DolMnxp8QjdZo",
                 "id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6",
                 "snippet": {
                     "publishedAt": "2019-04-13T03:20:12Z",
@@ -1617,7 +1753,7 @@
                     }
                 },
                 "contentDetails": {
-                    "itemCount": 63
+                    "itemCount": 70
                 }
             },
             {
@@ -1898,7 +2034,7 @@
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "FgySgIjbfyFi_s40m0COvGAEBUc",
+                "etag": "-PafiYJwBnIyW96bI7KDGEmeQyg",
                 "id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa",
                 "snippet": {
                     "publishedAt": "2019-02-09T04:08:01Z",
@@ -1939,7 +2075,7 @@
                     }
                 },
                 "contentDetails": {
-                    "itemCount": 21
+                    "itemCount": 19
                 }
             },
             {
@@ -1990,7 +2126,7 @@
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "aOU5l-n4EG3EJXNlmG63_WdNkG0",
+                "etag": "ZISPb3q6OkZXLx7XZe227bs8PqY",
                 "id": "PLcFcktZ0wnNlRhiXWzu7Mkn2GC72f2LXp",
                 "snippet": {
                     "publishedAt": "2019-01-15T02:43:29Z",
@@ -2031,7 +2167,7 @@
                     }
                 },
                 "contentDetails": {
-                    "itemCount": 11
+                    "itemCount": 12
                 }
             },
             {
@@ -2128,7 +2264,7 @@
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "VM0g9EtAdSZ9zH8L0HLnnp0w9_A",
+                "etag": "GxoqbhXzdmWxikIHYmA4pJGbzRI",
                 "id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf",
                 "snippet": {
                     "publishedAt": "2018-12-29T04:16:42Z",
@@ -2169,9 +2305,20 @@
                     }
                 },
                 "contentDetails": {
-                    "itemCount": 28
+                    "itemCount": 29
                 }
-            },
+            }
+        ]
+    },
+    {
+        "kind": "youtube#playlistListResponse",
+        "etag": "3HjkDzcKL0PLuktYpzMgMUHUlmg",
+        "prevPageToken": "CDIQAQ",
+        "pageInfo": {
+            "totalResults": 54,
+            "resultsPerPage": 50
+        },
+        "items": [
             {
                 "kind": "youtube#playlist",
                 "etag": "aYzefWW3XdEsPNs0G8X-t7a6xqc",
@@ -2217,18 +2364,7 @@
                 "contentDetails": {
                     "itemCount": 24
                 }
-            }
-        ]
-    },
-    {
-        "kind": "youtube#playlistListResponse",
-        "etag": "mtXJffHBwEAO-ZX7MFjJaMslYCU",
-        "prevPageToken": "CDIQAQ",
-        "pageInfo": {
-            "totalResults": 53,
-            "resultsPerPage": 50
-        },
-        "items": [
+            },
             {
                 "kind": "youtube#playlist",
                 "etag": "arsJAJUXLNYu2IxK7vPOC8t--J4",
@@ -2277,7 +2413,7 @@
             },
             {
                 "kind": "youtube#playlist",
-                "etag": "rAK4-6hQnmOZJ9nPR3nGqL070MA",
+                "etag": "e4YvtUFGdZP5mERxGIsl_iVBSzI",
                 "id": "PLcFcktZ0wnNn0VMRzVqV82s4vKpaTii_W",
                 "snippet": {
                     "publishedAt": "2018-12-07T04:01:35Z",
@@ -2318,7 +2454,7 @@
                     }
                 },
                 "contentDetails": {
-                    "itemCount": 34
+                    "itemCount": 50
                 }
             },
             {

@@ -1,0 +1,2375 @@
+[
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmlsMklEMjA5R0E4QjNKajBGZmI3SS41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "Building an Excel Custom Function Add-In Using the Office API | Pt. 1",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "fz-8idiVQtQ",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnil2ID209GA8B3Jj0Ffb7I"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmlsMklEMjA5R0E4QjNKajBGZmI3SS4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "Building an Excel Custom Function Add-In Using the Office API | Pt. 2",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "a-m_m-rinfI",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnil2ID209GA8B3Jj0Ffb7I"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmlsMklEMjA5R0E4QjNKajBGZmI3SS4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "Building an Excel Custom Function Add-In Using the Office API | Pt. 3",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "ClUcr-UtVAM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnil2ID209GA8B3Jj0Ffb7I"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmlsMklEMjA5R0E4QjNKajBGZmI3SS41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "Building an Excel Custom Function Add-In Using the Office API | Pt. 4",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "5lrfHeN-Elc",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnil2ID209GA8B3Jj0Ffb7I"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmlsMklEMjA5R0E4QjNKajBGZmI3SS4wOTA3OTZBNzVEMTUzOTMy",
+        "playlist_item_title": "Building an Excel Custom Function Add-In Using the Office API | Pt. 5",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "PjhEos6t5mU",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnil2ID209GA8B3Jj0Ffb7I"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmlsMklEMjA5R0E4QjNKajBGZmI3SS4xMkVGQjNCMUM1N0RFNEUx",
+        "playlist_item_title": "Building an Excel Custom Function Add-In Using the Office API | Pt. 6",
+        "playlist_item_position": 5,
+        "playlist_item_video_id": "TjB9Wtu-tRw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnil2ID209GA8B3Jj0Ffb7I"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObDVYN1FuMUpNNGpocklPQnNOajFxYS41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "How to Web Scrape the SEC | Part 1",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "-7I7OAC6ih8",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNl5X7Qn1JM4jhrIOBsNj1qa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObDVYN1FuMUpNNGpocklPQnNOajFxYS4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "How to Web Scrape the SEC | Part 2",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "eut8-iOiJ_Q",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNl5X7Qn1JM4jhrIOBsNj1qa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObDVYN1FuMUpNNGpocklPQnNOajFxYS4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "How to Web Scrape the SEC | Part 3",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "4zE9HjPIqC4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNl5X7Qn1JM4jhrIOBsNj1qa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObDVYN1FuMUpNNGpocklPQnNOajFxYS41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "How to Web Scrape the SEC | Part 4",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "nOlJhZZN6AE",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNl5X7Qn1JM4jhrIOBsNj1qa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obm14NG8zRV8zUjJmOElZV3VoWkRnXy41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "Interactive Brokers API Python Library | Authentication Pt. 2",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "Dmp5M85oBy4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnmx4o3E_3R2f8IYWuhZDg_"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obm14NG8zRV8zUjJmOElZV3VoWkRnXy4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "Interactive Brokers API Python Library | Authentication Pt. 3",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "ivauh3PlmK4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnmx4o3E_3R2f8IYWuhZDg_"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obm14NG8zRV8zUjJmOElZV3VoWkRnXy4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "Interactive Brokers API Python Library | Authentication Pt. 4",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "H-3xK11uyeg",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnmx4o3E_3R2f8IYWuhZDg_"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObXZfT2w4eG10WkhUaktaMlk1dGpZSC41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "Working With The Yelp API In Python | Part One",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "GJf7ccRIK4U",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNmv_Ol8xmtZHTjKZ2Y5tjYH"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObXZfT2w4eG10WkhUaktaMlk1dGpZSC4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "Working With The Yelp API In Python | Part Two",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "jEYu0yCw12s",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNmv_Ol8xmtZHTjKZ2Y5tjYH"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObXZfT2w4eG10WkhUaktaMlk1dGpZSC4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "Working With The Yelp API In Python | Part Three",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "jjAxXUbb8VE",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNmv_Ol8xmtZHTjKZ2Y5tjYH"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObXZfT2w4eG10WkhUaktaMlk1dGpZSC41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "Working With The Yelp GraphQL API In Python | Part One",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "Wdy-9daEd0o",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNmv_Ol8xmtZHTjKZ2Y5tjYH"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObHFQNlZ1MV94SHhSakVpeVRfMzZ4Mi41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "How To Use The YouTube API | Part One",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "xlLc_akmYHM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlqP6Vu1_xHxRjEiyT_36x2"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObHFQNlZ1MV94SHhSakVpeVRfMzZ4Mi4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "How I Manage My YouTube Channel Using Python | Introduction",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "8Yh0j6jttrA",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlqP6Vu1_xHxRjEiyT_36x2"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObllZRFhneUduM1dPWncxbHg4UXhJNS41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "How to Use the TD Ameritrade Streaming API | Part 1",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "7S0gBn5cjYM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnYYDXgyGn3WOZw1lx8QxI5"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObllZRFhneUduM1dPWncxbHg4UXhJNS4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "How to Use the TD Ameritrade Streaming API | Part 2",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "HNS9B-icOww",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnYYDXgyGn3WOZw1lx8QxI5"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObllZRFhneUduM1dPWncxbHg4UXhJNS4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "How to Use the TD Ameritrade Streaming API | Part 3",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "EvtbhouHUYI",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnYYDXgyGn3WOZw1lx8QxI5"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObllZRFhneUduM1dPWncxbHg4UXhJNS41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "How to Use the TD Ameritrade Streaming API | Part 4",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "IK3WkBeCDew",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnYYDXgyGn3WOZw1lx8QxI5"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObllZRFhneUduM1dPWncxbHg4UXhJNS4wOTA3OTZBNzVEMTUzOTMy",
+        "playlist_item_title": "How to Use the TD Ameritrade Streaming API | Part 5",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "q19zqhwEQAM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnYYDXgyGn3WOZw1lx8QxI5"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObklOc3k2TkJTUWNaVEhheXpDT0xCRi41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "How to Use the TD Ameritrade API | Part 1",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "qJ94sSyPGBw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnINsy6NBSQcZTHayzCOLBF"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObklOc3k2TkJTUWNaVEhheXpDT0xCRi4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "How to Use the TD Ameritrade API | Part 2",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "sVA0PeuDE4I",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnINsy6NBSQcZTHayzCOLBF"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObklOc3k2TkJTUWNaVEhheXpDT0xCRi4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "How to Use the TD Ameritrade API | Part 3",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "KPqoC1pt9Vo",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnINsy6NBSQcZTHayzCOLBF"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObERMYmdkMjk0WTVqZTVMY1BuLTIzNy41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "How To Use Google Places API In Python",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "qkSmuquMueA",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlDLbgd294Y5je5LcPn-237"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObERMYmdkMjk0WTVqZTVMY1BuLTIzNy4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "How To Use Google Places Photo API",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "t2BYThHlk3k",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlDLbgd294Y5je5LcPn-237"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa1BIT3Q2WENKdTlpc3d5Y0hZRGxZQy41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "Interactive Brokers API Python Library | Background & Setup Pt. 1",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "nz6F8eNbk1A",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkPHOt6XCJu9iswycHYDlYC"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa1BIT3Q2WENKdTlpc3d5Y0hZRGxZQy4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "Interactive Brokers API Python Library | Background & Setup Pt. 2",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "ig5kPJMIALo",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkPHOt6XCJu9iswycHYDlYC"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa1BIT3Q2WENKdTlpc3d5Y0hZRGxZQy4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "Using the Interactive Brokers Python API Library Pt. 1",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "cAyspPycVZE",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkPHOt6XCJu9iswycHYDlYC"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa1BIT3Q2WENKdTlpc3d5Y0hZRGxZQy41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "Interactive Brokers API Python Library | Authentication Pt. 2",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "Dmp5M85oBy4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkPHOt6XCJu9iswycHYDlYC"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa1BIT3Q2WENKdTlpc3d5Y0hZRGxZQy4wOTA3OTZBNzVEMTUzOTMy",
+        "playlist_item_title": "Interactive Brokers API Python Library | Authentication Pt. 3",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "ivauh3PlmK4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkPHOt6XCJu9iswycHYDlYC"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0UzZ1l6QkJJUXBBdlprdnVKdEJjTS4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "Channel Updates - January 2020",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "Ki1EJY3NmJA",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkE3gYzBBIQpAvZkvuJtBcM"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObDUzSDdUZlJaLW5EQXdTaml6Mk5wSy41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "How To Work With a Worksheet in the Office JavaScript API",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "JFYYeCTc77Y",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNl53H7TfRZ-nDAwSjiz2NpK"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObDUzSDdUZlJaLW5EQXdTaml6Mk5wSy4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "Working With the Workbook Object in the Office JavaScript API",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "UtZ4zekkP0M",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNl53H7TfRZ-nDAwSjiz2NpK"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObDUzSDdUZlJaLW5EQXdTaml6Mk5wSy4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "How To Work With Excel Ranges in the Office JavaScript API",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "qT4lxT6rP2E",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNl53H7TfRZ-nDAwSjiz2NpK"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObDUzSDdUZlJaLW5EQXdTaml6Mk5wSy41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "How To Select Ranges of Cells in the Microsoft Office JavaScript API",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "YBxWU6rmFcs",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNl53H7TfRZ-nDAwSjiz2NpK"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObDUzSDdUZlJaLW5EQXdTaml6Mk5wSy4wOTA3OTZBNzVEMTUzOTMy",
+        "playlist_item_title": "How To Work With Tables in the Office JavaScript API",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "Gug1DHz3_qc",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNl53H7TfRZ-nDAwSjiz2NpK"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObDUzSDdUZlJaLW5EQXdTaml6Mk5wSy4xMkVGQjNCMUM1N0RFNEUx",
+        "playlist_item_title": "Working With Pivot Tables in the Excel JavaScript API | Part 1",
+        "playlist_item_position": 5,
+        "playlist_item_video_id": "xoeCynu9vPI",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNl53H7TfRZ-nDAwSjiz2NpK"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObDUzSDdUZlJaLW5EQXdTaml6Mk5wSy41MzJCQjBCNDIyRkJDN0VD",
+        "playlist_item_title": "Conditional Formatting in the Excel JavaScript API",
+        "playlist_item_position": 6,
+        "playlist_item_video_id": "CcsiTMlkpzQ",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNl53H7TfRZ-nDAwSjiz2NpK"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObDUzSDdUZlJaLW5EQXdTaml6Mk5wSy5DQUNERDQ2NkIzRUQxNTY1",
+        "playlist_item_title": "How to Build Custom Excel Functions in the Excel JavaScript API",
+        "playlist_item_position": 7,
+        "playlist_item_video_id": "dtR54AX0zQ0",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNl53H7TfRZ-nDAwSjiz2NpK"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnowN2VXYzdONWFvMWR5aVhvVi1pYi41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "Intro to Pythonnet | Fundamentals",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "J7TETPbLw7c",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnz07eWc7N5ao1dyiXoV-ib"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnowN2VXYzdONWFvMWR5aVhvVi1pYi4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "Building an Excel Library for Python | System.Reflection Pt. 3",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "hbeC785aiL8",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnz07eWc7N5ao1dyiXoV-ib"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnowN2VXYzdONWFvMWR5aVhvVi1pYi4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "How to Build Windows Forms Applications in Python | Pt. 1",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "edQ_pqxTOLE",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnz07eWc7N5ao1dyiXoV-ib"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnowN2VXYzdONWFvMWR5aVhvVi1pYi41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "How to Build Windows Forms Applications in Python | Pt. 2",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "nmQ4bmtsN2o",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnz07eWc7N5ao1dyiXoV-ib"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnowN2VXYzdONWFvMWR5aVhvVi1pYi4wOTA3OTZBNzVEMTUzOTMy",
+        "playlist_item_title": "How to Build Windows Forms Applications in Python | Pt. 4",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "fCrAkJiYd0I",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnz07eWc7N5ao1dyiXoV-ib"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnowN2VXYzdONWFvMWR5aVhvVi1pYi4xMkVGQjNCMUM1N0RFNEUx",
+        "playlist_item_title": "How to Build Windows Forms Applications in Python | Pt. 4",
+        "playlist_item_position": 5,
+        "playlist_item_video_id": "fCrAkJiYd0I",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnz07eWc7N5ao1dyiXoV-ib"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnowN2VXYzdONWFvMWR5aVhvVi1pYi5GNjNDRDREMDQxOThCMDQ2",
+        "playlist_item_title": "How to Build Windows Forms Applications in Python | Pt. 4",
+        "playlist_item_position": 6,
+        "playlist_item_video_id": "fCrAkJiYd0I",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnz07eWc7N5ao1dyiXoV-ib"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnowN2VXYzdONWFvMWR5aVhvVi1pYi45NDk1REZENzhEMzU5MDQz",
+        "playlist_item_title": "How to Build Windows Forms Applications in Python | Pt. 4",
+        "playlist_item_position": 7,
+        "playlist_item_video_id": "fCrAkJiYd0I",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnz07eWc7N5ao1dyiXoV-ib"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnowN2VXYzdONWFvMWR5aVhvVi1pYi5DQUNERDQ2NkIzRUQxNTY1",
+        "playlist_item_title": "How to Build Windows Forms Applications in Python | Pt. 4",
+        "playlist_item_position": 8,
+        "playlist_item_video_id": "fCrAkJiYd0I",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnz07eWc7N5ao1dyiXoV-ib"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnowN2VXYzdONWFvMWR5aVhvVi1pYi41MzJCQjBCNDIyRkJDN0VD",
+        "playlist_item_title": "How to Build Windows Forms Applications in Python | Pt. 3",
+        "playlist_item_position": 9,
+        "playlist_item_video_id": "0lH9f_dVUyg",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnz07eWc7N5ao1dyiXoV-ib"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0g2Sk9oVDRjcTR1cy03enFCVkFfQi41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "Working with Excel Files in SQL Server",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "Jj_n2YP00Jc",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkH6JOhT4cq4us-7zqBVA_B"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0g2Sk9oVDRjcTR1cy03enFCVkFfQi4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "How to make API Request in SQL Server | Pt. 1",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "93q8joTcRpQ",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkH6JOhT4cq4us-7zqBVA_B"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0g2Sk9oVDRjcTR1cy03enFCVkFfQi4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "How to make API Request in SQL Server | Pt. 2",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "IUWfBgQT6kw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkH6JOhT4cq4us-7zqBVA_B"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0g2Sk9oVDRjcTR1cy03enFCVkFfQi41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "How to make API Request in SQL Server | Pt. 2",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "IUWfBgQT6kw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkH6JOhT4cq4us-7zqBVA_B"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0g2Sk9oVDRjcTR1cy03enFCVkFfQi4wOTA3OTZBNzVEMTUzOTMy",
+        "playlist_item_title": "Using Pivot in TSQL | Pt. 1",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "YXN5aZhPE7E",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkH6JOhT4cq4us-7zqBVA_B"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0g2Sk9oVDRjcTR1cy03enFCVkFfQi4xMkVGQjNCMUM1N0RFNEUx",
+        "playlist_item_title": "Using Pivot in TSQL | Pt. 2",
+        "playlist_item_position": 5,
+        "playlist_item_video_id": "LgFpeOK502E",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkH6JOhT4cq4us-7zqBVA_B"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObEVoTFl0VFhuSHJzZTI2Tm5seTZnNy41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "Building User Forms in Excel VBA | Export Manager Pt. 1",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "RLciyc8ZFfY",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlEhLYtTXnHrse26Nnly6g7"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObEVoTFl0VFhuSHJzZTI2Tm5seTZnNy4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "Building User Forms in Excel VBA | Export Manager Pt. 2",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "9kzPijGda3E",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlEhLYtTXnHrse26Nnly6g7"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObEVoTFl0VFhuSHJzZTI2Tm5seTZnNy4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "Building User Forms in Excel VBA | Export Manager Pt. 3",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "IcQ0Rs8_Eh8",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlEhLYtTXnHrse26Nnly6g7"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObEVoTFl0VFhuSHJzZTI2Tm5seTZnNy41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "Building User Forms in Excel VBA | Export Manager Pt. 4",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "Ey1cTaMYf50",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlEhLYtTXnHrse26Nnly6g7"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObEVoTFl0VFhuSHJzZTI2Tm5seTZnNy4wOTA3OTZBNzVEMTUzOTMy",
+        "playlist_item_title": "How to Build an SQL User Form in Excel VBA | Part 1",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "at3FiNdVViQ",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlEhLYtTXnHrse26Nnly6g7"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObEVoTFl0VFhuSHJzZTI2Tm5seTZnNy4xMkVGQjNCMUM1N0RFNEUx",
+        "playlist_item_title": "How to Build an SQL User Form in Excel VBA | Part 2",
+        "playlist_item_position": 5,
+        "playlist_item_video_id": "6s0QHb-3yX0",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlEhLYtTXnHrse26Nnly6g7"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObEVoTFl0VFhuSHJzZTI2Tm5seTZnNy41MzJCQjBCNDIyRkJDN0VD",
+        "playlist_item_title": "How to Build an SQL User Form in Excel VBA | Part 3",
+        "playlist_item_position": 6,
+        "playlist_item_video_id": "6fOecwhXRFM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlEhLYtTXnHrse26Nnly6g7"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObGRqR0lWWjZjRlZoUzNackUzZm1ISi41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "M Programming Language: Introduction",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "BaEKOCf2Tcc",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNldjGIVZ6cFVhS3ZrE3fmHJ"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObGRqR0lWWjZjRlZoUzNackUzZm1ISi4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "M Programming Language: Fundamentals",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "I3zDGgpFyrs",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNldjGIVZ6cFVhS3ZrE3fmHJ"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObGRqR0lWWjZjRlZoUzNackUzZm1ISi4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "M Programming Language Tutorial: Records",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "PidtP2W8kbM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNldjGIVZ6cFVhS3ZrE3fmHJ"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObGRqR0lWWjZjRlZoUzNackUzZm1ISi41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "M Programming Language: Working with Data Sources",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "DdOzI_ebPwg",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNldjGIVZ6cFVhS3ZrE3fmHJ"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObGRqR0lWWjZjRlZoUzNackUzZm1ISi4xMkVGQjNCMUM1N0RFNEUx",
+        "playlist_item_title": "Working With Excel VBA Connection Objects | Power Query Connections",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "K2-ob6FcAAc",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNldjGIVZ6cFVhS3ZrE3fmHJ"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObS1NNTBISXl6N0hKMEI2MHhkV2g5Ti41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "How to Work With the Command Bar Object in VBA",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "nMZvFzVIW-c",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNm-M50HIyz7HJ0B60xdWh9N"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObS1NNTBISXl6N0hKMEI2MHhkV2g5Ti4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "How to Work With the Command Bar Control Object in VBA",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "LsCoII_VZMk",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNm-M50HIyz7HJ0B60xdWh9N"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObS1NNTBISXl6N0hKMEI2MHhkV2g5Ti4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "How to Work With the Command Bar Control Object in VBA",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "LsCoII_VZMk",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNm-M50HIyz7HJ0B60xdWh9N"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObTBWT3JxNDBJaGtKVjlmd3A1Szd3Qi41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "Making API Requests in VBA | JSON",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "BRB2SlsBEUI",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNm0VOrq40IhkJV9fwp5K7wB"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa1lDd3NmLXZaaW9na05oZDRUVDFjMi41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "Linked List in Python | Part One",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "lAbwwDIRVac",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkYCwsf-vZiogkNhd4TT1c2"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa1lDd3NmLXZaaW9na05oZDRUVDFjMi4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "Linked List in Python | Part Two",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "aYQZK3Hq0-Y",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkYCwsf-vZiogkNhd4TT1c2"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa1lDd3NmLXZaaW9na05oZDRUVDFjMi4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "Linked List in Python | Part Three",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "VJtOBM7LVaY",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkYCwsf-vZiogkNhd4TT1c2"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa1lDd3NmLXZaaW9na05oZDRUVDFjMi41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "Linked List in Python | Part Four",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "wCVy0qRcPOs",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkYCwsf-vZiogkNhd4TT1c2"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa1lDd3NmLXZaaW9na05oZDRUVDFjMi4wOTA3OTZBNzVEMTUzOTMy",
+        "playlist_item_title": "Doubly Linked List in Python | Part Four",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "0BTZB5DU2OE",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkYCwsf-vZiogkNhd4TT1c2"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa1lDd3NmLXZaaW9na05oZDRUVDFjMi4xMkVGQjNCMUM1N0RFNEUx",
+        "playlist_item_title": "Doubly Linked List in Python | Part Two",
+        "playlist_item_position": 5,
+        "playlist_item_video_id": "galDq38nlWg",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkYCwsf-vZiogkNhd4TT1c2"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa1lDd3NmLXZaaW9na05oZDRUVDFjMi41MzJCQjBCNDIyRkJDN0VD",
+        "playlist_item_title": "Doubly Linked List in Python | Part One",
+        "playlist_item_position": 6,
+        "playlist_item_video_id": "LrCAokPC12g",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkYCwsf-vZiogkNhd4TT1c2"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa1lDd3NmLXZaaW9na05oZDRUVDFjMi5DQUNERDQ2NkIzRUQxNTY1",
+        "playlist_item_title": "Circular Linked List in Python | Part One",
+        "playlist_item_position": 7,
+        "playlist_item_video_id": "t8lyrfPStN0",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkYCwsf-vZiogkNhd4TT1c2"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa1lDd3NmLXZaaW9na05oZDRUVDFjMi45NDk1REZENzhEMzU5MDQz",
+        "playlist_item_title": "Circular Linked List in Python | Part Three",
+        "playlist_item_position": 8,
+        "playlist_item_video_id": "TZoKsJsCMD4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkYCwsf-vZiogkNhd4TT1c2"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa1lDd3NmLXZaaW9na05oZDRUVDFjMi5GNjNDRDREMDQxOThCMDQ2",
+        "playlist_item_title": "Circular Linked List in Python | Part Three",
+        "playlist_item_position": 9,
+        "playlist_item_video_id": "TZoKsJsCMD4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkYCwsf-vZiogkNhd4TT1c2"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa1lDd3NmLXZaaW9na05oZDRUVDFjMi40NzZCMERDMjVEN0RFRThB",
+        "playlist_item_title": "Circular Linked List in Python | Part Two",
+        "playlist_item_position": 10,
+        "playlist_item_video_id": "EuP2hHJ36Kg",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkYCwsf-vZiogkNhd4TT1c2"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnpBUVpMNG1fLTFYYzY2TWZuUGVncS41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "Clustering Stocks With Python | Part 1 Introduction",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "dhV8UWI1sjc",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnzAQZL4m_-1Xc66MfnPegq"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnpBUVpMNG1fLTFYYzY2TWZuUGVncS4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "Clustering Stocks With Python | Part 2 Data Collection",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "S-vNu4uO-us",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnzAQZL4m_-1Xc66MfnPegq"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnpBUVpMNG1fLTFYYzY2TWZuUGVncS4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "Clustering Stocks With Python | Part 3 Data Transformation",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "gF-oOVs1Ams",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnzAQZL4m_-1Xc66MfnPegq"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnpBUVpMNG1fLTFYYzY2TWZuUGVncS41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "Clustering Stocks With Python | Part 4 PCA & Plotting",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "e9tbHfDqi3I",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnzAQZL4m_-1Xc66MfnPegq"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnpBUVpMNG1fLTFYYzY2TWZuUGVncS4wOTA3OTZBNzVEMTUzOTMy",
+        "playlist_item_title": "Clustering Stocks With Python | Part 5 Building the Model",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "KGP4zL5DYD0",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnzAQZL4m_-1Xc66MfnPegq"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnpBUVpMNG1fLTFYYzY2TWZuUGVncS4xMkVGQjNCMUM1N0RFNEUx",
+        "playlist_item_title": "Clustering Stocks With Python | Part 6 Model Evaluation",
+        "playlist_item_position": 5,
+        "playlist_item_video_id": "vlvolfzMO_I",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnzAQZL4m_-1Xc66MfnPegq"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazI5Vmw0MDZyXzV2NWJ2YTVieTBUQi41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "How to Work With a Document in the Word JavaScript API",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "22P43aerrho",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk29Vl406r_5v5bva5by0TB"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazI5Vmw0MDZyXzV2NWJ2YTVieTBUQi4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "Working With Lists in the Word JavaScript API",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "IBaTQ_qRaak",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk29Vl406r_5v5bva5by0TB"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazI5Vmw0MDZyXzV2NWJ2YTVieTBUQi4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "Working with Tables in the Word JavaScript API",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "9u6MGqf1J_I",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk29Vl406r_5v5bva5by0TB"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obm4tczl5dTdpdXlOdUVKaEV3cUJpRy41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "Web Scraping With VBA | Part One",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "inXUOu5bwAE",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnn-s9yu7iuyNuEJhEwqBiG"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obm4tczl5dTdpdXlOdUVKaEV3cUJpRy4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "Web Scraping With VBA | Part Two",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "7_9gRf4lC0g",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnn-s9yu7iuyNuEJhEwqBiG"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obm4tczl5dTdpdXlOdUVKaEV3cUJpRy4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "Web Scraping With VBA | Part Three",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "jDd1u1Q0xMs",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnn-s9yu7iuyNuEJhEwqBiG"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obm4tczl5dTdpdXlOdUVKaEV3cUJpRy41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "Web Scraping With VBA | Scraping Data Tables",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "Z7XwlH6Mes4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnn-s9yu7iuyNuEJhEwqBiG"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObWlSUmVqdlMwajIxNnF6LVRjYjlOcS41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "Introduction to the Office JavaScript API & Script Lab",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "ajlYrtMATnE",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNmiRRejvS0j216qz-Tcb9Nq"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObWlSUmVqdlMwajIxNnF6LVRjYjlOcS4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "Office JavaScript API: Asynchronous & Synchronous Programming",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "5d0Gm27wjQA",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNmiRRejvS0j216qz-Tcb9Nq"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObWlSUmVqdlMwajIxNnF6LVRjYjlOcS4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "Using Object Methods & Properties in the Office JavaScript API",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "F-ORtU1IE_4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNmiRRejvS0j216qz-Tcb9Nq"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObDNGajIzQzRjNUFhTHJQR2g1YWlCdi41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "How to Work With Office Applications in Iron Python",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "iH_XM1_rePA",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNl3Fj23C4c5AaLrPGh5aiBv"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa1c5c193c0ZWUG1KV2dEaGZ6TjdoSS41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "How to Use PYODBC With SQL Servers in Python",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "eDXX5evRgQw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkW9s_wsFVPmJWgDhfzN7hI"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa1c5c193c0ZWUG1KV2dEaGZ6TjdoSS4wOTA3OTZBNzVEMTUzOTMy",
+        "playlist_item_title": "How to Use PYODBC With Excel Workbooks in Python",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "kzxfVj0Q93k",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkW9s_wsFVPmJWgDhfzN7hI"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa1c5c193c0ZWUG1KV2dEaGZ6TjdoSS4xMkVGQjNCMUM1N0RFNEUx",
+        "playlist_item_title": "How to Use PYODBC With Access Databases in Python",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "FN_ukEXnfzA",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkW9s_wsFVPmJWgDhfzN7hI"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0hHWXVTLXA4d1V1N1Nyek83VEtSMy5GNjNDRDREMDQxOThCMDQ2",
+        "playlist_item_title": "How To Get All Running COM Objects in Pythoncom",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "MTFCV2qbAIw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkHGYuS-p8wUu7SrzO7TKR3"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0hHWXVTLXA4d1V1N1Nyek83VEtSMy40NzZCMERDMjVEN0RFRThB",
+        "playlist_item_title": "How to Use the PyIDispatch Object in Pythoncom",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "tUthExQRzOM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkHGYuS-p8wUu7SrzO7TKR3"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0hHWXVTLXA4d1V1N1Nyek83VEtSMy5EMEEwRUY5M0RDRTU3NDJC",
+        "playlist_item_title": "How to Use the PyITypeInfo Object in Pythoncom",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "3jkD37Wv9dU",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkHGYuS-p8wUu7SrzO7TKR3"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0hHWXVTLXA4d1V1N1Nyek83VEtSMy41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "Using Events in Python Win32 | Part 1",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "wPONxYsaMSM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkHGYuS-p8wUu7SrzO7TKR3"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0hHWXVTLXA4d1V1N1Nyek83VEtSMy4wOTA3OTZBNzVEMTUzOTMy",
+        "playlist_item_title": "Using Events in Python Win32 | Part 2",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "2s3ZRJITqe8",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkHGYuS-p8wUu7SrzO7TKR3"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0hHWXVTLXA4d1V1N1Nyek83VEtSMy4xMkVGQjNCMUM1N0RFNEUx",
+        "playlist_item_title": "How To Convert A Python File to an EXE File",
+        "playlist_item_position": 5,
+        "playlist_item_video_id": "g7vmeEA9oVs",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkHGYuS-p8wUu7SrzO7TKR3"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa080Y2drMk40bUZ2YlhzTXU0bkZBYy4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "Splinter Foundations for Python",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "ApA7EVwSzg0",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkO4cgk2N4mFvbXsMu4nFAc"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa01xblVpOHpVQVBsT19zd3QtM0dpSi4xMkVGQjNCMUM1N0RFNEUx",
+        "playlist_item_title": "Multiple Regression Analysis in Python | Part 1",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "M32ghIt1c88",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkMqnUi8zUAPlO_swt-3GiJ"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa01xblVpOHpVQVBsT19zd3QtM0dpSi41MzJCQjBCNDIyRkJDN0VD",
+        "playlist_item_title": "Multiple Regression Analysis in Python | Part 2",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "8DhvVs59It4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkMqnUi8zUAPlO_swt-3GiJ"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa01xblVpOHpVQVBsT19zd3QtM0dpSi5DQUNERDQ2NkIzRUQxNTY1",
+        "playlist_item_title": "Multiple Regression Analysis in Python | Part 3",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "YQf23JYX3Zw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkMqnUi8zUAPlO_swt-3GiJ"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa01xblVpOHpVQVBsT19zd3QtM0dpSi45NDk1REZENzhEMzU5MDQz",
+        "playlist_item_title": "Multiple Regression Analysis in Python | Part 4",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "UTfoj_7RU48",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkMqnUi8zUAPlO_swt-3GiJ"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa01xblVpOHpVQVBsT19zd3QtM0dpSi5GNjNDRDREMDQxOThCMDQ2",
+        "playlist_item_title": "Multiple Regression Analysis in Python | Part 5",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "j1sjqEStECQ",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkMqnUi8zUAPlO_swt-3GiJ"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "How to Web Scrape the SEC | Part 1",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "-7I7OAC6ih8",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "How to Web Scrape the SEC | Part 2",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "eut8-iOiJ_Q",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "How to Web Scrape the SEC | Part 3",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "4zE9HjPIqC4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "How to Web Scrape the SEC | Part 4",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "nOlJhZZN6AE",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi4wOTA3OTZBNzVEMTUzOTMy",
+        "playlist_item_title": "How to use the EDGAR Database in Python | Building Requests",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "VEFH2A_LLQs",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi4xMkVGQjNCMUM1N0RFNEUx",
+        "playlist_item_title": "How to use the EDGAR Database in Python | Parsing Responses",
+        "playlist_item_position": 5,
+        "playlist_item_video_id": "4PMEBk9bZSo",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi41MzJCQjBCNDIyRkJDN0VD",
+        "playlist_item_title": "Parsing SEC Filings (Newer Ones) in Python | Part 1",
+        "playlist_item_position": 6,
+        "playlist_item_video_id": "TxUmufNnIaA",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi5DQUNERDQ2NkIzRUQxNTY1",
+        "playlist_item_title": "Parsing SEC Filings (Newer Ones) in Python | Part 2",
+        "playlist_item_position": 7,
+        "playlist_item_video_id": "Wi9PPoS9cxI",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi45NDk1REZENzhEMzU5MDQz",
+        "playlist_item_title": "Parsing SEC Filings (Newer Ones) in Python | Part 3",
+        "playlist_item_position": 8,
+        "playlist_item_video_id": "ak_1TG_kuDU",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi5GNjNDRDREMDQxOThCMDQ2",
+        "playlist_item_title": "Parsing SEC Filings (Newer Ones) in Python | Part 4",
+        "playlist_item_position": 9,
+        "playlist_item_video_id": "bWRH8K7Z-_c",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi40NzZCMERDMjVEN0RFRThB",
+        "playlist_item_title": "Parsing SEC Filings (Newer Ones) in Python | Part 5",
+        "playlist_item_position": 10,
+        "playlist_item_video_id": "-IFt1g-QE_4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi5EMEEwRUY5M0RDRTU3NDJC",
+        "playlist_item_title": "Exploring SEC Data Sources",
+        "playlist_item_position": 11,
+        "playlist_item_video_id": "s7N57tCad8k",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi45ODRDNTg0QjA4NkFBNkQy",
+        "playlist_item_title": "Scraping SEC XBRL Documents | Part 1",
+        "playlist_item_position": 12,
+        "playlist_item_video_id": "dJymnTL3hgc",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi4zMDg5MkQ5MEVDMEM1NTg2",
+        "playlist_item_title": "Scraping SEC XBRL Documents | Part 2",
+        "playlist_item_position": 13,
+        "playlist_item_video_id": "GhjtIn0B2II",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi41Mzk2QTAxMTkzNDk4MDhF",
+        "playlist_item_title": "Scraping SEC XBRL Documents | Part 3",
+        "playlist_item_position": 14,
+        "playlist_item_video_id": "1-w7yh1Gi28",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi5EQUE1NTFDRjcwMDg0NEMz",
+        "playlist_item_title": "Scraping SEC XBRL Documents | Part 4",
+        "playlist_item_position": 15,
+        "playlist_item_video_id": "rAwVjYsLgCE",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi41QTY1Q0UxMTVCODczNThE",
+        "playlist_item_title": "How to Use the TD Ameritrade API | Part 1",
+        "playlist_item_position": 16,
+        "playlist_item_video_id": "qJ94sSyPGBw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi4yMUQyQTQzMjRDNzMyQTMy",
+        "playlist_item_title": "How to Use the TD Ameritrade API | Part 2",
+        "playlist_item_position": 17,
+        "playlist_item_video_id": "sVA0PeuDE4I",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi45RTgxNDRBMzUwRjQ0MDhC",
+        "playlist_item_title": "How to Use the TD Ameritrade API | Part 3",
+        "playlist_item_position": 18,
+        "playlist_item_video_id": "KPqoC1pt9Vo",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi5ENDU4Q0M4RDExNzM1Mjcy",
+        "playlist_item_title": "How to Use the TD Ameritrade Streaming API | Part 1",
+        "playlist_item_position": 19,
+        "playlist_item_video_id": "7S0gBn5cjYM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi4yMDhBMkNBNjRDMjQxQTg1",
+        "playlist_item_title": "How to Use the TD Ameritrade Streaming API | Part 2",
+        "playlist_item_position": 20,
+        "playlist_item_video_id": "HNS9B-icOww",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi5GM0Q3M0MzMzY5NTJFNTdE",
+        "playlist_item_title": "How to Use the TD Ameritrade Streaming API | Part 3",
+        "playlist_item_position": 21,
+        "playlist_item_video_id": "EvtbhouHUYI",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi4zRjM0MkVCRTg0MkYyQTM0",
+        "playlist_item_title": "How to Use the TD Ameritrade Streaming API | Part 4",
+        "playlist_item_position": 22,
+        "playlist_item_video_id": "IK3WkBeCDew",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi45NzUwQkI1M0UxNThBMkU0",
+        "playlist_item_title": "How to Use the TD Ameritrade Streaming API | Part 5",
+        "playlist_item_position": 23,
+        "playlist_item_video_id": "q19zqhwEQAM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi5DNzE1RjZEMUZCMjA0RDBB",
+        "playlist_item_title": "Building a TD Ameritrade API Client Library in Python: Authentication Pt. 1",
+        "playlist_item_position": 24,
+        "playlist_item_video_id": "sGuY91IyDlw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi43MTI1NDIwOTMwQjIxMzNG",
+        "playlist_item_title": "Building a TD Ameritrade API Client Library in Python: Authentication Pt. 2",
+        "playlist_item_position": 25,
+        "playlist_item_video_id": "C69Uv5OSoII",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi5DQ0MyQ0Y4Mzg0M0VGOEYw",
+        "playlist_item_title": "Building a TD Ameritrade API Client Library in Python: Authentication Pt. 3",
+        "playlist_item_position": 26,
+        "playlist_item_video_id": "wS_8CxOZbkc",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi4yQUE2Q0JEMTk4NTM3RTZC",
+        "playlist_item_title": "Building a TD Ameritrade API Client Library in Python: Authentication Pt. 4",
+        "playlist_item_position": 27,
+        "playlist_item_video_id": "vRVdY86HEtk",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi5DMkU4NTY1QUFGQTYwMDE3",
+        "playlist_item_title": "Building a TD Ameritrade API Client Library in Python: Authentication Pt. 5",
+        "playlist_item_position": 28,
+        "playlist_item_video_id": "PlzdIV3ZeG0",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi44Mjc5REFBRUE2MTdFRDU0",
+        "playlist_item_title": "Building a TD Ameritrade API Client Library in Python: Data Requests Pt. 1",
+        "playlist_item_position": 29,
+        "playlist_item_video_id": "ZBleNoKLTSI",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi43NDhFRTgwOTRERTU4Rjg3",
+        "playlist_item_title": "Building a TD Ameritrade API Client Library in Python: Data Requests Pt. 2",
+        "playlist_item_position": 30,
+        "playlist_item_video_id": "SOiVEnXkX9w",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi41QUZGQTY5OTE4QTREQUU4",
+        "playlist_item_title": "TD Ameritrade API Python Library: Streaming Pt. 1",
+        "playlist_item_position": 31,
+        "playlist_item_video_id": "u2KHcvMcbIw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi4zRDBDOEZDOUM0MDY5NEEz",
+        "playlist_item_title": "TD Ameritrade API Python Library: Streaming Pt. 2",
+        "playlist_item_position": 32,
+        "playlist_item_video_id": "f_wFhvCDVqY",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi5CMEQ2Mjk5NTc3NDZFRUNB",
+        "playlist_item_title": "TD Ameritrade API Python Library: Streaming Pt. 3",
+        "playlist_item_position": 33,
+        "playlist_item_video_id": "1-Ryjrh3Ckg",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi42MTI4Njc2QjM1RjU1MjlG",
+        "playlist_item_title": "Predicting Stock Price Movement With Random Forests | Data Preprocessing",
+        "playlist_item_position": 34,
+        "playlist_item_video_id": "W2hXbqnrUyY",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi45RjNFMDhGQ0Q2RkFCQTc1",
+        "playlist_item_title": "Predicting Stock Price Movement With Random Forests | Indicators",
+        "playlist_item_position": 35,
+        "playlist_item_video_id": "bdEQwJ6SPnA",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi40QTA3NTU2RkM1QzlCMzYx",
+        "playlist_item_title": "Predicting Stock Price Movement With Random Forests | Building the Model",
+        "playlist_item_position": 36,
+        "playlist_item_video_id": "E2LX_hUHMn0",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi5BRjJDODk5REM0NjkzMUIy",
+        "playlist_item_title": "Predicting Stock Price Movement With Random Forests | Model Evaluation",
+        "playlist_item_position": 37,
+        "playlist_item_video_id": "iJmteST6fP8",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi4xOTEzQzhBQzU3MDNDNjcz",
+        "playlist_item_title": "Predicting Stock Price Movement With Random Forests | Model Improvement",
+        "playlist_item_position": 38,
+        "playlist_item_video_id": "ioUtR92tDAA",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi5GNDg1Njc1QzZERjlFRjE5",
+        "playlist_item_title": "How to Build a Linear Regression Model in Python | Part 1",
+        "playlist_item_position": 39,
+        "playlist_item_video_id": "MRm5sBfdBBQ",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi4zQzFBN0RGNzNFREFCMjBE",
+        "playlist_item_title": "How to Build a Linear Regression Model in Python | Part 2",
+        "playlist_item_position": 40,
+        "playlist_item_video_id": "KKmu960FS2Y",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi45NkVENTkxRDdCQUFBMDY4",
+        "playlist_item_title": "How to Build a Linear Regression Model in Python | Part 3",
+        "playlist_item_position": 41,
+        "playlist_item_video_id": "XbpxY_pskZM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi5DNkMwRUI2MkI4QkI4NDFG",
+        "playlist_item_title": "How to Build a Linear Regression Model in Python | Part 4",
+        "playlist_item_position": 42,
+        "playlist_item_video_id": "O56RCPIBb24",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi5DRUQwODMxQzUyRTlGRkY3",
+        "playlist_item_title": "Multiple Regression Analysis in Python | Part 1",
+        "playlist_item_position": 43,
+        "playlist_item_video_id": "M32ghIt1c88",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi41MzY4MzcwOUFFRUU3QzEx",
+        "playlist_item_title": "Multiple Regression Analysis in Python | Part 2",
+        "playlist_item_position": 44,
+        "playlist_item_video_id": "8DhvVs59It4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi4yQjZFRkExQjFGODk3RUFD",
+        "playlist_item_title": "Multiple Regression Analysis in Python | Part 3",
+        "playlist_item_position": 45,
+        "playlist_item_video_id": "YQf23JYX3Zw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi4yQUJFNUVCMzVDNjcxRTlF",
+        "playlist_item_title": "Multiple Regression Analysis in Python | Part 4",
+        "playlist_item_position": 46,
+        "playlist_item_video_id": "UTfoj_7RU48",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi40QzRDOEU0QUYwNUIxN0M1",
+        "playlist_item_title": "Multiple Regression Analysis in Python | Part 5",
+        "playlist_item_position": 47,
+        "playlist_item_video_id": "j1sjqEStECQ",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi41RTNBREYwMkI5QzU3RkY2",
+        "playlist_item_title": "Interactive Brokers API Python Library | Background & Setup Pt. 1",
+        "playlist_item_position": 48,
+        "playlist_item_video_id": "nz6F8eNbk1A",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi5ENjI1QUI0MDI5NEQzODFE",
+        "playlist_item_title": "Interactive Brokers API Python Library | Background & Setup Pt. 2",
+        "playlist_item_position": 49,
+        "playlist_item_video_id": "ig5kPJMIALo",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi44QzVGQUU2QjE2NDgxM0M4",
+        "playlist_item_title": "Interactive Brokers API Python Library | Authentication Pt. 2",
+        "playlist_item_position": 50,
+        "playlist_item_video_id": "Dmp5M85oBy4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi4xMzgwMzBERjQ4NjEzNUE5",
+        "playlist_item_title": "Interactive Brokers API Python Library | Authentication Pt. 3",
+        "playlist_item_position": 51,
+        "playlist_item_video_id": "ivauh3PlmK4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi4zMEQ1MEIyRTFGNzhDQzFB",
+        "playlist_item_title": "Interactive Brokers API Python Library | Authentication Pt. 4",
+        "playlist_item_position": 52,
+        "playlist_item_video_id": "H-3xK11uyeg",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi42Qzk5MkEzQjVFQjYwRDA4",
+        "playlist_item_title": "Using the Interactive Brokers Python API Library Pt. 1",
+        "playlist_item_position": 53,
+        "playlist_item_video_id": "cAyspPycVZE",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi41NTZEOThBNThFOUVGQkVB",
+        "playlist_item_title": "Using the Interactive Brokers Python API Library Pt. 2",
+        "playlist_item_position": 54,
+        "playlist_item_video_id": "xVcw-ii3giI",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi43NERCMDIzQzFBMERCMEE3",
+        "playlist_item_title": "Using the Interactive Brokers Python API Library Pt. 3",
+        "playlist_item_position": 55,
+        "playlist_item_video_id": "YbJYkYFiTII",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi5GNjAwN0Y0QTFGOTVDMEMy",
+        "playlist_item_title": "How to Use the TD Ameritrade Python API Library | Pt. 1",
+        "playlist_item_position": 56,
+        "playlist_item_video_id": "8N1IxYXs4e8",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi5CQkEwRDA0MDkwNUM2MDY1",
+        "playlist_item_title": "How to Use the TD Ameritrade Python API Library | Pt. 2",
+        "playlist_item_position": 57,
+        "playlist_item_video_id": "0ETR_lftNuM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi4wNEU1MTI4NkZEMzVBN0JF",
+        "playlist_item_title": "How to Use the TD Ameritrade Python API Library | Placing Orders Pt.1",
+        "playlist_item_position": 58,
+        "playlist_item_video_id": "BJHbwcDu0Ok",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi4wMTYxQzVBRDI1NEVDQUZE",
+        "playlist_item_title": "How to Use the TD Ameritrade Python API Library | Placing Orders Pt.2",
+        "playlist_item_position": 59,
+        "playlist_item_video_id": "_VnAycipjIA",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi4zMUEyMkQwOTk0NTg4MDgw",
+        "playlist_item_title": "How to Use the TD Ameritrade Python API Library | Placing Orders Pt.3",
+        "playlist_item_position": 60,
+        "playlist_item_video_id": "Rlc6ePtNAZI",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi42QzdBMzlBQzQzRjQ0QkQy",
+        "playlist_item_title": "How to Use the TD Ameritrade Python API Library | Streaming API",
+        "playlist_item_position": 61,
+        "playlist_item_video_id": "GfIIsKc0HZI",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obkt2eEZrSjVCN3B2R2FHYTgxTnktNi41OURENDc2NEM1MDI5Mjky",
+        "playlist_item_title": "How to Build a Data Pipeline with the TD Ameritrade Python API Library",
+        "playlist_item_position": 62,
+        "playlist_item_video_id": "icLy0glrovc",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnKvxFkJ5B7pvGaGa81Ny-6"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObXF3QzVaaldjVHE1ejJmMGM1MDdpdi41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "How to Work With Charts in Excel VBA | Part 1",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "SJHkVFtIO38",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNmqwC5ZjWcTq5z2f0c507iv"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObXF3QzVaaldjVHE1ejJmMGM1MDdpdi4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "How to Work With Charts in Excel VBA | Part 2",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "oVaV9daOoiM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNmqwC5ZjWcTq5z2f0c507iv"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObXF3QzVaaldjVHE1ejJmMGM1MDdpdi4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "How to Work With Charts in Excel VBA | Part 3",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "WgYEkwXuJFE",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNmqwC5ZjWcTq5z2f0c507iv"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy5DNzE1RjZEMUZCMjA0RDBB",
+        "playlist_item_title": "How to Build a Linear Regression Model in Python | Part 1",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "MRm5sBfdBBQ",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy43MTI1NDIwOTMwQjIxMzNG",
+        "playlist_item_title": "How to Build a Linear Regression Model in Python | Part 2",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "KKmu960FS2Y",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy5DQ0MyQ0Y4Mzg0M0VGOEYw",
+        "playlist_item_title": "How to Build a Linear Regression Model in Python | Part 3",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "XbpxY_pskZM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy4yQUE2Q0JEMTk4NTM3RTZC",
+        "playlist_item_title": "How to Build a Linear Regression Model in Python | Part 4",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "O56RCPIBb24",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy5DMkU4NTY1QUFGQTYwMDE3",
+        "playlist_item_title": "Multiple Regression Analysis in Python | Part 1",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "M32ghIt1c88",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy44Mjc5REFBRUE2MTdFRDU0",
+        "playlist_item_title": "Multiple Regression Analysis in Python | Part 2",
+        "playlist_item_position": 5,
+        "playlist_item_video_id": "8DhvVs59It4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy43NDhFRTgwOTRERTU4Rjg3",
+        "playlist_item_title": "Multiple Regression Analysis in Python | Part 3",
+        "playlist_item_position": 6,
+        "playlist_item_video_id": "YQf23JYX3Zw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy41QUZGQTY5OTE4QTREQUU4",
+        "playlist_item_title": "Multiple Regression Analysis in Python | Part 4",
+        "playlist_item_position": 7,
+        "playlist_item_video_id": "UTfoj_7RU48",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy4zRDBDOEZDOUM0MDY5NEEz",
+        "playlist_item_title": "Multiple Regression Analysis in Python | Part 5",
+        "playlist_item_position": 8,
+        "playlist_item_video_id": "j1sjqEStECQ",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy5CMEQ2Mjk5NTc3NDZFRUNB",
+        "playlist_item_title": "Clustering Stocks With Python | Part 1 Introduction",
+        "playlist_item_position": 9,
+        "playlist_item_video_id": "dhV8UWI1sjc",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy42MTI4Njc2QjM1RjU1MjlG",
+        "playlist_item_title": "Clustering Stocks With Python | Part 2 Data Collection",
+        "playlist_item_position": 10,
+        "playlist_item_video_id": "S-vNu4uO-us",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy45RjNFMDhGQ0Q2RkFCQTc1",
+        "playlist_item_title": "Clustering Stocks With Python | Part 3 Data Transformation",
+        "playlist_item_position": 11,
+        "playlist_item_video_id": "gF-oOVs1Ams",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy40QTA3NTU2RkM1QzlCMzYx",
+        "playlist_item_title": "Clustering Stocks With Python | Part 4 PCA & Plotting",
+        "playlist_item_position": 12,
+        "playlist_item_video_id": "e9tbHfDqi3I",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy5BRjJDODk5REM0NjkzMUIy",
+        "playlist_item_title": "Clustering Stocks With Python | Part 5 Building the Model",
+        "playlist_item_position": 13,
+        "playlist_item_video_id": "KGP4zL5DYD0",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy4xOTEzQzhBQzU3MDNDNjcz",
+        "playlist_item_title": "Clustering Stocks With Python | Part 6 Model Evaluation",
+        "playlist_item_position": 14,
+        "playlist_item_video_id": "vlvolfzMO_I",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy5GNDg1Njc1QzZERjlFRjE5",
+        "playlist_item_title": "Predicting Stock Price Movement With Random Forests | Introduction",
+        "playlist_item_position": 15,
+        "playlist_item_video_id": "V8jZuOtckn8",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy4zQzFBN0RGNzNFREFCMjBE",
+        "playlist_item_title": "Predicting Stock Price Movement With Random Forests | Data Preprocessing",
+        "playlist_item_position": 16,
+        "playlist_item_video_id": "W2hXbqnrUyY",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy45NkVENTkxRDdCQUFBMDY4",
+        "playlist_item_title": "Predicting Stock Price Movement With Random Forests | Indicators",
+        "playlist_item_position": 17,
+        "playlist_item_video_id": "bdEQwJ6SPnA",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy5DNkMwRUI2MkI4QkI4NDFG",
+        "playlist_item_title": "Predicting Stock Price Movement With Random Forests | Building the Model",
+        "playlist_item_position": 18,
+        "playlist_item_video_id": "E2LX_hUHMn0",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy5DRUQwODMxQzUyRTlGRkY3",
+        "playlist_item_title": "Predicting Stock Price Movement With Random Forests | Model Evaluation",
+        "playlist_item_position": 19,
+        "playlist_item_video_id": "iJmteST6fP8",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazRzbmNqWm9kQW1MZ1d5VEU5aFhsUy41MzY4MzcwOUFFRUU3QzEx",
+        "playlist_item_title": "Predicting Stock Price Movement With Random Forests | Model Improvement",
+        "playlist_item_position": 20,
+        "playlist_item_video_id": "ioUtR92tDAA",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk4sncjZodAmLgWyTE9hXlS"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0p0SkpVWG5pR2E1SnlYREZFY3VkdS5DQUNERDQ2NkIzRUQxNTY1",
+        "playlist_item_title": "How to Build a Linear Regression Model in Python | Part 1",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "MRm5sBfdBBQ",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkJtJJUXniGa5JyXDFEcudu"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0p0SkpVWG5pR2E1SnlYREZFY3VkdS4xMkVGQjNCMUM1N0RFNEUx",
+        "playlist_item_title": "How to Build a Linear Regression Model in Python | Part 2",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "KKmu960FS2Y",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkJtJJUXniGa5JyXDFEcudu"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0p0SkpVWG5pR2E1SnlYREZFY3VkdS41MzJCQjBCNDIyRkJDN0VD",
+        "playlist_item_title": "How to Build a Linear Regression Model in Python | Part 3",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "XbpxY_pskZM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkJtJJUXniGa5JyXDFEcudu"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0p0SkpVWG5pR2E1SnlYREZFY3VkdS4wOTA3OTZBNzVEMTUzOTMy",
+        "playlist_item_title": "How to Build a Linear Regression Model in Python | Part 4",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "O56RCPIBb24",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkJtJJUXniGa5JyXDFEcudu"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa09vOUZRMndyRGNzVjBqWXFFWXUxei5GNjNDRDREMDQxOThCMDQ2",
+        "playlist_item_title": "How To Use Beautiful Soup In Python | Part 1",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "s2zKTklVavM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkOo9FQ2wrDcsV0jYqEYu1z"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa09vOUZRMndyRGNzVjBqWXFFWXUxei40NzZCMERDMjVEN0RFRThB",
+        "playlist_item_title": "How To Use Beautiful Soup In Python | Part 2",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "pmM4XLaxYuc",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkOo9FQ2wrDcsV0jYqEYu1z"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa09vOUZRMndyRGNzVjBqWXFFWXUxei5EMEEwRUY5M0RDRTU3NDJC",
+        "playlist_item_title": "How To Use Beautiful Soup In Python | Part 3",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "SP_IPlrgvaU",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkOo9FQ2wrDcsV0jYqEYu1z"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa09vOUZRMndyRGNzVjBqWXFFWXUxei45ODRDNTg0QjA4NkFBNkQy",
+        "playlist_item_title": "How To Use Beautiful Soup In Python | Part 4",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "AJ-vDslYH58",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkOo9FQ2wrDcsV0jYqEYu1z"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa09vOUZRMndyRGNzVjBqWXFFWXUxei4zMDg5MkQ5MEVDMEM1NTg2",
+        "playlist_item_title": "How To Use Beautiful Soup In Python | Part 5",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "LMvNCqHLbKs",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkOo9FQ2wrDcsV0jYqEYu1z"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnBpY2kwZENVanUwT1JlQTRxT05UaS41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "How To Use PowerPoint VBA In Python",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "d0PknGechXI",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnpici0dCUju0OReA4qONTi"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnBpY2kwZENVanUwT1JlQTRxT05UaS4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "Using PowerPoint VBA in Python | Working with Slides",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "mLfxdegstxk",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnpici0dCUju0OReA4qONTi"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmJvWG5sMkdScFBYYXlnbEtBeUN2WC41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "How To Use Power Pivot In VBA | Part One",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "Ws39xyxg7hw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnboXnl2GRpPXayglKAyCvX"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmJvWG5sMkdScFBYYXlnbEtBeUN2WC4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "How To Use Power Pivot In VBA | Part Two",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "1HvqVK4mIhs",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnboXnl2GRpPXayglKAyCvX"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmJvWG5sMkdScFBYYXlnbEtBeUN2WC4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "How To Use Power Pivot In VBA | Part Three",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "Y7-4zti7Als",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnboXnl2GRpPXayglKAyCvX"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS4xMkVGQjNCMUM1N0RFNEUx",
+        "playlist_item_title": "How To Use Excel VBA In Python",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "Jd2PtDV5mL0",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "How To Run Python Code In An Open Excel Workbook",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "rh039flfMto",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS4wOTA3OTZBNzVEMTUzOTMy",
+        "playlist_item_title": "How To Run A Python Script Using Excel VBA",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "rlHcrAb2_fs",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "How To Copy Between Excel And PowerPoint In Python",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "_AiBCultl6U",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "How To Use Python's Pandas With The VBA Library",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "oVNeufjrx8M",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "How To Make A Python API Request Using The Excel VBA Library",
+        "playlist_item_position": 5,
+        "playlist_item_video_id": "bCfEmsk2SP8",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS41MzJCQjBCNDIyRkJDN0VD",
+        "playlist_item_title": "How To Use PowerPoint VBA In Python",
+        "playlist_item_position": 6,
+        "playlist_item_video_id": "d0PknGechXI",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS5DQUNERDQ2NkIzRUQxNTY1",
+        "playlist_item_title": "How To Create Python Formulas For Excel",
+        "playlist_item_position": 7,
+        "playlist_item_video_id": "cYwn8Pu5eRg",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS45NDk1REZENzhEMzU5MDQz",
+        "playlist_item_title": "Early Vs Late Binding In Win32Com",
+        "playlist_item_position": 8,
+        "playlist_item_video_id": "xPtp8qFAHuA",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS5GNjNDRDREMDQxOThCMDQ2",
+        "playlist_item_title": "Using Excel Constants In The Python Win32 Library",
+        "playlist_item_position": 9,
+        "playlist_item_video_id": "QUZ-FSAxLtU",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS40NzZCMERDMjVEN0RFRThB",
+        "playlist_item_title": "Web Scraping With Excel Using Python",
+        "playlist_item_position": 10,
+        "playlist_item_video_id": "K1xVFqT4sqY",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS5EMEEwRUY5M0RDRTU3NDJC",
+        "playlist_item_title": "Using SQLite & Excel With Win32 In Python",
+        "playlist_item_position": 11,
+        "playlist_item_video_id": "KReXpSm3kcE",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS45ODRDNTg0QjA4NkFBNkQy",
+        "playlist_item_title": "How To Create Python Libraries For VBA",
+        "playlist_item_position": 12,
+        "playlist_item_video_id": "f6VqQsfO6E4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS4zMDg5MkQ5MEVDMEM1NTg2",
+        "playlist_item_title": "How to Use Word VBA in Python",
+        "playlist_item_position": 13,
+        "playlist_item_video_id": "nw5_oSz4RJk",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS41Mzk2QTAxMTkzNDk4MDhF",
+        "playlist_item_title": "Using Events in Python Win32 | Part 1",
+        "playlist_item_position": 14,
+        "playlist_item_video_id": "wPONxYsaMSM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS5EQUE1NTFDRjcwMDg0NEMz",
+        "playlist_item_title": "How to Use the PyIDispatch Object in Pythoncom",
+        "playlist_item_position": 15,
+        "playlist_item_video_id": "tUthExQRzOM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS41QTY1Q0UxMTVCODczNThE",
+        "playlist_item_title": "How To Get All Running COM Objects in Pythoncom",
+        "playlist_item_position": 16,
+        "playlist_item_video_id": "MTFCV2qbAIw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS4yMUQyQTQzMjRDNzMyQTMy",
+        "playlist_item_title": "How to Use the PyITypeInfo Object in Pythoncom",
+        "playlist_item_position": 17,
+        "playlist_item_video_id": "3jkD37Wv9dU",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS45RTgxNDRBMzUwRjQ0MDhC",
+        "playlist_item_title": "Using Events in Python Win32 | Part 2",
+        "playlist_item_position": 18,
+        "playlist_item_video_id": "2s3ZRJITqe8",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS5ENDU4Q0M4RDExNzM1Mjcy",
+        "playlist_item_title": "Using PowerPoint VBA in Python | Working with Slides",
+        "playlist_item_position": 19,
+        "playlist_item_video_id": "mLfxdegstxk",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObmY0ZWg1T2J6UHpvTEZPelRpRlZLYS4yMDhBMkNBNjRDMjQxQTg1",
+        "playlist_item_title": "Using Word VBA in Python: Working With Table Formulas",
+        "playlist_item_position": 20,
+        "playlist_item_video_id": "RT3GkrghauQ",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnf4eh5ObzPzoLFOzTiFVKa"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OblUyR01iU2pBVVA5c1N2OWwxVnFjeS41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "Working With Pivot Tables In VBA | Part One",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "dxv0ZwUXN2U",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnU2GMbSjAUP9sSv9l1Vqcy"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OblUyR01iU2pBVVA5c1N2OWwxVnFjeS4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "Working With Pivot Tables In VBA | Part Two",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "223tBUzoD8I",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnU2GMbSjAUP9sSv9l1Vqcy"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OblUyR01iU2pBVVA5c1N2OWwxVnFjeS4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "Working With Pivot Tables In VBA | Part Three",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "6GpnaXDr8JE",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnU2GMbSjAUP9sSv9l1Vqcy"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObFJoaVhXenU3TWtuMkdDNzJmMkxYcC41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "How To Copy A Single Chart To Outlook Using VBA",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "nGN_0BKaDoU",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlRhiXWzu7Mkn2GC72f2LXp"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObFJoaVhXenU3TWtuMkdDNzJmMkxYcC4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "How To Copy Multiple Excel Charts To Outlook Using VBA",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "tNXHUB9RfrQ",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlRhiXWzu7Mkn2GC72f2LXp"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObFJoaVhXenU3TWtuMkdDNzJmMkxYcC4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "How To Copy An Excel Range To Outlook Using VBA",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "9bhypq36xes",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlRhiXWzu7Mkn2GC72f2LXp"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObFJoaVhXenU3TWtuMkdDNzJmMkxYcC41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "How To Copy A Single Excel Table To Outlook Using VBA",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "ZlInSp0-MdU",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlRhiXWzu7Mkn2GC72f2LXp"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObFJoaVhXenU3TWtuMkdDNzJmMkxYcC4wOTA3OTZBNzVEMTUzOTMy",
+        "playlist_item_title": "How To Copy Multiple Excel Tables To Outlook Using VBA",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "yYfhcDokArk",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlRhiXWzu7Mkn2GC72f2LXp"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObFJoaVhXenU3TWtuMkdDNzJmMkxYcC41MzJCQjBCNDIyRkJDN0VD",
+        "playlist_item_title": "How to Use the Folder Object in Outlook VBA",
+        "playlist_item_position": 5,
+        "playlist_item_video_id": "fYQCpp61Sz0",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlRhiXWzu7Mkn2GC72f2LXp"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObFJoaVhXenU3TWtuMkdDNzJmMkxYcC5DQUNERDQ2NkIzRUQxNTY1",
+        "playlist_item_title": "How to Work With Emails in Outlook VBA",
+        "playlist_item_position": 6,
+        "playlist_item_video_id": "ijJ7JiOCCRg",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlRhiXWzu7Mkn2GC72f2LXp"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObFJoaVhXenU3TWtuMkdDNzJmMkxYcC45NDk1REZENzhEMzU5MDQz",
+        "playlist_item_title": "Using the Appointment Item Object in Outlook VBA",
+        "playlist_item_position": 7,
+        "playlist_item_video_id": "FauB9JtOAOU",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlRhiXWzu7Mkn2GC72f2LXp"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObFJoaVhXenU3TWtuMkdDNzJmMkxYcC5GNjNDRDREMDQxOThCMDQ2",
+        "playlist_item_title": "Export a Single Outlook Table to Excel",
+        "playlist_item_position": 8,
+        "playlist_item_video_id": "b4RiGQuwONc",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlRhiXWzu7Mkn2GC72f2LXp"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObFJoaVhXenU3TWtuMkdDNzJmMkxYcC40NzZCMERDMjVEN0RFRThB",
+        "playlist_item_title": "Export Multiple Outlook Tables to Excel",
+        "playlist_item_position": 9,
+        "playlist_item_video_id": "wYyE8H9LGlQ",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlRhiXWzu7Mkn2GC72f2LXp"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObFJoaVhXenU3TWtuMkdDNzJmMkxYcC5EMEEwRUY5M0RDRTU3NDJC",
+        "playlist_item_title": "How to Save Every Attachment, in Every Email, in Every Folder Using Outlook VBA",
+        "playlist_item_position": 10,
+        "playlist_item_video_id": "WIMT1uFAi9Q",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNlRhiXWzu7Mkn2GC72f2LXp"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "Working With The Yelp API In Python | Part One",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "GJf7ccRIK4U",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "Working With The Yelp API In Python | Part Two",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "jEYu0yCw12s",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci45NDk1REZENzhEMzU5MDQz",
+        "playlist_item_title": "Working With The Yelp API In Python | Part Three",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "jjAxXUbb8VE",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci5GNjNDRDREMDQxOThCMDQ2",
+        "playlist_item_title": "Working With The Yelp GraphQL API In Python | Part One",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "Wdy-9daEd0o",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "How To Use Google Places API In Python",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "qkSmuquMueA",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci4wOTA3OTZBNzVEMTUzOTMy",
+        "playlist_item_title": "How To Use Google Places Photo API",
+        "playlist_item_position": 5,
+        "playlist_item_video_id": "t2BYThHlk3k",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci4xMkVGQjNCMUM1N0RFNEUx",
+        "playlist_item_title": "How To Use The YouTube API | Part One",
+        "playlist_item_position": 6,
+        "playlist_item_video_id": "xlLc_akmYHM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci41MzJCQjBCNDIyRkJDN0VD",
+        "playlist_item_title": "How to Use the TD Ameritrade API | Part 1",
+        "playlist_item_position": 7,
+        "playlist_item_video_id": "qJ94sSyPGBw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci5DQUNERDQ2NkIzRUQxNTY1",
+        "playlist_item_title": "How to Use the TD Ameritrade API | Part 2",
+        "playlist_item_position": 8,
+        "playlist_item_video_id": "sVA0PeuDE4I",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci40NzZCMERDMjVEN0RFRThB",
+        "playlist_item_title": "How to Use the TD Ameritrade API | Part 3",
+        "playlist_item_position": 9,
+        "playlist_item_video_id": "KPqoC1pt9Vo",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci5EMEEwRUY5M0RDRTU3NDJC",
+        "playlist_item_title": "How to Use the TD Ameritrade Streaming API | Part 1",
+        "playlist_item_position": 10,
+        "playlist_item_video_id": "7S0gBn5cjYM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci45ODRDNTg0QjA4NkFBNkQy",
+        "playlist_item_title": "How to Use the TD Ameritrade Streaming API | Part 2",
+        "playlist_item_position": 11,
+        "playlist_item_video_id": "HNS9B-icOww",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci4zMDg5MkQ5MEVDMEM1NTg2",
+        "playlist_item_title": "How to Use the TD Ameritrade Streaming API | Part 3",
+        "playlist_item_position": 12,
+        "playlist_item_video_id": "EvtbhouHUYI",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci41Mzk2QTAxMTkzNDk4MDhF",
+        "playlist_item_title": "How to Use the TD Ameritrade Streaming API | Part 4",
+        "playlist_item_position": 13,
+        "playlist_item_video_id": "IK3WkBeCDew",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci5EQUE1NTFDRjcwMDg0NEMz",
+        "playlist_item_title": "How to Use the TD Ameritrade Streaming API | Part 5",
+        "playlist_item_position": 14,
+        "playlist_item_video_id": "q19zqhwEQAM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci41QTY1Q0UxMTVCODczNThE",
+        "playlist_item_title": "Building a TD Ameritrade API Client Library in Python: Authentication Pt. 1",
+        "playlist_item_position": 15,
+        "playlist_item_video_id": "sGuY91IyDlw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci4yMUQyQTQzMjRDNzMyQTMy",
+        "playlist_item_title": "Building a TD Ameritrade API Client Library in Python: Authentication Pt. 2",
+        "playlist_item_position": 16,
+        "playlist_item_video_id": "C69Uv5OSoII",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci45RTgxNDRBMzUwRjQ0MDhC",
+        "playlist_item_title": "Building a TD Ameritrade API Client Library in Python: Authentication Pt. 3",
+        "playlist_item_position": 17,
+        "playlist_item_video_id": "wS_8CxOZbkc",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci5ENDU4Q0M4RDExNzM1Mjcy",
+        "playlist_item_title": "Building a TD Ameritrade API Client Library in Python: Authentication Pt. 4",
+        "playlist_item_position": 18,
+        "playlist_item_video_id": "vRVdY86HEtk",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci4yMDhBMkNBNjRDMjQxQTg1",
+        "playlist_item_title": "Building a TD Ameritrade API Client Library in Python: Authentication Pt. 5",
+        "playlist_item_position": 19,
+        "playlist_item_video_id": "PlzdIV3ZeG0",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci5GM0Q3M0MzMzY5NTJFNTdE",
+        "playlist_item_title": "Building a TD Ameritrade API Client Library in Python: Data Requests Pt. 1",
+        "playlist_item_position": 20,
+        "playlist_item_video_id": "ZBleNoKLTSI",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci4zRjM0MkVCRTg0MkYyQTM0",
+        "playlist_item_title": "Building a TD Ameritrade API Client Library in Python: Data Requests Pt. 2",
+        "playlist_item_position": 21,
+        "playlist_item_video_id": "SOiVEnXkX9w",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci45NzUwQkI1M0UxNThBMkU0",
+        "playlist_item_title": "TD Ameritrade API Python Library: Streaming Pt. 1",
+        "playlist_item_position": 22,
+        "playlist_item_video_id": "u2KHcvMcbIw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci5DNzE1RjZEMUZCMjA0RDBB",
+        "playlist_item_title": "TD Ameritrade API Python Library: Streaming Pt. 2",
+        "playlist_item_position": 23,
+        "playlist_item_video_id": "f_wFhvCDVqY",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25ObnJnVnZZXzg3WlJYUmxhYzZQY2l1ci43MTI1NDIwOTMwQjIxMzNG",
+        "playlist_item_title": "TD Ameritrade API Python Library: Streaming Pt. 3",
+        "playlist_item_position": 24,
+        "playlist_item_video_id": "1-Ryjrh3Ckg",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnrgVvY_87ZRXRlac6Pciur"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazlsQnBtaEF3R1IyUEk3V0FNRTJ2Xy41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "Updating PowerPoint Links Using VBA",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "2jVQifazbXA",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk9lBpmhAwGR2PI7WAME2v_"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazlsQnBtaEF3R1IyUEk3V0FNRTJ2Xy4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "How To Paste Multiple Objects To A Slide in VBA",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "HGab8RbMeo0",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk9lBpmhAwGR2PI7WAME2v_"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazlsQnBtaEF3R1IyUEk3V0FNRTJ2Xy4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "How To Find & Apply Shape Dimensions In PowerPoint VBA",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "ktEURxBrCKI",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk9lBpmhAwGR2PI7WAME2v_"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazlsQnBtaEF3R1IyUEk3V0FNRTJ2Xy41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "How to Work with Text Frames & Text Ranges in PowerPoint VBA",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "aqz61OSL7k0",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk9lBpmhAwGR2PI7WAME2v_"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazlsQnBtaEF3R1IyUEk3V0FNRTJ2Xy4wOTA3OTZBNzVEMTUzOTMy",
+        "playlist_item_title": "How to Work With the Slide Object in PowerPoint VBA",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "tq23CXHaX9Q",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk9lBpmhAwGR2PI7WAME2v_"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazlsQnBtaEF3R1IyUEk3V0FNRTJ2Xy4xMkVGQjNCMUM1N0RFNEUx",
+        "playlist_item_title": "Working With the Slide Show Object in PowerPoint VBA",
+        "playlist_item_position": 5,
+        "playlist_item_video_id": "nuPDDfLjOBM",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk9lBpmhAwGR2PI7WAME2v_"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazlsQnBtaEF3R1IyUEk3V0FNRTJ2Xy5DQUNERDQ2NkIzRUQxNTY1",
+        "playlist_item_title": "Working With Media Format Objects in PowerPoint VBA",
+        "playlist_item_position": 6,
+        "playlist_item_video_id": "EE9-U4e9rYE",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk9lBpmhAwGR2PI7WAME2v_"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25OazlsQnBtaEF3R1IyUEk3V0FNRTJ2Xy41MzJCQjBCNDIyRkJDN0VD",
+        "playlist_item_title": "Deleted video",
+        "playlist_item_position": 7,
+        "playlist_item_video_id": "nx-KGhkdDec",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNk9lBpmhAwGR2PI7WAME2v_"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "Working With APIs in Python",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "ke_OctsOgok",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi4wMTcyMDhGQUE4NTIzM0Y5",
+        "playlist_item_title": "Working With The Yelp API In Python | Part One",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "GJf7ccRIK4U",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "Working With The Yelp API In Python | Part Two",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "jEYu0yCw12s",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi4wOTA3OTZBNzVEMTUzOTMy",
+        "playlist_item_title": "Working With The Yelp API In Python | Part Three",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "IVpkgdj0EQk",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi4xMkVGQjNCMUM1N0RFNEUx",
+        "playlist_item_title": "How To Use Dictionaries In Python",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "pDVgVMlqPd0",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi41MzJCQjBCNDIyRkJDN0VD",
+        "playlist_item_title": "Comparing Dictionaries In Python",
+        "playlist_item_position": 5,
+        "playlist_item_video_id": "R-Z_1tinos4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi5DQUNERDQ2NkIzRUQxNTY1",
+        "playlist_item_title": "How To Use Lists In Python",
+        "playlist_item_position": 6,
+        "playlist_item_video_id": "3ak9SMRAle8",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi45NDk1REZENzhEMzU5MDQz",
+        "playlist_item_title": "How To Use Google Places API In Python",
+        "playlist_item_position": 7,
+        "playlist_item_video_id": "qkSmuquMueA",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi5GNjNDRDREMDQxOThCMDQ2",
+        "playlist_item_title": "How To Use Google Places Photo API",
+        "playlist_item_position": 8,
+        "playlist_item_video_id": "t2BYThHlk3k",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi40NzZCMERDMjVEN0RFRThB",
+        "playlist_item_title": "How To Use Loops In Python",
+        "playlist_item_position": 9,
+        "playlist_item_video_id": "Oy_oOcNjAFk",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi45ODRDNTg0QjA4NkFBNkQy",
+        "playlist_item_title": "How To Use Excel VBA In Python",
+        "playlist_item_position": 10,
+        "playlist_item_video_id": "Jd2PtDV5mL0",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi4zMDg5MkQ5MEVDMEM1NTg2",
+        "playlist_item_title": "How To Copy Between Excel And PowerPoint In Python",
+        "playlist_item_position": 11,
+        "playlist_item_video_id": "_AiBCultl6U",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi41Mzk2QTAxMTkzNDk4MDhF",
+        "playlist_item_title": "How to Web Scrape the SEC | Part 1",
+        "playlist_item_position": 12,
+        "playlist_item_video_id": "-7I7OAC6ih8",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi5EQUE1NTFDRjcwMDg0NEMz",
+        "playlist_item_title": "How to Use PYODBC With SQL Servers in Python",
+        "playlist_item_position": 13,
+        "playlist_item_video_id": "eDXX5evRgQw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi41QTY1Q0UxMTVCODczNThE",
+        "playlist_item_title": "How To Get All Running COM Objects in Pythoncom",
+        "playlist_item_position": 14,
+        "playlist_item_video_id": "MTFCV2qbAIw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi4yMUQyQTQzMjRDNzMyQTMy",
+        "playlist_item_title": "How to Use the PyITypeInfo Object in Pythoncom",
+        "playlist_item_position": 15,
+        "playlist_item_video_id": "3jkD37Wv9dU",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi45RTgxNDRBMzUwRjQ0MDhC",
+        "playlist_item_title": "How to Use PYODBC With Excel Workbooks in Python",
+        "playlist_item_position": 16,
+        "playlist_item_video_id": "kzxfVj0Q93k",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi5ENDU4Q0M4RDExNzM1Mjcy",
+        "playlist_item_title": "How To Convert A Python File to an EXE File",
+        "playlist_item_position": 17,
+        "playlist_item_video_id": "g7vmeEA9oVs",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi4yMDhBMkNBNjRDMjQxQTg1",
+        "playlist_item_title": "Doubly Linked List in Python | Part Four",
+        "playlist_item_position": 18,
+        "playlist_item_video_id": "0BTZB5DU2OE",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi5GM0Q3M0MzMzY5NTJFNTdE",
+        "playlist_item_title": "Doubly Linked List in Python | Part Two",
+        "playlist_item_position": 19,
+        "playlist_item_video_id": "galDq38nlWg",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi4zRjM0MkVCRTg0MkYyQTM0",
+        "playlist_item_title": "Doubly Linked List in Python | Part One",
+        "playlist_item_position": 20,
+        "playlist_item_video_id": "LrCAokPC12g",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi45NzUwQkI1M0UxNThBMkU0",
+        "playlist_item_title": "Circular Linked List in Python | Part One",
+        "playlist_item_position": 21,
+        "playlist_item_video_id": "t8lyrfPStN0",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi5DNzE1RjZEMUZCMjA0RDBB",
+        "playlist_item_title": "Circular Linked List in Python | Part Three",
+        "playlist_item_position": 22,
+        "playlist_item_video_id": "TZoKsJsCMD4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi43MTI1NDIwOTMwQjIxMzNG",
+        "playlist_item_title": "Circular Linked List in Python | Part Three",
+        "playlist_item_position": 23,
+        "playlist_item_video_id": "TZoKsJsCMD4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi4yQUE2Q0JEMTk4NTM3RTZC",
+        "playlist_item_title": "How to Use Classes in Python | Pt. 1",
+        "playlist_item_position": 24,
+        "playlist_item_video_id": "Y6yQb7ntn5o",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi5DMkU4NTY1QUFGQTYwMDE3",
+        "playlist_item_title": "How to Use Classes in Python | Pt. 2",
+        "playlist_item_position": 25,
+        "playlist_item_video_id": "bPnUR3-Sn6U",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi44Mjc5REFBRUE2MTdFRDU0",
+        "playlist_item_title": "How to Use Classes in Python | Pt. 3",
+        "playlist_item_position": 26,
+        "playlist_item_video_id": "qKy79CM6Wyc",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Oa0NpZUJtVmU4QnNmOUZaR19KdGd3Zi5DQ0MyQ0Y4Mzg0M0VGOEYw",
+        "playlist_item_title": "Circular Linked List in Python | Part Two",
+        "playlist_item_position": 27,
+        "playlist_item_video_id": "EuP2hHJ36Kg",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNkCieBmVe8Bsf9FZG_Jtgwf"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC41NkI0NEY2RDEwNTU3Q0M2",
+        "playlist_item_title": "Early Vs Late Binding In VBA",
+        "playlist_item_position": 0,
+        "playlist_item_video_id": "ge2K5swqR4Q",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC4yODlGNEE0NkRGMEEzMEQy",
+        "playlist_item_title": "How To Pull Data From Access Using VBA",
+        "playlist_item_position": 1,
+        "playlist_item_video_id": "5kIUPFWsNYw",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC41MjE1MkI0OTQ2QzJGNzNG",
+        "playlist_item_title": "How To Run A Python Script Using Excel VBA",
+        "playlist_item_position": 2,
+        "playlist_item_video_id": "rlHcrAb2_fs",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC4wOTA3OTZBNzVEMTUzOTMy",
+        "playlist_item_title": "How To Create Python Formulas For Excel",
+        "playlist_item_position": 3,
+        "playlist_item_video_id": "cYwn8Pu5eRg",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC4xMkVGQjNCMUM1N0RFNEUx",
+        "playlist_item_title": "How To Control The Visual Basic Editor With VBA",
+        "playlist_item_position": 4,
+        "playlist_item_video_id": "tv4Ext49i24",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC41MzJCQjBCNDIyRkJDN0VD",
+        "playlist_item_title": "How To Programmatically Add Library References Using VBA",
+        "playlist_item_position": 5,
+        "playlist_item_video_id": "ri8Kzwu6aqU",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC5DQUNERDQ2NkIzRUQxNTY1",
+        "playlist_item_title": "Using Excel Constants In The Python Win32 Library",
+        "playlist_item_position": 6,
+        "playlist_item_video_id": "QUZ-FSAxLtU",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC45NDk1REZENzhEMzU5MDQz",
+        "playlist_item_title": "How to Export Macros Using VBA",
+        "playlist_item_position": 7,
+        "playlist_item_video_id": "6VoiGoCASrU",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC5GNjNDRDREMDQxOThCMDQ2",
+        "playlist_item_title": "How to Use the File System Object in VBA",
+        "playlist_item_position": 8,
+        "playlist_item_video_id": "I05NXLUh0Co",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC40NzZCMERDMjVEN0RFRThB",
+        "playlist_item_title": "Web Scraping With VBA | Part One",
+        "playlist_item_position": 9,
+        "playlist_item_video_id": "inXUOu5bwAE",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC5EMEEwRUY5M0RDRTU3NDJC",
+        "playlist_item_title": "Web Scraping With VBA | Part Two",
+        "playlist_item_position": 10,
+        "playlist_item_video_id": "7_9gRf4lC0g",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC45ODRDNTg0QjA4NkFBNkQy",
+        "playlist_item_title": "Web Scraping With VBA | Part Three",
+        "playlist_item_position": 11,
+        "playlist_item_video_id": "jDd1u1Q0xMs",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC4zMDg5MkQ5MEVDMEM1NTg2",
+        "playlist_item_title": "How to Use the Shell Automation Library in VBA | Part 1",
+        "playlist_item_position": 12,
+        "playlist_item_video_id": "Hqt1rs1bth8",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC41Mzk2QTAxMTkzNDk4MDhF",
+        "playlist_item_title": "Making API Requests in VBA | XML",
+        "playlist_item_position": 13,
+        "playlist_item_video_id": "2SwWRg8-BvE",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC5EQUE1NTFDRjcwMDg0NEMz",
+        "playlist_item_title": "Web Scraping With VBA | Scraping Data Tables",
+        "playlist_item_position": 14,
+        "playlist_item_video_id": "Z7XwlH6Mes4",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC41QTY1Q0UxMTVCODczNThE",
+        "playlist_item_title": "Making API Requests in VBA | JSON",
+        "playlist_item_position": 15,
+        "playlist_item_video_id": "BRB2SlsBEUI",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC4yMUQyQTQzMjRDNzMyQTMy",
+        "playlist_item_title": "How to Work With the Command Bar Object in VBA",
+        "playlist_item_position": 16,
+        "playlist_item_video_id": "nMZvFzVIW-c",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC45RTgxNDRBMzUwRjQ0MDhC",
+        "playlist_item_title": "How to Work With the Command Bar Control Object in VBA",
+        "playlist_item_position": 17,
+        "playlist_item_video_id": "LsCoII_VZMk",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC5ENDU4Q0M4RDExNzM1Mjcy",
+        "playlist_item_title": "How to Work With the Command Bar Control Object in VBA",
+        "playlist_item_position": 18,
+        "playlist_item_video_id": "LsCoII_VZMk",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC4yMDhBMkNBNjRDMjQxQTg1",
+        "playlist_item_title": "Building User Forms in Excel VBA | Export Manager Pt. 1",
+        "playlist_item_position": 19,
+        "playlist_item_video_id": "RLciyc8ZFfY",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC5GM0Q3M0MzMzY5NTJFNTdE",
+        "playlist_item_title": "Building User Forms in Excel VBA | Export Manager Pt. 2",
+        "playlist_item_position": 20,
+        "playlist_item_video_id": "9kzPijGda3E",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC4zRjM0MkVCRTg0MkYyQTM0",
+        "playlist_item_title": "Building User Forms in Excel VBA | Export Manager Pt. 3",
+        "playlist_item_position": 21,
+        "playlist_item_video_id": "IcQ0Rs8_Eh8",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC45NzUwQkI1M0UxNThBMkU0",
+        "playlist_item_title": "Building User Forms in Excel VBA | Export Manager Pt. 4",
+        "playlist_item_position": 22,
+        "playlist_item_video_id": "Ey1cTaMYf50",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    },
+    {
+        "playlist_item_id": "UExjRmNrdFowd25Obk92RVNZajdaWUwwOG5RZlBTSUdzVC5DNzE1RjZEMUZCMjA0RDBB",
+        "playlist_item_title": "How to Create Python Array Formulas for Excel",
+        "playlist_item_position": 23,
+        "playlist_item_video_id": "wTlS_3ZnNsg",
+        "playlist_item_playlist_id": "PLcFcktZ0wnNnOvESYj7ZYL08nQfPSIGsT"
+    }
+]

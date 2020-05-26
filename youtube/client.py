@@ -13,6 +13,7 @@ from googleapiclient.http import MediaFileUpload
 from typing import Dict
 from typing import List
 from typing import Union
+from typing import Tuple
 
 
 class YouTubeClient():
@@ -258,24 +259,35 @@ class YouTubeClient():
                 'key':self.api_key
             }
 
+            # Grab the Headers.
             headers = self._headers()
 
             # Grab the response.
             playlist_response = requests.get(url=url, params=params, headers = headers, verify=True)
             
-            if playlist_response.status_code == 200:
+            # See if it was okay.
+            if playlist_response.ok:
+                
                 playlist_data = playlist_response.json()
-
                 master_list = []  
                 master_list.append(playlist_data)
 
-                if all_pages:
-                    while 'nextPageToken' in playlist_data.keys():
-                        params['pageToken'] = playlist_data['nextPageToken']
+                print('Pulling Playlist ID: {playlist_id}'.format(playlist_id=playlist_id))
 
-                        # add to master list.
-                        playlist_data = requests.get(url=url, params=params, headers = headers, verify=True).json()
-                        master_list.append(playlist_data)
+                if all_pages:                    
+                    while 'nextPageToken' in playlist_data.keys():
+                        
+                        params['pageToken'] = playlist_data['nextPageToken']
+                        playlist_data_response = requests.get(url=url, params=params, headers = headers, verify=True)
+
+                        print('Pulling Playlist ID: {playlist_id}'.format(playlist_id=playlist_id))
+                        print('Pulling Page: {url}'.format(url=playlist_data['nextPageToken']))
+
+                        # add the data.
+                        if playlist_data_response.ok:
+
+                            playlist_data = playlist_data_response.json()
+                            master_list.append(playlist_data)        
 
                 return master_list
 
@@ -712,7 +724,6 @@ class YouTubeClient():
                 data = playlist_response.json()
                 playlists_list.append(data)
                 total_results = data['pageInfo']['totalResults']
-
                 params['pageToken'] = data['nextPageToken']
 
                 while 'nextPageToken' in data.keys():
@@ -787,7 +798,61 @@ class YouTubeClient():
 
                 return video_ids_list
 
-    def save_to_json_file(self, file_name: str, youtube_content: dict) -> str:
+    def parse_playlist_ids(self, playlist_json_path: str) -> List[Dict]:
+
+        with open(playlist_json_path, 'r') as playlist_json_file:
+            playlists_resources = json.load(fp=playlist_json_file)
+
+        playlists = []
+
+        for playlist_resource in playlists_resources:
+            for playlist in playlist_resource['items']:
+
+                playlist_id = playlist['id']
+                playlist_title = playlist['snippet']['title']
+                playlist_item_count = playlist['contentDetails']['itemCount']
+
+                playlist_dict = {
+                    'playlist_id': playlist_id,
+                    'playlist_title': playlist_title,
+                    'playlist_item_count': playlist_item_count
+                }
+
+                playlists.append(playlist_dict)
+
+        return playlists
+
+    def parse_playlist_items(self, playlist_items_json_path: str) -> List[Dict]:
+
+        with open(playlist_items_json_path, 'r') as playlist_json_file:
+            playlists = json.load(fp=playlist_json_file)
+
+        playlists_items = []
+
+        for playlist_resource in playlists:
+            for playlist in playlist_resource['items']:
+
+                playlist_item_id = playlist['id']
+                playlist_item_title = playlist['snippet']['title']
+                playlist_item_position = playlist['snippet']['position']
+                playlist_item_playlist_id = playlist['snippet']['playlistId']
+                playlist_item_publish_time = playlist['snippet']['publishedAt']
+                playlist_item_video_id = playlist['snippet']['resourceId']['videoId']
+
+                playlist_item_dict = {
+                    'playlist_item_id': playlist_item_id,
+                    'playlist_item_title': playlist_item_title,
+                    'playlist_item_position': playlist_item_position,
+                    'playlist_item_publish_time': playlist_item_publish_time,
+                    'playlist_item_video_id': playlist_item_video_id,
+                    'playlist_item_playlist_id': playlist_item_playlist_id
+                }
+
+                playlists_items.append(playlist_item_dict)
+
+        return playlists_items
+
+    def save_to_json_file(self, file_name: str, youtube_content: dict, append: bool = False) -> str:
         """Saves the content to a JSON file in the Data Folder.
 
         Arguments:
@@ -796,6 +861,9 @@ class YouTubeClient():
         
         youtube_content {dict} -- A youtube API JSON response.
 
+        append {bool} -- If `True` will merge the original file with the new content. `False` will
+            overwrite the existing file.
+
         Returns:
         ----
         str -- The file path of the new file.
@@ -803,8 +871,18 @@ class YouTubeClient():
 
         file_path = self.data_folder_path.joinpath('{file_name}.json'.format(file_name=file_name))
 
-        # Open the JSON file and save it.
-        with open(file_path, 'w+') as content_file:
-            json.dump(obj=youtube_content, fp=content_file, indent=4)
+        # Open the JSON file and save it
+        if not append:
+            with open(file_path, 'w+') as content_file:
+                json.dump(obj=youtube_content, fp=content_file, indent=4)
+
+        # If in append mode, merge the two files.
+        else:
+            with open(file_path, 'r') as content_file:
+                content = json.load(fp=content_file)
+                youtube_content = youtube_content + content
+
+            with open(file_path, 'w+') as content_file:
+                json.dump(obj=youtube_content, fp=content_file, indent=4)
 
         return file_path.resolve()
