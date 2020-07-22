@@ -1,32 +1,31 @@
-import json
+
 import os
+import json
 import pathlib
-import urllib.parse
-
 import requests
-
-from google_auth_oauthlib.flow import InstalledAppFlow
-from google.auth.transport.requests import Request
-from google.oauth2.credentials import Credentials
-from googleapiclient.http import MediaFileUpload
+import urllib.parse
 
 from typing import Dict
 from typing import List
 from typing import Union
 from typing import Tuple
 
+from google_auth_oauthlib.flow import InstalledAppFlow
+from google.auth.transport.requests import Request
+from google.oauth2.credentials import Credentials
+from googleapiclient.http import MediaFileUpload
+
 
 class YouTubeClient():
-    
 
-    def __init__(self, api_key: str, channel_id: str, client_secret_path: str, state_path: str) -> None:    
+    def __init__(self, api_key: str, channel_id: str, client_secret_path: str, state_path: str) -> None:
         """Initalizes a new instance of the YouTube Client Manager.
-        
+
         Arguments:
         ----
         api_key {str} -- Your YouTube API key issued from the Google Developer
             console.
-            
+
         channel_id {str} -- Your YouTube Channel Id.
 
         Usage:
@@ -36,7 +35,7 @@ class YouTubeClient():
                 channel_id='<CHANNEL_ID>'
             )
         """
-        
+
         # Define Channel Specific Items.
         self.api_key = api_key
         self.channel_id = channel_id
@@ -50,7 +49,8 @@ class YouTubeClient():
         # Session properties.
         self.client_secret_file = pathlib.Path(client_secret_path).absolute()
         self.youtube_state_file = pathlib.Path(state_path).absolute()
-        self.data_folder_path :pathlib.Path = pathlib.Path(__file__).parent.parent.joinpath('data')
+        self.data_folder_path: pathlib.Path = pathlib.Path(
+            __file__).parents[1].joinpath('data')
         self.credentials = self.oauth_workflow()
 
         # If we don't have a state file, then create it.
@@ -63,7 +63,7 @@ class YouTubeClient():
         Returns:
         ----
         Dict -- A dictionary containing state info.
-        """        
+        """
 
         # Define the state dict.
         state_dict = {
@@ -90,7 +90,9 @@ class YouTubeClient():
         request = Request()
 
         # load the file.
-        credentials = Credentials.from_authorized_user_file(filename=self.youtube_state_file)
+        credentials = Credentials.from_authorized_user_file(
+            filename=self.youtube_state_file
+        )
 
         # refresh the token.
         credentials.refresh(request)
@@ -113,7 +115,7 @@ class YouTubeClient():
         else:
             self.refresh_token()
             return True
-            
+
     def oauth_workflow(self) -> Union[Credentials, InstalledAppFlow]:
         """Handles oAuth workflow.
 
@@ -130,13 +132,17 @@ class YouTubeClient():
         elif self.client_secret_file.exists():
 
             # Initalize the flow workflow.
-            flow = InstalledAppFlow.from_client_secrets_file(self.client_secret_file, ['https://www.googleapis.com/auth/youtube'])
-            return  flow.run_console()
-            
-        else:
-            raise FileNotFoundError("Client Secret File Does Not Exist, please check your path.")
+            flow = InstalledAppFlow.from_client_secrets_file(
+                self.client_secret_file,
+                ['https://www.googleapis.com/auth/youtube']
+            )
+            return flow.run_console()
 
-    def _headers(self, json: bool = False, images: bool = False) -> Dict:
+        else:
+            raise FileNotFoundError(
+                "Client Secret File Does Not Exist, please check your path.")
+
+    def _headers(self, mode: str = 'json') -> Dict:
         """Builds the headers for a requests.
 
         Arguments:
@@ -144,7 +150,7 @@ class YouTubeClient():
         json {bool} -- If `True` then changes the headers to send JSON content.
 
         images {bool} -- If `True` then preps the headers to send an image content.
-    
+
         Returns:
         ----
         {Dict} -- A headers dictionary used in requests.
@@ -152,15 +158,15 @@ class YouTubeClient():
 
         # initalize the headers.
         headers = {
-            'Authorization':'Bearer {}'.format(self.credentials.token)
+            'Authorization': 'Bearer {}'.format(self.credentials.token)
         }
 
         # add content type if needed.
-        if json == True:
+        if mode == 'json':
             headers['Accept'] = 'application/json'
             headers['Content-Type'] = 'application/json'
-        
-        if images == True:
+
+        if mode == 'image':
             headers['Accepted Media MIME types'] = 'image/png'
 
         return headers
@@ -176,12 +182,77 @@ class YouTubeClient():
         ----
         {str} -- A full url path.
         """
-        return urllib.parse.urljoin(base ='/'.join([self.api_url, self.api_service, self.api_version, '/']), url = endpoint)
 
-    def _channel_sections(self) -> Dict:
-        """Makes a request to the Channels Section endpoint."""
+        # Define the parts.
+        parts = [self.api_url, self.api_service, self.api_version, '/']
 
-        url = self._build_url(endpoint = 'channelSections')
+        # Build the URL.
+        return urllib.parse.urljoin(
+            base='/'.join(parts),
+            url=endpoint
+        )
+
+    def _make_request(self, endpoint: str, method: str, headers: str = 'json', params: dict = None, json: dict = None, data: dict = None) -> List[Dict]:
+        """Used to make a request for each of the news clients.
+
+        Arguments:
+        ----
+        endpoint (str): The endpoint to build the URL.
+
+        method (str): The Request method, can be one of the
+            following: ['get','post','put','delete','patch'].
+
+        mode (str): The content-type mode, can be one of the
+            following: ['form','json'].
+
+        params (dict): The URL params for the request.
+
+        json (dict): A json data payload for a request.
+
+        data (dict): A data payload for a request.
+
+        Returns:
+        ----
+        List[Dict]: A list of news items objects.
+        """
+
+        # First validate the token before making the request.
+        if not self._validate_token():
+            return {
+                'token': 'Expired or invalid.'
+            }
+
+        # Build the URL.
+        url = self._build_url(endpoint=endpoint)
+
+        # Grab the headers.
+        headers = self._headers(mode=headers)
+
+        # Define a new session.
+        new_session = requests.Session()
+        new_session.verify = True
+
+        # Prepare the request.
+        new_request = requests.Request(
+            method=method.upper(),
+            headers=headers,
+            params=params,
+            data=data,
+            json=json,
+            url=url
+        ).prepare()
+
+        # Send the request.
+        response: requests.Response = new_session.send(
+            request=new_request
+        )
+
+        # If it was okay return the data.
+        if response.ok:
+            return response.json()
+        else:
+            print('Invalid Request')
+            return response.json()
 
     def _load_playlists(self) -> Dict:
         """Loads a playlist file.
@@ -203,10 +274,10 @@ class YouTubeClient():
                 return json.load(file)
         else:
             raise FileNotFoundError("Playlist content file doesn't exist.")
-    
+
     def _load_desc(self) -> Dict:
         """Loads description files used for videos.
-        
+
         Loads the description JSON file so we can populate it 
         with the new values.
 
@@ -219,7 +290,9 @@ class YouTubeClient():
         {Dict} -- Description file content.
         """
 
-        desc_path = self.data_folder_path('descriptions/video_desc.json')
+        desc_path = self.data_folder_path.joinpath(
+            'descriptions/video_desc.json'
+        )
 
         # laod the previous state if it exists and then refresh the token.
         if desc_path.exists():
@@ -228,7 +301,7 @@ class YouTubeClient():
         else:
             raise FileNotFoundError("Description templates do not exist.")
 
-    def playlists_items(self, playlist_id: str, all_pages: bool = False) -> List[Dict]:      
+    def playlists_items(self, playlist_id: str, all_pages: bool = False) -> List[Dict]:
         """Makes a request to the Playlist Items endpoint.
 
         Arguments:
@@ -245,51 +318,65 @@ class YouTubeClient():
         {List[Dict]} - A list of playlist items.
         """
 
-        # validate the token.
-        if self._validate_token():
+        # Initialize the list to store the data.
+        master_list = []
 
-            # define the url
-            url = self._build_url(endpoint = 'playlistItems')
+        # Define the params.
+        params = {
+            'part': 'contentDetails,id,snippet,status',
+            'playlistId': playlist_id,
+            'maxResults': 50,
+            'key': self.api_key
+        }
 
-            # define the arguments
-            params = {
-                'part':'contentDetails,id,snippet,status',
-                'playlistId':playlist_id,
-                'maxResults':50,
-                'key':self.api_key
-            }
+        # Define the endpoint.
+        endpoint = 'playlistItems'
 
-            # Grab the Headers.
-            headers = self._headers()
+        # Grab the data.
+        playlist_data = self._make_request(
+            endpoint=endpoint,
+            method='get',
+            headers='json',
+            params=params
+        )
 
-            # Grab the response.
-            playlist_response = requests.get(url=url, params=params, headers = headers, verify=True)
-            
-            # See if it was okay.
-            if playlist_response.ok:
-                
-                playlist_data = playlist_response.json()
-                master_list = []  
+        # Add it to the list.
+        master_list.append(playlist_data)
+
+        # Print the ID.
+        print('Pulling Playlist ID: {playlist_id}'.format(
+            playlist_id=playlist_id
+        )
+        )
+
+        # If they want all pages then keep going while there is a `nextPage`.
+        if all_pages:
+
+            while 'nextPageToken' in playlist_data:
+
+                # Print the message for the User to see.
+                print('''
+                Pulling Playlist ID: {playlist_id}
+                Pulling Page: {url}
+                '''.format(
+                    playlist_id=playlist_id,
+                    url=playlist_data['nextPageToken'])
+                )
+
+                # Add the next page token.
+                params['pageToken'] = playlist_data['nextPageToken']
+
+                # Grab the data.
+                playlist_data = self._make_request(
+                    endpoint=endpoint,
+                    method='get',
+                    headers='json',
+                    params=params
+                )
+                # Add the data.
                 master_list.append(playlist_data)
 
-                print('Pulling Playlist ID: {playlist_id}'.format(playlist_id=playlist_id))
-
-                if all_pages:                    
-                    while 'nextPageToken' in playlist_data.keys():
-                        
-                        params['pageToken'] = playlist_data['nextPageToken']
-                        playlist_data_response = requests.get(url=url, params=params, headers = headers, verify=True)
-
-                        print('Pulling Playlist ID: {playlist_id}'.format(playlist_id=playlist_id))
-                        print('Pulling Page: {url}'.format(url=playlist_data['nextPageToken']))
-
-                        # add the data.
-                        if playlist_data_response.ok:
-
-                            playlist_data = playlist_data_response.json()
-                            master_list.append(playlist_data)        
-
-                return master_list
+        return master_list
 
     def update_video(self, part: List[str], data: dict) -> Dict:
         """Updates the specified part of a video using the YouTube API.
@@ -305,23 +392,25 @@ class YouTubeClient():
         {Dict} -- The JSON content from the updated video.
         """
 
-        # validate the token.
-        if self._validate_token():
+        # Define the arguments.
+        params = {
+            'key': self.api_key,
+            'part': ','.join(part)
+        }
 
-            # define the url
-            url = self._build_url(endpoint = 'videos')
+        # Define the endpoint.
+        endpoint = 'videos'
 
-            # Redfine arguments.
-            params = {'key':self.api_key, 'part':",".join(part)}
-            headers = self._headers(json = True)
-            response = requests.put(url = url, params = params, headers = headers, data = json.dumps(data), verify = True)
+        # Grab the data.
+        update_video_data = self._make_request(
+            endpoint=endpoint,
+            params=params,
+            method='put',
+            headers='json',
+            json=data
+        )
 
-            if response.status_code == 200:
-                return response.json()
-            else:
-                print("Error Updating the Video.")
-                print(response.json())
-                return response.json()
+        return update_video_data
 
     def update_playlist(self, part: List[str], data: dict) -> Dict:
         """Updates the specified part of a Playlist using the YouTube API.
@@ -337,28 +426,25 @@ class YouTubeClient():
         {Dict} -- The JSON content from the updated playlist.
         """
 
-        # validate the token.
-        if self._validate_token():
+        # Define the arguments.
+        params = {
+            'key': self.api_key,
+            'part': ','.join(part)
+        }
 
-            # define the url
-            url = self._build_url(endpoint = 'playlists')
+        # Define the endpoint.
+        endpoint = 'playlists'
 
-            # Redfine arguments.
-            params = {
-                'key':self.api_key, 
-                'part':",".join(part)
-            }
+        # Grab the data.
+        update_playlist_data = self._make_request(
+            endpoint=endpoint,
+            params=params,
+            method='put',
+            headers='json',
+            json=data
+        )
 
-            headers = self._headers(json=True)
-
-            response = requests.put(url = url, params = params, headers = headers, data = json.dumps(data), verify = True)
-
-            if response.status_code == 200:
-                return response.json()
-            else:
-                print("Error Updating the Video.")
-                print(response.json())
-                return response.json()
+        return update_playlist_data
 
     def insert_playlist(self, part: List[str], data: dict) -> Dict:
         """Inserts a new playlist to the Channel.
@@ -374,30 +460,25 @@ class YouTubeClient():
         {Dict} -- The JSON content from the newly inserted video.
         """
 
-        # validate the token.
-        if self._validate_token():
+        # Define the arguments.
+        params = {
+            'key': self.api_key,
+            'part': ','.join(part)
+        }
 
-            # define the url
-            url = self._build_url(endpoint = 'playlists')
+        # Define the endpoint.
+        endpoint = 'playlists'
 
-            # Redfine arguments.
-            params = {
-                'key':self.api_key,
-                'part':",".join(part)
-            }
-            
-            # Define the headers.
-            headers = self._headers(json = True)
+        # Grab the data.
+        response = self._make_request(
+            endpoint=endpoint,
+            method='post',
+            headers='json',
+            params=params,
+            json=data
+        )
 
-            # Insert the new playlist
-            response = requests.post(url = url, params = params, headers = headers, json = data, verify = True)
-
-            if response.status_code == 200:
-                return response.json()
-            else:
-                print("Error Creating New Playlist.")
-                return response.json()
-
+        return response
 
     def update_playlist_items(self, part: List[str], data: dict) -> Dict:
         """Updates the specified part of a Playlist using the YouTube API.
@@ -413,22 +494,25 @@ class YouTubeClient():
         {Dict} -- The JSON content from the updated playlist items.
         """
 
-        # validate the token.
-        if self._validate_token():
+        # Define the arguments.
+        params = {
+            'key': self.api_key,
+            'part': ','.join(part)
+        }
 
-            # define the url
-            url = self._build_url(endpoint = 'playlistItems')
+        # Define the endpoint.
+        endpoint = 'playlistItems'
 
-            # Redfine arguments.
-            params = {'key':self.api_key, 'part':",".join(part)}
-            headers = self._headers(json = True)
-            response = requests.put(url = url, params = params, headers = headers, data = json.dumps(data), verify = True)
+        # Grab the data.
+        response = self._make_request(
+            endpoint=endpoint,
+            method='put',
+            headers='json',
+            params=params,
+            json=data
+        )
 
-            if response.status_code == 200:
-                return response.json()
-            else:
-                print("Error Updating the Video.")
-                return response.json()
+        return response
 
     def delete_playlist_items(self, playlist_item_id: str) -> Dict:
         """Deletes the specified item from the playlist.
@@ -443,30 +527,24 @@ class YouTubeClient():
         {Dict} -- Message specifying the result of delete operation.
         """
 
-        # validate the token.
-        if self._validate_token():
+        # Define the arguments.
+        params = {
+            'key': self.api_key,
+            'id': playlist_item_id
+        }
 
-            # define the url
-            url = self._build_url(endpoint = 'playlistItems')
+        # Define the endpoint.
+        endpoint = 'playlistItems'
 
-            # Redfine arguments.
-            params = {
-                'key':self.api_key,
-                'id':playlist_item_id
-            }
-            
-            # Define the headers.
-            headers = self._headers(json = True)
+        # Grab the data.
+        response = self._make_request(
+            endpoint=endpoint,
+            method='delete',
+            headers='json',
+            params=params
+        )
 
-            # Delete the playlist item.
-            response = requests.delete(url = url, params = params, headers = headers, verify = True)
-
-            if response.status_code == 204:
-                print("playlist item successfully deleted.")
-                return {"message":"playlist item successfully deleted."}
-            else:
-                print("Error deleting the playlist item.")
-                return response.json()
+        return response
 
     def insert_playlist_items(self, part: List[str], data: dict) -> Dict:
         """Inserts the specified item from the playlist.
@@ -483,33 +561,28 @@ class YouTubeClient():
         {Dict} -- Message specifying the result of Insert operation.
         """
 
-        # validate the token.
-        if self._validate_token():
+        # Define the arguments.
+        params = {
+            'key': self.api_key,
+            'part': ','.join(part)
+        }
 
-            # define the url
-            url = self._build_url(endpoint = 'playlistItems')
+        # Define the endpoint.
+        endpoint = 'playlistItems'
 
-            # Redfine arguments.
-            params = {
-                'key':self.api_key,
-                'part':",".join(part)
-            }
-            
-            # Define the headers.
-            headers = self._headers(json = True)
+        # Grab the data.
+        response = self._make_request(
+            endpoint=endpoint,
+            method='delete',
+            headers='json',
+            params=params,
+            json=data
+        )
 
-            # Delete the playlist item.
-            response = requests.post(url = url, params = params, headers = headers, data = json.dumps(data), verify = True)
-
-            if response.status_code == 200:
-                return response.json()
-            else:
-                print("Error Inserting the Playlist Item.")
-                return response.json()
+        return response
 
     def upload_thumbnail(self, video_id: str, thumbnail_path: str) -> Dict:
         """Uploads the specified file to the specific video as a thumbnail.
-
 
         Arguments:
         ----
@@ -522,33 +595,38 @@ class YouTubeClient():
         ----
         {Dict} -- Message specifying the result of Insert operation.
         """
-        
+
         # validate the token.
         if self._validate_token():
 
             # define the url
-            url = self._build_url(endpoint = 'thumbnails/set')
+            url = self._build_url(endpoint='thumbnails/set')
 
             # Define video parameters.
             params = {
                 'videoId': video_id,
-                'key':self.api_key
+                'key': self.api_key
             }
-            
+
             # define the file media content.
             files = {
                 'media': open(thumbnail_path, 'rb')
             }
 
             # Defin the headers.
-            headers = self._headers(images = True)
+            headers = self._headers(mode='images')
 
             # Define the URL.
             url = "https://www.googleapis.com/upload/youtube/v3/thumbnails/set"
 
             # Upload the Media
-            response = requests.post(url = url, headers = headers, files = files, params = params).json()
-            
+            response = requests.post(
+                url=url,
+                headers=headers,
+                files=files,
+                params=params
+            ).json()
+
             return response
 
     def grab_playlist(self, parts: List[str], playlist_id: str) -> Dict:
@@ -564,34 +642,27 @@ class YouTubeClient():
         ----
         {Dict} -- A Playlist resource objects.
         """
-        # validate the token.
-        if self._validate_token():
 
-            # define the url
-            url = self._build_url(endpoint = 'playlists')
+        # Define the arguments.
+        params = {
+            'key': self.api_key,
+            'maxResults': 50,
+            'id': playlist_id,
+            'part': parts
+        }
 
-            if isinstance(parts, list):
-                parts = ','.join(parts)
+        # Define the endpoint.
+        endpoint = 'playlists'
 
-            # define the parameters
-            params = {
-                'key':self.api_key,
-                'maxResults':50,
-                'id':playlist_id,
-                'part':parts
-            }
+        # Grab the data.
+        response = self._make_request(
+            endpoint=endpoint,
+            method='get',
+            headers='json',
+            params=params
+        )
 
-            # Define the headers
-            headers = self._headers()
-
-            # make the request
-            playlist_response = requests.get(url = url, params = params, headers = headers, verify = True)
-
-            if playlist_response.status_code == 200:
-                return playlist_response.json()
-            else:
-                print("COULD NOT PULL PLAYLIST.")
-                return playlist_response.json()
+        return response
 
     def clear_playlist_items(self, playlist_id: str) -> None:
         """Deletes all the exisiting items for a Playlist.
@@ -602,27 +673,29 @@ class YouTubeClient():
             the items from.
 
         """
-        
+
         # Grab all the items for a particular playlist.
-        playlist_items = self.playlists_items(playlist_id= playlist_id)
+        playlist_items = self.playlists_items(playlist_id=playlist_id)
 
         # Loop through each page in the playlist.
         for playlists_item_response in playlist_items:
 
             # Loop through each video in the playlist.
             for playlist_item in playlists_item_response['items']:
-                
+
                 # Grab the ID
                 playlist_item_id = playlist_item['id']
 
                 # Remove it from the playlist.
-                self.delete_playlist_items(playlist_item_id = playlist_item_id)
+                self.delete_playlist_items(playlist_item_id=playlist_item_id)
 
-    def grab_playlists(self, parts:List[str], playlist_ids: List[str]) -> Dict:
+    def grab_playlists(self, parts: List[str], playlist_ids: List[str]) -> Dict:
         """Grabs all the playlists for the specified channel.
 
         Arguments:
         ----
+        part {List[str]} -- The part of the playlist you want to pull.
+
         playlist_id {List[str]} -- A list of playlist IDs you want to pull.
 
         Returns:
@@ -633,51 +706,48 @@ class YouTubeClient():
         # Master list.
         playlists_list = []
 
-        # validate the token.
-        if self._validate_token():
+        # Define the arguments.
+        params = {
+            'mine': True,
+            'key': self.api_key,
+            'maxResults': 50,
+            'part': parts
+        }
 
-            # define the url
-            url = self._build_url(endpoint = 'playlists')
+        # Define the endpoint.
+        endpoint = 'playlists'
 
-            if isinstance(parts, list):
-                parts = ','.join(parts)
+        # Grab the data.
+        data = self._make_request(
+            endpoint=endpoint,
+            method='get',
+            headers='json',
+            params=params
+        )
 
-            # define the parameters
-            params = {
-                'mine': True,
-                'key':self.api_key,
-                'maxResults':50,
-                'part':parts
-            }
+        # Add it to the list.
+        playlists_list.append(data)
 
-            # Define the headers
-            headers = self._headers()
+        # Keep going while we have a key.
+        while 'nextPageToken' in data.keys():
 
-            # make the request
-            playlist_response = requests.get(url = url, params = params, headers = headers, verify = True)
+            # Add the next page.
+            params['pageToken'] = data['nextPageToken']
 
-            # keep going if it was successful.
-            if playlist_response.status_code == 200:
+            # Grab the data.
+            data = self._make_request(
+                endpoint=endpoint,
+                method='get',
+                headers='json',
+                params=params
+            )
 
-                # add the data
-                data = playlist_response.json()
-                playlists_list.append(data)
-                total_results = data['pageInfo']['totalResults']
+            # Add it to the list.
+            playlists_list.append(data)
 
-                while 'nextPageToken' in data.keys():
-                    params['pageToken'] = data['nextPageToken']
+        return playlists_list
 
-                    # add to master list.
-                    video_response = requests.get(url = url, params = params, headers = headers, verify = True).json()
-
-                    # add the data.
-                    if video_response.status_code == 200:
-                        data = video_response.json()
-                        playlists_list.append(data)
-
-                return playlists_list
-
-    def grab_channel_playlists(self, parts:List[str]) -> Dict:
+    def grab_channel_playlists(self, parts: List[str]) -> Dict:
         """Grabs all the playlists for the specified channel.
 
         Arguments:
@@ -692,53 +762,46 @@ class YouTubeClient():
         # Master list.
         playlists_list = []
 
-        # validate the token.
-        if self._validate_token():
+        # Define the arguments.
+        params = {
+            'mine': True,
+            'key': self.api_key,
+            'maxResults': 50,
+            'part': parts
+        }
 
-            # define the url
-            url = self._build_url(endpoint = 'playlists')
+        # Define the endpoint.
+        endpoint = 'playlists'
 
-            print('Pulling URL: {url}'.format(url=url))
+        # Grab the data.
+        data = self._make_request(
+            endpoint=endpoint,
+            method='get',
+            headers='json',
+            params=params
+        )
 
-            if isinstance(parts, list):
-                parts = ','.join(parts)
+        # Add it to the list.
+        playlists_list.append(data)
 
-            # define the parameters
-            params = {
-                'mine': True,
-                'key':self.api_key,
-                'maxResults':50,
-                'part':parts
-            }
+        # Keep going while we have a key.
+        while 'nextPageToken' in data.keys():
 
-            # Define the headers
-            headers = self._headers()
+            # Add the next page.
+            params['pageToken'] = data['nextPageToken']
 
-            # make the request
-            playlist_response = requests.get(url = url, params = params, headers = headers, verify = True)
+            # Grab the data.
+            data = self._make_request(
+                endpoint=endpoint,
+                method='get',
+                headers='json',
+                params=params
+            )
 
-            # keep going if it was successful.
-            if playlist_response.status_code == 200:
+            # Add it to the list.
+            playlists_list.append(data)
 
-                # add the data
-                data = playlist_response.json()
-                playlists_list.append(data)
-                total_results = data['pageInfo']['totalResults']
-                params['pageToken'] = data['nextPageToken']
-
-                while 'nextPageToken' in data.keys():
-
-                    print('Pulling Page: {url}'.format(url=data['nextPageToken']))
-
-                    # add to master list.
-                    video_response = requests.get(url = url, params = params, headers = headers, verify = True)
-
-                    # add the data.
-                    if video_response.status_code == 200:
-                        data = video_response.json()
-                        playlists_list.append(data)
-
-                return playlists_list
+        return playlists_list
 
     def grab_videos(self, video_id: str, parts: List[str]) -> Dict:
         """Grabs all the specified videos and parts requested
@@ -754,84 +817,118 @@ class YouTubeClient():
         {Dict} -- A list of Video resource objects.
         """
 
+        # Initialize a list to store the Video IDs.
         video_ids_list = []
 
-        if self._validate_token():
+        # Define the arguments.
+        params = {
+            'part': ','.join(parts),
+            'id': ','.join(video_id),
+            'maxResults': 50,
+            'key': self.api_key
+        }
 
-            # define the url
-            url = self._build_url(endpoint = 'videos')
-            headers = self._headers()
+        # Define the endpoint.
+        endpoint = 'videos'
 
-            # build the ids list
-            if isinstance(video_id, list):
-                video_ids = ','.join(video_id)
-            
-            if isinstance(parts, list):
-                parts = ','.join(parts)
+        # Grab the data.
+        data = self._make_request(
+            endpoint=endpoint,
+            method='get',
+            headers='json',
+            params=params
+        )
 
-            # define arguments.
-            params = {'part':parts,
-                      'id':video_ids,
-                      'maxResults':50,
-                      'key':self.api_key}
+        # Add it to the list.
+        video_ids_list.append(data)
 
-            # make the request
-            video_response = requests.get(url = url, params = params, headers = headers, verify = True)
+        # Keep going while we have a key.
+        while 'nextPageToken' in data.keys():
 
-            if video_response.status_code == 200:
-                
-                # add the data
-                data = video_response.json()
-                video_ids_list.append(data)
-                total_results = data['pageInfo']['totalResults']
+            # Add the next page.
+            params['pageToken'] = data['nextPageToken']
 
-                while 'nextPageToken' in data.keys():
-                    params['pageToken'] = data['nextPageToken']
+            # Grab the data.
+            data = self._make_request(
+                endpoint=endpoint,
+                method='get',
+                headers='json',
+                params=params
+            )
 
-                    # add to master list.
-                    video_response = requests.get(url = url, params = params, headers = headers, verify = True).json()
+            # Add it to the list.
+            video_ids_list.append(data)
 
-                    # add the data.
-                    if video_response.status_code == 200:
-                        data = video_response.json()
-                        video_ids_list.append(data)
-
-                return video_ids_list
+        return video_ids_list
 
     def parse_playlist_ids(self, playlist_json_path: str) -> List[Dict]:
+        """Simplifies the Playlist Objects to a more simplified object.
 
+        Arguments:
+        ----
+        playlist_json_path (str): The path to the JSON file.
+
+        Returns:
+        ----
+        List[Dict]: A list of playlist objects.
+        """
+
+        # Initial the playlist list.
+        playlists = []
+
+        # Open the file.
         with open(playlist_json_path, 'r') as playlist_json_file:
             playlists_resources = json.load(fp=playlist_json_file)
 
-        playlists = []
-
+        # Loop through each playlist.
         for playlist_resource in playlists_resources:
+
+            # Then each Item.
             for playlist in playlist_resource['items']:
 
+                # Grab the items we want.
                 playlist_id = playlist['id']
                 playlist_title = playlist['snippet']['title']
                 playlist_item_count = playlist['contentDetails']['itemCount']
 
+                # Assign it.
                 playlist_dict = {
                     'playlist_id': playlist_id,
                     'playlist_title': playlist_title,
                     'playlist_item_count': playlist_item_count
                 }
 
+                # Store it.
                 playlists.append(playlist_dict)
 
         return playlists
 
     def parse_playlist_items(self, playlist_items_json_path: str) -> List[Dict]:
+        """Simplifies the PlaylistItem Objects to a more simplified object.
 
+        Arguments:
+        ----
+        playlist_items_json_path (str): The path to the JSON file.
+
+        Returns:
+        ----
+        List[Dict]: A list of playlist item objects.
+        """
+
+        # Initialize the list.
+        playlists_items = []
+
+        # Open the file.
         with open(playlist_items_json_path, 'r') as playlist_json_file:
             playlists = json.load(fp=playlist_json_file)
 
-        playlists_items = []
-
+        # Loop through each playlist.
         for playlist_resource in playlists:
+
+            # Then each video.
             for playlist in playlist_resource['items']:
 
+                # Grab the items we want.
                 playlist_item_id = playlist['id']
                 playlist_item_title = playlist['snippet']['title']
                 playlist_item_position = playlist['snippet']['position']
@@ -839,6 +936,7 @@ class YouTubeClient():
                 playlist_item_publish_time = playlist['snippet']['publishedAt']
                 playlist_item_video_id = playlist['snippet']['resourceId']['videoId']
 
+                # Assign it.
                 playlist_item_dict = {
                     'playlist_item_id': playlist_item_id,
                     'playlist_item_title': playlist_item_title,
@@ -848,6 +946,7 @@ class YouTubeClient():
                     'playlist_item_playlist_id': playlist_item_playlist_id
                 }
 
+                # Store it.
                 playlists_items.append(playlist_item_dict)
 
         return playlists_items
@@ -858,7 +957,7 @@ class YouTubeClient():
         Arguments:
         ----
         file_name {str} -- The name of your JSON file.
-        
+
         youtube_content {dict} -- A youtube API JSON response.
 
         append {bool} -- If `True` will merge the original file with the new content. `False` will
@@ -867,14 +966,17 @@ class YouTubeClient():
         Returns:
         ----
         str -- The file path of the new file.
-        """        
+        """
 
-        file_path = self.data_folder_path.joinpath('{file_name}.json'.format(file_name=file_name))
+        # Create a Path object.
+        file_path = self.data_folder_path.joinpath(
+            '{file_name}.json'.format(file_name=file_name)
+        )
 
         # Open the JSON file and save it
         if not append:
             with open(file_path, 'w+') as content_file:
-                json.dump(obj=youtube_content, fp=content_file, indent=4)
+                json.dump(obj=youtube_content, fp=content_file, indent=2)
 
         # If in append mode, merge the two files.
         else:
@@ -883,6 +985,6 @@ class YouTubeClient():
                 youtube_content = youtube_content + content
 
             with open(file_path, 'w+') as content_file:
-                json.dump(obj=youtube_content, fp=content_file, indent=4)
+                json.dump(obj=youtube_content, fp=content_file, indent=2)
 
         return file_path.resolve()
