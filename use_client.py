@@ -1,15 +1,18 @@
+import json
+
 from pprint import pprint
 from configparser import ConfigParser
 from youtube.client import YouTubeClient
 
+PARSE_FILES = True
+
 GRAB_CHANNEL_PLAYLISTS = False
 GRAB_CHANNEL_PLAYLISTS_ITEMS = False
+GRAB_CHANNEL_PLAYLISTS_ITEMS_ALL = False
 
 GRAB_PLAYLISTS = False
 GRAB_PLAYLISTS_ITEMS = False
 GRAB_SPECIFIC_PLAYLIST = False
-
-PARSE_FILES = True
 
 # Grab configuration values.
 config = ConfigParser()
@@ -56,7 +59,7 @@ if GRAB_CHANNEL_PLAYLISTS_ITEMS:
 
     # Save the data to a JSON file.
     new_json_file_path = youtube_session.save_to_json_file(
-        file_name='channel_playlist_items',
+        file_name='channel_playlists_items',
         youtube_content=playlist_items
     )
 
@@ -64,16 +67,34 @@ if GRAB_CHANNEL_PLAYLISTS_ITEMS:
     message = "Playlist All Playlist Items Master File: {path}"
     print(message.format(path=new_json_file_path))
 
-if GRAB_PLAYLISTS:
+if GRAB_CHANNEL_PLAYLISTS_ITEMS_ALL:
+    
+    # Initialize the list to store all the data.
+    all_playlist_items = []
 
-    # Parse all the playlists from the List.
-    all_playlists = youtube_session.parse_playlist_ids(
-        playlist_json_path='data/channel_playlists.json')
+    # Load the `channel_playlists_parsed` file.
+    with open('data/channel_playlists_parsed.json', 'r') as channel_playlist_file:
+        channel_playlists = json.load(fp=channel_playlist_file)
+    
+    # Grab all the Playlist IDs.
+    playlist_ids = [playlist['playlist_id'] for playlist in channel_playlists]
+    
+    # Loop through each playlist ID.
+    for playlist_id in playlist_ids:
+
+        # Grab the playlist items.
+        playlist_items = youtube_session.playlists_items(
+            playlist_id=playlist_id,
+            all_pages=True
+        )
+
+        # Add to the main list.
+        all_playlist_items = all_playlist_items + playlist_items
 
     # Save the data to a JSON file.
     new_json_file_path = youtube_session.save_to_json_file(
-        file_name='all_playlist_parsed',
-        youtube_content=all_playlists
+        file_name='channel_playlists_items_all',
+        youtube_content=all_playlist_items
     )
 
     # Print the message.
@@ -93,7 +114,8 @@ if GRAB_SPECIFIC_PLAYLIST:
 
         # Grab the playlist items.
         playlist_items = youtube_session.playlists_items(
-            playlist_id=playlist_id, all_pages=True
+            playlist_id=playlist_id,
+            all_pages=True
         )
 
         # Add to the main list.
@@ -101,7 +123,7 @@ if GRAB_SPECIFIC_PLAYLIST:
 
     # Save the data to a JSON file.
     new_json_file_path = youtube_session.save_to_json_file(
-        file_name='all_playlist_items',
+        file_name='all_playlists_items',
         youtube_content=all_playlist_items,
         append=False
     )
@@ -155,7 +177,12 @@ if PARSE_FILES:
 
     # Parse all the playlist items from the List.
     all_playlist_items_parsed = youtube_session.parse_playlist_items(
-        playlist_items_json_path='data/channel_playlist_items.json'
+        playlist_items_json_path='data/channel_playlists_items.json'
+    )
+
+    # Parse all the playlist items from the List.
+    all_playlist_items_all_parsed = youtube_session.parse_playlist_items(
+        playlist_items_json_path='data/channel_playlists_items_all.json'
     )
 
     # Save the data to a JSON file.
@@ -172,14 +199,23 @@ if PARSE_FILES:
         append=False
     )
 
+    # Save the data to a JSON file.
+    playlist_items_all_parsed_path = youtube_session.save_to_json_file(
+        file_name='channel_playlists_items_all_parsed',
+        youtube_content=all_playlist_items_all_parsed,
+        append=False
+    )
+
     # Print the message.
     message = """
     Playlist Parsed JSON File: {path_p}
     Playlist Items Parsed JSON File: {path_i}
+    Playlist Items Parsed All JSON File: {path_a}
     """
     print(
         message.format(
             path_p=playlist_parsed_path,
-            path_i=playlist_items_parsed_path
+            path_i=playlist_items_parsed_path,
+            path_a=playlist_items_all_parsed_path
         )
     )

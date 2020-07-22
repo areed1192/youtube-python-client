@@ -32,7 +32,9 @@ class YouTubeClient():
         ----
             >>> youtube_session(
                 api_key='<API_KEY>',
-                channel_id='<CHANNEL_ID>'
+                channel_id='<CHANNEL_ID>',
+                client_secret_path='<CLIENT_SECRET_PATH>',
+                state_path='<STATE_PATH>'
             )
         """
 
@@ -49,8 +51,7 @@ class YouTubeClient():
         # Session properties.
         self.client_secret_file = pathlib.Path(client_secret_path).absolute()
         self.youtube_state_file = pathlib.Path(state_path).absolute()
-        self.data_folder_path: pathlib.Path = pathlib.Path(
-            __file__).parents[1].joinpath('data')
+        self.data_folder_path: pathlib.Path = pathlib.Path(__file__).parents[1].joinpath('data')
         self.credentials = self.oauth_workflow()
 
         # If we don't have a state file, then create it.
@@ -83,7 +84,7 @@ class YouTubeClient():
 
         Returns:
         ----
-        {dict{} -- Dictionary containing authentication protocol.
+        (Credentials) -- Dictionary containing authentication protocol.
         """
 
         # create a new request transport.
@@ -590,7 +591,6 @@ class YouTubeClient():
 
         thumbnail_path {str} -- The file path of the thumbnail image.
 
-
         Returns:
         ----
         {Dict} -- Message specifying the result of Insert operation.
@@ -614,7 +614,7 @@ class YouTubeClient():
             }
 
             # Defin the headers.
-            headers = self._headers(mode='images')
+            headers = self._headers(mode='image')
 
             # Define the URL.
             url = "https://www.googleapis.com/upload/youtube/v3/thumbnails/set"
@@ -671,7 +671,6 @@ class YouTubeClient():
         ----
         playlist_id {str} -- The ID of the playlist you want to clear all 
             the items from.
-
         """
 
         # Grab all the items for a particular playlist.
