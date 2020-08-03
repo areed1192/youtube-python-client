@@ -1,168 +1,168 @@
 [
-    {
-        "kind": "youtube#playlistItemListResponse",
-        "etag": "kW-rDBOuvoX2IpiiHbIdXecyAwY",
-        "items": [
-            {
-                "kind": "youtube#playlistItem",
-                "etag": "0Oo3rcXc18hPY_DLwx0jla_sqys",
-                "id": "UExjRmNrdFowd25ObWRnQWR2NC1ZbF9uelM1TGlLbmhubi41NkI0NEY2RDEwNTU3Q0M2",
-                "snippet": {
-                    "publishedAt": "2020-05-25T04:33:51Z",
-                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
-                    "title": "Building a Trading Robot in Python | Pt. 1",
-                    "description": "A popular topic in the FinTech world is the development of Trading Robots, that can take trading strategies and execute them in an automate fashion with minimal or limited interaction. In this series, we kick off how to create a trading robot in python that will execute a simple strategy we define. In this particular video, we are going to take a look at the problem/solution before jumping into the code. I find this helps give us a framework to follow and keeps us focused when developing our program.\n\nVideo Resources:\n--------------------------------------------------\nhttps://github.com/areed1192/python-trading-robot\n\nResources:\n--------------------------------------------------\nFacebook Page: https://www.facebook.com/codingsigma\nFacebook Group: https://www.facebook.com/groups/sigmacoding\nGitHub Sigma Coding: https://github.com/areed1192/sigma_coding_youtube\n\nSupport Sigma Coding:\n--------------------------------------------------\nPatreon: https://patreon.com/sigmacoding\nAmazon Associates: https://amzn.to/3bsTI5P **\n\nRelated Topics:\n--------------------------------------------------\nTitle: Building a Trading Robot in Python | Pt. 1\nLink: https://youtu.be/QAo0x9fE6ck\n\nTitle: Building a Trading Robot in Python | Pt. 2\nLink: https://youtu.be/c1See7jtRJ4\n\nTitle: Building a Trading Robot in Python | Pt. 3\nLink: https://youtu.be/z6ttrlG1maA\n\n**Amazon Associates Disclosure:\n--------------------------------------------------\nI am a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. One of the ways I support the channel is by using Amazon Associates to earn fees on purchases you make. That means when you use the link above, it will track any purchases made from that link and give a small portion of it to the Sigma Coding. I love this approach because it allows you to do what you're already doing (shopping) but also helps support the channels you care about. Also, it makes it where I can invest that revenue to help improve and grow the channel.\n\nTags:\n--------------------------------------------------\n#Python #Finance #TradingRobot",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/QAo0x9fE6ck/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/QAo0x9fE6ck/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/QAo0x9fE6ck/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        },
-                        "standard": {
-                            "url": "https://i.ytimg.com/vi/QAo0x9fE6ck/sddefault.jpg",
-                            "width": 640,
-                            "height": 480
-                        },
-                        "maxres": {
-                            "url": "https://i.ytimg.com/vi/QAo0x9fE6ck/maxresdefault.jpg",
-                            "width": 1280,
-                            "height": 720
-                        }
-                    },
-                    "channelTitle": "Sigma Coding",
-                    "playlistId": "PLcFcktZ0wnNmdgAdv4-Yl_nzS5LiKnhnn",
-                    "position": 0,
-                    "resourceId": {
-                        "kind": "youtube#video",
-                        "videoId": "QAo0x9fE6ck"
-                    }
-                },
-                "contentDetails": {
-                    "videoId": "QAo0x9fE6ck",
-                    "videoPublishedAt": "2020-05-25T04:53:32Z"
-                },
-                "status": {
-                    "privacyStatus": "public"
-                }
+  {
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "kW-rDBOuvoX2IpiiHbIdXecyAwY",
+    "items": [
+      {
+        "kind": "youtube#playlistItem",
+        "etag": "0Oo3rcXc18hPY_DLwx0jla_sqys",
+        "id": "UExjRmNrdFowd25ObWRnQWR2NC1ZbF9uelM1TGlLbmhubi41NkI0NEY2RDEwNTU3Q0M2",
+        "snippet": {
+          "publishedAt": "2020-05-25T04:33:51Z",
+          "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+          "title": "Building a Trading Robot in Python | Pt. 1",
+          "description": "A popular topic in the FinTech world is the development of Trading Robots, that can take trading strategies and execute them in an automate fashion with minimal or limited interaction. In this series, we kick off how to create a trading robot in python that will execute a simple strategy we define. In this particular video, we are going to take a look at the problem/solution before jumping into the code. I find this helps give us a framework to follow and keeps us focused when developing our program.\n\nVideo Resources:\n--------------------------------------------------\nhttps://github.com/areed1192/python-trading-robot\n\nResources:\n--------------------------------------------------\nFacebook Page: https://www.facebook.com/codingsigma\nFacebook Group: https://www.facebook.com/groups/sigmacoding\nGitHub Sigma Coding: https://github.com/areed1192/sigma_coding_youtube\n\nSupport Sigma Coding:\n--------------------------------------------------\nPatreon: https://patreon.com/sigmacoding\nAmazon Associates: https://amzn.to/3bsTI5P **\n\nRelated Topics:\n--------------------------------------------------\nTitle: Building a Trading Robot in Python | Pt. 1\nLink: https://youtu.be/QAo0x9fE6ck\n\nTitle: Building a Trading Robot in Python | Pt. 2\nLink: https://youtu.be/c1See7jtRJ4\n\nTitle: Building a Trading Robot in Python | Pt. 3\nLink: https://youtu.be/z6ttrlG1maA\n\n**Amazon Associates Disclosure:\n--------------------------------------------------\nI am a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. One of the ways I support the channel is by using Amazon Associates to earn fees on purchases you make. That means when you use the link above, it will track any purchases made from that link and give a small portion of it to the Sigma Coding. I love this approach because it allows you to do what you're already doing (shopping) but also helps support the channels you care about. Also, it makes it where I can invest that revenue to help improve and grow the channel.\n\nTags:\n--------------------------------------------------\n#Python #Finance #TradingRobot",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/QAo0x9fE6ck/default.jpg",
+              "width": 120,
+              "height": 90
             },
-            {
-                "kind": "youtube#playlistItem",
-                "etag": "I4Dw14CxhzgPYsM4yRJhbZU5EUo",
-                "id": "UExjRmNrdFowd25ObWRnQWR2NC1ZbF9uelM1TGlLbmhubi4yODlGNEE0NkRGMEEzMEQy",
-                "snippet": {
-                    "publishedAt": "2020-05-25T04:39:19Z",
-                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
-                    "title": "Building a Trading Robot in Python | Pt. 2",
-                    "description": "This is part 2 of our series on how to build a trading robot in Python. Now that we have a general idea of what we are trying to build and an approach on how to build it, let's start coding. At this point we are going to get our files setup and start working through the robot.py file. That file will contain our main entry point into the program and will be used to create the other objects in our program.\n\nVideo Resources:\n--------------------------------------------------\nhttps://github.com/areed1192/python-trading-robot\n\nResources:\n--------------------------------------------------\nFacebook Page: https://www.facebook.com/codingsigma\nFacebook Group: https://www.facebook.com/groups/sigmacoding\nGitHub Sigma Coding: https://github.com/areed1192/sigma_coding_youtube\n\nSupport Sigma Coding:\n--------------------------------------------------\nPatreon: https://patreon.com/sigmacoding\nAmazon Associates: https://amzn.to/3bsTI5P **\n\nRelated Topics:\n--------------------------------------------------\nTitle: Building a Trading Robot in Python | Pt. 1\nLink: https://youtu.be/QAo0x9fE6ck\n\nTitle: Building a Trading Robot in Python | Pt. 2\nLink: https://youtu.be/c1See7jtRJ4\n\nTitle: Building a Trading Robot in Python | Pt. 3\nLink: https://youtu.be/z6ttrlG1maA\n\n**Amazon Associates Disclosure:\n--------------------------------------------------\nI am a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. One of the ways I support the channel is by using Amazon Associates to earn fees on purchases you make. That means when you use the link above, it will track any purchases made from that link and give a small portion of it to the Sigma Coding. I love this approach because it allows you to do what you're already doing (shopping) but also helps support the channels you care about. Also, it makes it where I can invest that revenue to help improve and grow the channel.\n\nTags:\n--------------------------------------------------\n#Python #Finance #TradingRobot",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/c1See7jtRJ4/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/c1See7jtRJ4/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/c1See7jtRJ4/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        },
-                        "standard": {
-                            "url": "https://i.ytimg.com/vi/c1See7jtRJ4/sddefault.jpg",
-                            "width": 640,
-                            "height": 480
-                        },
-                        "maxres": {
-                            "url": "https://i.ytimg.com/vi/c1See7jtRJ4/maxresdefault.jpg",
-                            "width": 1280,
-                            "height": 720
-                        }
-                    },
-                    "channelTitle": "Sigma Coding",
-                    "playlistId": "PLcFcktZ0wnNmdgAdv4-Yl_nzS5LiKnhnn",
-                    "position": 1,
-                    "resourceId": {
-                        "kind": "youtube#video",
-                        "videoId": "c1See7jtRJ4"
-                    }
-                },
-                "contentDetails": {
-                    "videoId": "c1See7jtRJ4",
-                    "videoPublishedAt": "2020-05-25T05:11:26Z"
-                },
-                "status": {
-                    "privacyStatus": "public"
-                }
+            "medium": {
+              "url": "https://i.ytimg.com/vi/QAo0x9fE6ck/mqdefault.jpg",
+              "width": 320,
+              "height": 180
             },
-            {
-                "kind": "youtube#playlistItem",
-                "etag": "5Q37pMf1Hab-ABvLqdif0uR_4js",
-                "id": "UExjRmNrdFowd25ObWRnQWR2NC1ZbF9uelM1TGlLbmhubi4wOTA3OTZBNzVEMTUzOTMy",
-                "snippet": {
-                    "publishedAt": "2020-05-25T04:54:13Z",
-                    "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
-                    "title": "Building a Trading Robot in Python | Pt. 3",
-                    "description": "This is part 3 of our series on how to build a trading robot in Python. In this portion, we move on to the next object the portfolio object. With the portfolio object we can create a framework to help keep positions organized and flexible when it comes to adding and deleting them. Additionally, we will find that having this structure can help us answer common questions about our portfolio. For example, getting a better understanding of the overall risk exposure it might have.\n\nVideo Resources:\n--------------------------------------------------\nhttps://github.com/areed1192/python-trading-robot\n\nResources:\n--------------------------------------------------\nFacebook Page: https://www.facebook.com/codingsigma\nFacebook Group: https://www.facebook.com/groups/sigmacoding\nGitHub Sigma Coding: https://github.com/areed1192/sigma_coding_youtube\n\nSupport Sigma Coding:\n--------------------------------------------------\nPatreon: https://patreon.com/sigmacoding\nAmazon Associates: https://amzn.to/3bsTI5P **\n\nRelated Topics:\n--------------------------------------------------\nTitle: Building a Trading Robot in Python | Pt. 1\nLink: https://youtu.be/QAo0x9fE6ck\n\nTitle: Building a Trading Robot in Python | Pt. 2\nLink: https://youtu.be/c1See7jtRJ4\n\nTitle: Building a Trading Robot in Python | Pt. 3\nLink: https://youtu.be/z6ttrlG1maA\n\n\n**Amazon Associates Disclosure:\n--------------------------------------------------\nI am a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. One of the ways I support the channel is by using Amazon Associates to earn fees on purchases you make. That means when you use the link above, it will track any purchases made from that link and give a small portion of it to the Sigma Coding. I love this approach because it allows you to do what you're already doing (shopping) but also helps support the channels you care about. Also, it makes it where I can invest that revenue to help improve and grow the channel.\n\nTags:\n--------------------------------------------------\n#Python #Finance #TradingRobot",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/z6ttrlG1maA/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/z6ttrlG1maA/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/z6ttrlG1maA/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        },
-                        "standard": {
-                            "url": "https://i.ytimg.com/vi/z6ttrlG1maA/sddefault.jpg",
-                            "width": 640,
-                            "height": 480
-                        },
-                        "maxres": {
-                            "url": "https://i.ytimg.com/vi/z6ttrlG1maA/maxresdefault.jpg",
-                            "width": 1280,
-                            "height": 720
-                        }
-                    },
-                    "channelTitle": "Sigma Coding",
-                    "playlistId": "PLcFcktZ0wnNmdgAdv4-Yl_nzS5LiKnhnn",
-                    "position": 2,
-                    "resourceId": {
-                        "kind": "youtube#video",
-                        "videoId": "z6ttrlG1maA"
-                    }
-                },
-                "contentDetails": {
-                    "videoId": "z6ttrlG1maA",
-                    "videoPublishedAt": "2020-05-25T05:01:52Z"
-                },
-                "status": {
-                    "privacyStatus": "public"
-                }
+            "high": {
+              "url": "https://i.ytimg.com/vi/QAo0x9fE6ck/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/QAo0x9fE6ck/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/QAo0x9fE6ck/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
             }
-        ],
-        "pageInfo": {
-            "totalResults": 3,
-            "resultsPerPage": 50
+          },
+          "channelTitle": "Sigma Coding",
+          "playlistId": "PLcFcktZ0wnNmdgAdv4-Yl_nzS5LiKnhnn",
+          "position": 0,
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "QAo0x9fE6ck"
+          }
+        },
+        "contentDetails": {
+          "videoId": "QAo0x9fE6ck",
+          "videoPublishedAt": "2020-05-25T04:53:32Z"
+        },
+        "status": {
+          "privacyStatus": "public"
         }
+      },
+      {
+        "kind": "youtube#playlistItem",
+        "etag": "I4Dw14CxhzgPYsM4yRJhbZU5EUo",
+        "id": "UExjRmNrdFowd25ObWRnQWR2NC1ZbF9uelM1TGlLbmhubi4yODlGNEE0NkRGMEEzMEQy",
+        "snippet": {
+          "publishedAt": "2020-05-25T04:39:19Z",
+          "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+          "title": "Building a Trading Robot in Python | Pt. 2",
+          "description": "This is part 2 of our series on how to build a trading robot in Python. Now that we have a general idea of what we are trying to build and an approach on how to build it, let's start coding. At this point we are going to get our files setup and start working through the robot.py file. That file will contain our main entry point into the program and will be used to create the other objects in our program.\n\nVideo Resources:\n--------------------------------------------------\nhttps://github.com/areed1192/python-trading-robot\n\nResources:\n--------------------------------------------------\nFacebook Page: https://www.facebook.com/codingsigma\nFacebook Group: https://www.facebook.com/groups/sigmacoding\nGitHub Sigma Coding: https://github.com/areed1192/sigma_coding_youtube\n\nSupport Sigma Coding:\n--------------------------------------------------\nPatreon: https://patreon.com/sigmacoding\nAmazon Associates: https://amzn.to/3bsTI5P **\n\nRelated Topics:\n--------------------------------------------------\nTitle: Building a Trading Robot in Python | Pt. 1\nLink: https://youtu.be/QAo0x9fE6ck\n\nTitle: Building a Trading Robot in Python | Pt. 2\nLink: https://youtu.be/c1See7jtRJ4\n\nTitle: Building a Trading Robot in Python | Pt. 3\nLink: https://youtu.be/z6ttrlG1maA\n\n**Amazon Associates Disclosure:\n--------------------------------------------------\nI am a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. One of the ways I support the channel is by using Amazon Associates to earn fees on purchases you make. That means when you use the link above, it will track any purchases made from that link and give a small portion of it to the Sigma Coding. I love this approach because it allows you to do what you're already doing (shopping) but also helps support the channels you care about. Also, it makes it where I can invest that revenue to help improve and grow the channel.\n\nTags:\n--------------------------------------------------\n#Python #Finance #TradingRobot",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/c1See7jtRJ4/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/c1See7jtRJ4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/c1See7jtRJ4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/c1See7jtRJ4/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/c1See7jtRJ4/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Sigma Coding",
+          "playlistId": "PLcFcktZ0wnNmdgAdv4-Yl_nzS5LiKnhnn",
+          "position": 1,
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "c1See7jtRJ4"
+          }
+        },
+        "contentDetails": {
+          "videoId": "c1See7jtRJ4",
+          "videoPublishedAt": "2020-05-25T05:11:26Z"
+        },
+        "status": {
+          "privacyStatus": "public"
+        }
+      },
+      {
+        "kind": "youtube#playlistItem",
+        "etag": "5Q37pMf1Hab-ABvLqdif0uR_4js",
+        "id": "UExjRmNrdFowd25ObWRnQWR2NC1ZbF9uelM1TGlLbmhubi4wOTA3OTZBNzVEMTUzOTMy",
+        "snippet": {
+          "publishedAt": "2020-05-25T04:54:13Z",
+          "channelId": "UCBsTB02yO0QGwtlfiv5m25Q",
+          "title": "Building a Trading Robot in Python | Pt. 3",
+          "description": "This is part 3 of our series on how to build a trading robot in Python. In this portion, we move on to the next object the portfolio object. With the portfolio object we can create a framework to help keep positions organized and flexible when it comes to adding and deleting them. Additionally, we will find that having this structure can help us answer common questions about our portfolio. For example, getting a better understanding of the overall risk exposure it might have.\n\nVideo Resources:\n--------------------------------------------------\nhttps://github.com/areed1192/python-trading-robot\n\nResources:\n--------------------------------------------------\nFacebook Page: https://www.facebook.com/codingsigma\nFacebook Group: https://www.facebook.com/groups/sigmacoding\nGitHub Sigma Coding: https://github.com/areed1192/sigma_coding_youtube\n\nSupport Sigma Coding:\n--------------------------------------------------\nPatreon: https://patreon.com/sigmacoding\nAmazon Associates: https://amzn.to/3bsTI5P **\n\nRelated Topics:\n--------------------------------------------------\nTitle: Building a Trading Robot in Python | Pt. 1\nLink: https://youtu.be/QAo0x9fE6ck\n\nTitle: Building a Trading Robot in Python | Pt. 2\nLink: https://youtu.be/c1See7jtRJ4\n\nTitle: Building a Trading Robot in Python | Pt. 3\nLink: https://youtu.be/z6ttrlG1maA\n\n\n**Amazon Associates Disclosure:\n--------------------------------------------------\nI am a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. One of the ways I support the channel is by using Amazon Associates to earn fees on purchases you make. That means when you use the link above, it will track any purchases made from that link and give a small portion of it to the Sigma Coding. I love this approach because it allows you to do what you're already doing (shopping) but also helps support the channels you care about. Also, it makes it where I can invest that revenue to help improve and grow the channel.\n\nTags:\n--------------------------------------------------\n#Python #Finance #TradingRobot",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/z6ttrlG1maA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/z6ttrlG1maA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/z6ttrlG1maA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/z6ttrlG1maA/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/z6ttrlG1maA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Sigma Coding",
+          "playlistId": "PLcFcktZ0wnNmdgAdv4-Yl_nzS5LiKnhnn",
+          "position": 2,
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "z6ttrlG1maA"
+          }
+        },
+        "contentDetails": {
+          "videoId": "z6ttrlG1maA",
+          "videoPublishedAt": "2020-05-25T05:01:52Z"
+        },
+        "status": {
+          "privacyStatus": "public"
+        }
+      }
+    ],
+    "pageInfo": {
+      "totalResults": 3,
+      "resultsPerPage": 50
     }
+  }
 ]
