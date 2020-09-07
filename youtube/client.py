@@ -135,7 +135,10 @@ class YouTubeClient():
             # Initalize the flow workflow.
             flow = InstalledAppFlow.from_client_secrets_file(
                 self.client_secret_file,
-                ['https://www.googleapis.com/auth/youtube']
+                [
+                    'https://www.googleapis.com/auth/youtube',
+                    'https://www.googleapis.com/auth/youtube.force-ssl'
+                ]
             )
             return flow.run_console()
 
@@ -574,7 +577,7 @@ class YouTubeClient():
         # Grab the data.
         response = self._make_request(
             endpoint=endpoint,
-            method='delete',
+            method='post',
             headers='json',
             params=params,
             json=data
@@ -859,6 +862,70 @@ class YouTubeClient():
             video_ids_list.append(data)
 
         return video_ids_list
+
+    def grab_comments(self, video_ids: List[str], parts: List[str]) -> Dict:
+        """Grabs all the comments for the video Ids specified.
+
+        Arguments:
+        ----
+        video_ids {List[str]} -- A list of Video IDs you want to pull comments for.
+
+        part {List[str]} -- The parts of the video you wish to pull.
+
+        Returns:
+        ----
+        {Dict} -- A list of comments for each of the videos.
+        """
+
+        # Initialize our dictionary which will store Comments.
+        video_comments = {}
+
+        # Loop through each video.
+        for video_id in video_ids:
+            
+            # Each Video will have multiple comments.
+            video_comments[video_id] = []
+
+            # Define the arguments.
+            params = {
+                'part': ','.join(parts),
+                'videoId': video_id,
+                'maxResults': 50,
+                'key': self.api_key
+            }
+
+            # Define the endpoint.
+            endpoint = 'commentThreads'
+
+            # Grab the data.
+            data = self._make_request(
+                endpoint=endpoint,
+                method='get',
+                headers='json',
+                params=params
+            )
+
+            # Add it to the list.
+            video_comments[video_id].append(data)
+
+            # Keep going while we have a key.
+            while 'nextPageToken' in data.keys():
+
+                # Add the next page.
+                params['pageToken'] = data['nextPageToken']
+
+                # Grab the data.
+                data = self._make_request(
+                    endpoint=endpoint,
+                    method='get',
+                    headers='json',
+                    params=params
+                )
+
+                # Add it to the list.
+                video_comments[video_id].append(data)
+
+        return video_comments
 
     def parse_playlist_ids(self, playlist_json_path: str) -> List[Dict]:
         """Simplifies the Playlist Objects to a more simplified object.
