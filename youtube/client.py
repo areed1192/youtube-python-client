@@ -50,6 +50,7 @@ class YouTubeClient():
 
         # Session properties.
         self.client_secret_file = pathlib.Path(client_secret_path).absolute()
+        print(self.client_secret_file)
         self.youtube_state_file = pathlib.Path(state_path).absolute()
         self.data_folder_path: pathlib.Path = pathlib.Path(__file__).parents[1].joinpath('data')
         self.credentials = self.oauth_workflow()

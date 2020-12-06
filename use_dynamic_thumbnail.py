@@ -41,7 +41,7 @@ current_subscriber_text = "{curr_subs} SO FAR !!!".format(
 
 # Create a new AdobeIllustrator Client.
 adobe_illustrator = AdobeIllustrator(
-    file_name='thumbnail_help_me_grow_test.ai'
+    file_name='thumbnail_help_me_grow.ai'
 )
 
 # Set the Text for Goal Subscriber Text.

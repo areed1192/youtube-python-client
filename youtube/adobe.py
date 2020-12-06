@@ -28,13 +28,13 @@ class AdobeIllustrator():
             self.adobe_app = win32.dynamic.Dispatch("Illustrator.Application")
 
         # Define the Thumbnail folder.
-        self.thumbnail_folder = "C:/Users/Alex/OneDrive/Desktop/Personal Code/youtube-api/thumbnails"
+        self.thumbnail_folder = pathlib.Path("thumbnails").absolute()
 
         # If we have a file name open it.
         if file_name:
 
             # Create the full path.
-            file_name = pathlib.Path(self.thumbnail_folder).joinpath(file_name)
+            file_name = self.thumbnail_folder.joinpath(file_name)
 
             # Open the file.
             self.adobe_file = self.adobe_app.Open(file_name.as_posix())
