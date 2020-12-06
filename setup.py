@@ -37,7 +37,10 @@ setup(
     install_requires=[
         'requests>=2.22.0',
         'google_api_python_client>=1.8.1',
-        'google-auth-oauthlib>=0.4.1'
+        'google-auth-oauthlib>=0.4.1',
+        'google-auth',
+        'google-auth-httplib2',
+        'protobuf==3.13.0'
     ],
 
     # some keywords for my library.

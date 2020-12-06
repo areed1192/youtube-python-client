@@ -57,6 +57,12 @@ class YouTubeClient():
         # If we don't have a state file, then create it.
         if self.youtube_state_file.exists() == False:
             self._save_state()
+    
+    def chunks(self, content_list: List, chunk_size: int) -> List[List]:
+        """Yield successive n-sized chunks from lst."""
+
+        for i in range(0, len(content_list), chunk_size):
+            yield content_list[i:i + chunk_size]
 
     def _save_state(self) -> Dict:
         """Saves the Credential State.
@@ -117,7 +123,7 @@ class YouTubeClient():
             self.refresh_token()
             return True
 
-    def oauth_workflow(self) -> Union[Credentials, InstalledAppFlow]:
+    def oauth_workflow(self) -> Credentials:
         """Handles oAuth workflow.
 
         Will authorize the session so that we can make requests to the YouTube API. 
@@ -133,7 +139,7 @@ class YouTubeClient():
         elif self.client_secret_file.exists():
 
             # Initalize the flow workflow.
-            flow = InstalledAppFlow.from_client_secrets_file(
+            flow: InstalledAppFlow = InstalledAppFlow.from_client_secrets_file(
                 self.client_secret_file,
                 [
                     'https://www.googleapis.com/auth/youtube',
@@ -144,7 +150,8 @@ class YouTubeClient():
 
         else:
             raise FileNotFoundError(
-                "Client Secret File Does Not Exist, please check your path.")
+                "Client Secret File Does Not Exist, please check your path."
+            )
 
     def _headers(self, mode: str = 'json') -> Dict:
         """Builds the headers for a requests.
@@ -278,6 +285,36 @@ class YouTubeClient():
                 return json.load(file)
         else:
             raise FileNotFoundError("Playlist content file doesn't exist.")
+
+    def load_file(self, file_name: str) -> Dict:
+        """Loads a JSON file from the data folder.
+
+        Arguments:
+        ----
+        file_name (str): The name of the file, along with it's extension, that
+            you want to load.
+
+        Raises:
+        ----
+        FileNotFoundError: The content file does not exist, so must be created.
+
+        Returns:
+        ----
+        {Dict} -- Playlist file content.
+        """
+
+        playlist_path = self.data_folder_path.joinpath(file_name)
+
+        # Load the JSON file if it exists.
+        if playlist_path.exists():
+            with open(file=playlist_path.absolute(), mode='r') as file:
+                return json.load(fp=file)
+        else:
+            raise FileNotFoundError(
+                "File {file_name} doesn't exist.".format(
+                    file_name=playlist_path.as_posix()
+                )
+            )
 
     def _load_desc(self) -> Dict:
         """Loads description files used for videos.
@@ -602,9 +639,6 @@ class YouTubeClient():
         # validate the token.
         if self._validate_token():
 
-            # define the url
-            url = self._build_url(endpoint='thumbnails/set')
-
             # Define video parameters.
             params = {
                 'videoId': video_id,
@@ -656,6 +690,39 @@ class YouTubeClient():
 
         # Define the endpoint.
         endpoint = 'playlists'
+
+        # Grab the data.
+        response = self._make_request(
+            endpoint=endpoint,
+            method='get',
+            headers='json',
+            params=params
+        )
+
+        return response
+
+    def grab_my_channel(self, parts: List[str]) -> Dict:
+        """Grabs a specified playlist.
+
+        Arguments:
+        ----
+        part {List[str]} -- The part details you want returned
+            for the endpoint.
+
+        Returns:
+        ----
+        {Dict} -- A Channel resource object.
+        """
+
+        # Define the arguments.
+        params = {
+            'key': self.api_key,
+            'mine': True,
+            'part': ",".join(parts)
+        }
+
+        # Define the endpoint.
+        endpoint = 'channels'
 
         # Grab the data.
         response = self._make_request(
@@ -805,12 +872,12 @@ class YouTubeClient():
 
         return playlists_list
 
-    def grab_videos(self, video_id: str, parts: List[str]) -> Dict:
+    def grab_videos(self, video_ids: List[str], parts: List[str]) -> Dict:
         """Grabs all the specified videos and parts requested
 
         Arguments:
         ----
-        video_id {str} -- A video ID you want to pull.
+        video_id {List[str]} -- A list of video IDs you want to pull.
 
         part {List[str]} -- The parts of the video you wish to pull.
 
@@ -822,33 +889,19 @@ class YouTubeClient():
         # Initialize a list to store the Video IDs.
         video_ids_list = []
 
-        # Define the arguments.
-        params = {
-            'part': ','.join(parts),
-            'id': ','.join(video_id),
-            'maxResults': 50,
-            'key': self.api_key
-        }
+        # Chunk the Video List.
+        for chunk in self.chunks(content_list=video_ids, chunk_size=50):
 
-        # Define the endpoint.
-        endpoint = 'videos'
+            # Define the arguments.
+            params = {
+                'part': ','.join(parts),
+                'id': ','.join(chunk),
+                'maxResults': 50,
+                'key': self.api_key
+            }
 
-        # Grab the data.
-        data = self._make_request(
-            endpoint=endpoint,
-            method='get',
-            headers='json',
-            params=params
-        )
-
-        # Add it to the list.
-        video_ids_list.append(data)
-
-        # Keep going while we have a key.
-        while 'nextPageToken' in data.keys():
-
-            # Add the next page.
-            params['pageToken'] = data['nextPageToken']
+            # Define the endpoint.
+            endpoint = 'videos'
 
             # Grab the data.
             data = self._make_request(
@@ -860,6 +913,23 @@ class YouTubeClient():
 
             # Add it to the list.
             video_ids_list.append(data)
+
+            # Keep going while we have a key.
+            while 'nextPageToken' in data.keys():
+
+                # Add the next page.
+                params['pageToken'] = data['nextPageToken']
+
+                # Grab the data.
+                data = self._make_request(
+                    endpoint=endpoint,
+                    method='get',
+                    headers='json',
+                    params=params
+                )
+
+                # Add it to the list.
+                video_ids_list.append(data)
 
         return video_ids_list
 
@@ -882,7 +952,7 @@ class YouTubeClient():
 
         # Loop through each video.
         for video_id in video_ids:
-            
+
             # Each Video will have multiple comments.
             video_comments[video_id] = []
 
