@@ -82,11 +82,23 @@ for character in list(goal_text_range.Characters)[location[0]:location[1]]:
 
 # Export the artboard to a PNG.
 adobe_illustrator.export_to_png(
-    file_name='current_thumbnail'
+    file_name=r'C:\Users\alex.reed1192\Desktop\youtube-python-client\thumbnails\current_thumbnail'
 )
 
 # Update the thumbnail.
-youtube_session.upload_thumbnail(
+thumbnail_response = youtube_session.upload_thumbnail(
     video_id='XEjaDFqImCk',
-    thumbnail_path='thumbnails/current_thumbnail.png'
+    thumbnail_path=r'C:\Users\alex.reed1192\Desktop\youtube-python-client\thumbnails\current_thumbnail.png'
 )
+pprint(thumbnail_response)
+
+# Make it where I don't see Dialogue Boxes.
+adobe_illustrator.adobe_app.UserInteractionLevel = -1
+
+# Save the data.
+adobe_illustrator.active_document.Close(
+    Saving=1
+)
+
+# Quit the app.
+adobe_illustrator.adobe_app.Quit()
