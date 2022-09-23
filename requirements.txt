@@ -2,5 +2,5 @@ requests==2.24.0
 google_auth_oauthlib==0.4.1
 pywin32==228
 google_api_python_client==1.12.8
-protobuf==3.14.0
+protobuf==3.18.3
 pywin32

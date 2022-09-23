@@ -40,7 +40,7 @@ setup(
         'google-auth-oauthlib>=0.4.1',
         'google-auth',
         'google-auth-httplib2',
-        'protobuf==3.13.0',
+        'protobuf==3.18.3',
         'pywin32'
     ],
 
