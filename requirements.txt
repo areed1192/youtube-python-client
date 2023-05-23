@@ -1,4 +1,4 @@
-requests==2.24.0
+requests==2.31.0
 google_auth_oauthlib==0.4.1
 pywin32==228
 google_api_python_client==1.12.8
